@@ -1,0 +1,6 @@
+{
+  "name": "fcntl",
+  "enums": {
+    "cmd": "F"
+  }
+}

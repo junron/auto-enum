@@ -1,0 +1,6 @@
+{
+  "name": "clone",
+  "enums": {
+    "flags": "CLONE"
+  }
+}

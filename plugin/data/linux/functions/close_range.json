@@ -1,0 +1,6 @@
+{
+  "name": "close_range",
+  "enums": {
+    "flags": "CLOSE_RANGE"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "name": "sync_file_range",
+  "enums": {
+    "flags": "SYNC_FILE_RANGE"
+  }
+}

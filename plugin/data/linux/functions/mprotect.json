@@ -1,0 +1,6 @@
+{
+  "name": "mprotect",
+  "enums": {
+    "prot": "PROT_1"
+  }
+}

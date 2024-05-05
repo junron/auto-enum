@@ -1,0 +1,6 @@
+{
+  "name": "tee",
+  "enums": {
+    "flags": "SPLICE_F"
+  }
+}

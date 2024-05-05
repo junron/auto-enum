@@ -1,0 +1,6 @@
+{
+  "name": "unshare",
+  "enums": {
+    "flags": "CLONE_2"
+  }
+}

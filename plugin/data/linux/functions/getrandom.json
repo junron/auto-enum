@@ -1,0 +1,6 @@
+{
+  "name": "getrandom",
+  "enums": {
+    "flags": "GRND"
+  }
+}

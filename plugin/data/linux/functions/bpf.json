@@ -1,0 +1,6 @@
+{
+  "name": "bpf",
+  "enums": {
+    "cmd": "BPF"
+  }
+}

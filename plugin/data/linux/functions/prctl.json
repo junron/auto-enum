@@ -1,0 +1,6 @@
+{
+  "name": "prctl",
+  "enums": {
+    "option": "PR"
+  }
+}

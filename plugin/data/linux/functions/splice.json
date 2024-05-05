@@ -1,0 +1,6 @@
+{
+  "name": "splice",
+  "enums": {
+    "flags": "SPLICE_F"
+  }
+}

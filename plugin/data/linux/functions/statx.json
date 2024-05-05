@@ -1,0 +1,6 @@
+{
+  "name": "statx",
+  "enums": {
+    "flags": "AT_1"
+  }
+}

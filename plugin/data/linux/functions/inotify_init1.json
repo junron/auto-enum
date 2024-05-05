@@ -1,0 +1,6 @@
+{
+  "name": "inotify_init1",
+  "enums": {
+    "flags": "IN"
+  }
+}

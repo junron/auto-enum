@@ -1,0 +1,6 @@
+{
+  "name": "mount",
+  "enums": {
+    "mountflags": "MS"
+  }
+}

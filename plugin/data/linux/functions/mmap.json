@@ -1,0 +1,7 @@
+{
+  "name": "mmap",
+  "enums": {
+    "prot": "PROT",
+    "flags": "MAP"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "name": "signalfd",
+  "enums": {
+    "flags": "SFD"
+  }
+}

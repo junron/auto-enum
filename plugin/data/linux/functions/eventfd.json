@@ -1,0 +1,6 @@
+{
+  "name": "eventfd",
+  "enums": {
+    "flags": "EFD"
+  }
+}

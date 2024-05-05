@@ -1,0 +1,6 @@
+{
+  "name": "getrusage",
+  "enums": {
+    "who": "RUSAGE"
+  }
+}

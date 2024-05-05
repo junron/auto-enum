@@ -1,0 +1,7 @@
+{
+  "name": "fanotify_init",
+  "enums": {
+    "flags": "64473",
+    "event_f_flags": "O"
+  }
+}

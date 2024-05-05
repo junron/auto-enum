@@ -1,0 +1,6 @@
+{
+  "name": "msync",
+  "enums": {
+    "flags": "MS_1"
+  }
+}

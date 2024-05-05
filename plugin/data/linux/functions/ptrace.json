@@ -1,0 +1,6 @@
+{
+  "name": "ptrace",
+  "enums": {
+    "request": "PTRACE"
+  }
+}

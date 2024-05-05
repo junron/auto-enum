@@ -1,0 +1,6 @@
+{
+  "name": "setns",
+  "enums": {
+    "nstype": "CLONE_1"
+  }
+}

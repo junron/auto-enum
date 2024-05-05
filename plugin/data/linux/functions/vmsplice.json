@@ -1,0 +1,6 @@
+{
+  "name": "vmsplice",
+  "enums": {
+    "flags": "SPLICE_F"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "name": "flock",
+  "enums": {
+    "operation": "LOCK"
+  }
+}
