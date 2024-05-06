@@ -1,4 +1,7 @@
 {
+  "13532": {
+    "AT_SYMLINK_NOFOLLOW": 256
+  },
   "BPF": {
     "EXIST": 2,
     "ANY": 0,
@@ -41,9 +44,6 @@
   "CLOSE_RANGE": {
     "UNSHARE": 2,
     "CLOEXEC": 4
-  },
-  "16198": {
-    "EPOLL_CLOEXEC": 524288
   },
   "EPOLL_CTL": {
     "MOD": 3,
@@ -152,11 +152,6 @@
     "SET": 0,
     "HOLE": 4,
     "DATA": 3
-  },
-  "SEEK_1": {
-    "CUR": 1,
-    "END": 2,
-    "SET": 0
   },
   "MADV": {
     "NORMAL": 0,
@@ -491,7 +486,7 @@
     "CLOEXEC": 524288,
     "NOFOLLOW": 131072,
     "APPEND": 1024,
-    "LARGEFILE": 0,
+    "LARGEFILE": 32768,
     "ASYNC": 8192,
     "NDELAY": 2048,
     "TMPFILE": 4259840,

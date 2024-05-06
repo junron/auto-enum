@@ -1,6 +1,0 @@
-{
-  "name": "epoll_create",
-  "enums": {
-    "size": "16198"
-  }
-}

@@ -1,6 +1,6 @@
 {
   "name": "fseek",
   "enums": {
-    "whence": "SEEK_1"
+    "whence": "SEEK"
   }
 }

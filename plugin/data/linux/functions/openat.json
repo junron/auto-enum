@@ -1,7 +1,6 @@
 {
   "name": "openat",
   "enums": {
-    "flags": "O_1",
     "oflag": "O_1",
     "mode": "S"
   }
