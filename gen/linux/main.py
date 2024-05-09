@@ -10,6 +10,8 @@ filtered_enums = {}
 for func_name, func in overrides.custom.items():
     if func_name in enums:
         enums[func_name]["args"].update(func["args"])
+        if "prefix" in func:
+            enums[func_name]["prefix"] = func["prefix"]
     else:
         enums[func_name] = func
 for func_name, func in enums.items():

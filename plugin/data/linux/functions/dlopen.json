@@ -1,0 +1,6 @@
+{
+  "name": "dlopen",
+  "enums": {
+    "flags": "RTLD"
+  }
+}

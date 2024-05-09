@@ -5,10 +5,10 @@ def resolve(func):
     data = ""
     for arg, argvalue in func["args"].items():
         for v in argvalue:
-            body = "#include <stdio.h>\nint main(){\n"
+            body = f"#define _GNU_SOURCE\n{func['prefix']}\n#include <stdio.h>\nint main(){{\n"
             body += f'printf("{arg}___{v}=%d\\n", {v});\n'
             body += "}"
-            open("./resolve.c", "w").write(func["prefix"] + body)
+            open("./resolve.c", "w").write(body)
             os.system("rm -f resolve")
             os.system("gcc resolve.c -o resolve")
             _data = os.popen("./resolve").read()

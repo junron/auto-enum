@@ -1,0 +1,6 @@
+{
+  "name": "shm_open",
+  "enums": {
+    "oflag": "O_4"
+  }
+}

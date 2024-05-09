@@ -1,0 +1,6 @@
+{
+  "name": "getnameinfo",
+  "enums": {
+    "flags": "NI"
+  }
+}

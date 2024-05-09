@@ -3,7 +3,10 @@ import os
 import json
 
 def get_data(func_name):
-    data = open(f"../man-pages/man2/{func_name}.2").read()
+    if func_name.endswith("2"):
+        data = open(f"../man-pages/man2/{func_name}").read()
+    else:
+        data = open(f"../man-pages/man3/{func_name}").read()
     if ".SH NAME" not in data:
         return None
     return ".SH NAME" + data.split(".SH NAME")[1]
@@ -73,7 +76,7 @@ def find_enum_names(desc, possible_enums):
                 if ".I " + enum in section_desc or ".IR " + enum in section_desc:
                     parts = re.split(r"\.TP.*\n.B", para)
                     enum_values = [part.split(" ")[1].split("\n")[0] for part in parts[1:]]
-                    enum_values = [x for x in enum_values if re.fullmatch(r"[A-Z_]+", x)]
+                    enum_values = [x for x in enum_values if re.fullmatch(r"[A-Z][A-Z_0-9]+", x)]
                     if not enum_values:
                         continue
                     if enum in out:
@@ -87,10 +90,10 @@ def find_enum_names(desc, possible_enums):
 
 
 def parse():
-    files = os.listdir("../man-pages/man2")
+    files = os.listdir("../man-pages/man2") + os.listdir("../man-pages/man3")
     out = {}
     for file in files:
-        text = get_data(file[:-2])
+        text = get_data(file)
         if text is None:
             continue
         sections = split_sections(text)
@@ -108,3 +111,6 @@ def parse():
                     "prefix": prefix
                 }
     return out
+
+if __name__ == "__main__":
+    json.dump(parse(), open("./stage1.json", "w"), indent=2)

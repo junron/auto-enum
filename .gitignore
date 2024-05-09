@@ -2,3 +2,4 @@ __pycache__
 .vscode
 cache.json
 generated
+stage*.json

@@ -1,0 +1,6 @@
+{
+  "name": "getaddrinfo_a",
+  "enums": {
+    "mode": "GAI"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "name": "ulimit",
+  "enums": {
+    "cmd": "UL"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "name": "pthread_rwlockattr_setkind_np",
+  "enums": {
+    "pref": "PTHREAD_RWLOCK_PREFER"
+  }
+}

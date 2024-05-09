@@ -1,0 +1,6 @@
+{
+  "name": "fnmatch",
+  "enums": {
+    "flags": "FNM"
+  }
+}

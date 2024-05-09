@@ -1,6 +1,6 @@
 {
   "name": "shmget",
   "enums": {
-    "shmflg": "17259"
+    "shmflg": "12874"
   }
 }

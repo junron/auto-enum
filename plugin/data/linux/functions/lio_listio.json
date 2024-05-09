@@ -1,0 +1,6 @@
+{
+  "name": "lio_listio",
+  "enums": {
+    "mode": "LIO"
+  }
+}

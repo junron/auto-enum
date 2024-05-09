@@ -1,0 +1,6 @@
+{
+  "name": "sigset",
+  "enums": {
+    "sig": "SIG_1"
+  }
+}

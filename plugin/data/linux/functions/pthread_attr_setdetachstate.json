@@ -1,0 +1,6 @@
+{
+  "name": "pthread_attr_setdetachstate",
+  "enums": {
+    "detachstate": "PTHREAD_CREATE"
+  }
+}

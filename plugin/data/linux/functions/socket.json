@@ -1,7 +1,7 @@
 {
   "name": "socket",
   "enums": {
-    "domain": "AF",
-    "type": "SOCK"
+    "type": "SOCK",
+    "domain": "AF_1"
   }
 }
