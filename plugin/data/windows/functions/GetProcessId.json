@@ -1,0 +1,6 @@
+{
+  "name": "GetProcessId",
+  "enums": {
+    "Process": "PROCESS"
+  }
+}

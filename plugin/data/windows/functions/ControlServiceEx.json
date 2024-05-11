@@ -1,0 +1,6 @@
+{
+  "name": "ControlServiceEx",
+  "enums": {
+    "dwControl": "SERVICE_CONTROL"
+  }
+}

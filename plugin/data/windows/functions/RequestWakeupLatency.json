@@ -1,0 +1,6 @@
+{
+  "name": "RequestWakeupLatency",
+  "enums": {
+    "latency": "LT"
+  }
+}

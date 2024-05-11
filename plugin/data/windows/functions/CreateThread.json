@@ -1,0 +1,6 @@
+{
+  "name": "CreateThread",
+  "enums": {
+    "dwCreationFlags": "18435"
+  }
+}

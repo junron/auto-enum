@@ -1,0 +1,6 @@
+{
+  "name": "VirtualProtectFromApp",
+  "enums": {
+    "NewProtection": "PAGE"
+  }
+}

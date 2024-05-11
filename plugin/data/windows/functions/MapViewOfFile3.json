@@ -1,0 +1,6 @@
+{
+  "name": "MapViewOfFile3",
+  "enums": {
+    "AllocationType": "MEM"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "name": "VirtualFree",
+  "enums": {
+    "dwFreeType": "MEM_6"
+  }
+}

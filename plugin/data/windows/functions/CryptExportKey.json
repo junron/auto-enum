@@ -1,0 +1,6 @@
+{
+  "name": "CryptExportKey",
+  "enums": {
+    "dwFlags": "CRYPT_2"
+  }
+}

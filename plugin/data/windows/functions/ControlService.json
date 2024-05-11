@@ -1,0 +1,6 @@
+{
+  "name": "ControlService",
+  "enums": {
+    "dwControl": "SERVICE_CONTROL"
+  }
+}

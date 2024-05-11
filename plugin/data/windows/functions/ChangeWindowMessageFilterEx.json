@@ -1,0 +1,6 @@
+{
+  "name": "ChangeWindowMessageFilterEx",
+  "enums": {
+    "action": "MSGFLT_1"
+  }
+}

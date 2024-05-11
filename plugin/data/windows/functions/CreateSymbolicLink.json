@@ -1,0 +1,6 @@
+{
+  "name": "CreateSymbolicLink",
+  "enums": {
+    "dwFlags": "SYMBOLIC_LINK_FLAG"
+  }
+}

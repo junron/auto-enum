@@ -1,0 +1,7 @@
+{
+  "name": "BCryptResolveProviders",
+  "enums": {
+    "dwInterface": "14720",
+    "dwFlags": "CRYPT_ALL"
+  }
+}

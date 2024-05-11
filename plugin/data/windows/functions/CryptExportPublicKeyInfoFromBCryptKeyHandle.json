@@ -1,0 +1,6 @@
+{
+  "name": "CryptExportPublicKeyInfoFromBCryptKeyHandle",
+  "enums": {
+    "dwFlags": "CRYPT_OID_INFO_PUBKEY"
+  }
+}

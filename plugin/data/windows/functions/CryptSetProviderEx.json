@@ -1,0 +1,6 @@
+{
+  "name": "CryptSetProviderEx",
+  "enums": {
+    "dwFlags": "CRYPT_7"
+  }
+}

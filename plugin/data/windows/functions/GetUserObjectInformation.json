@@ -1,0 +1,6 @@
+{
+  "name": "GetUserObjectInformation",
+  "enums": {
+    "nIndex": "UOI"
+  }
+}

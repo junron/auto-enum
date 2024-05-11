@@ -1,0 +1,6 @@
+{
+  "name": "HttpReceiveClientCertificate",
+  "enums": {
+    "Flags": "11148"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "name": "HiliteMenuItem",
+  "enums": {
+    "uHilite": "MF_3"
+  }
+}

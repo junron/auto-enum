@@ -1,0 +1,6 @@
+{
+  "name": "GetGuiResources",
+  "enums": {
+    "uiFlags": "GR"
+  }
+}

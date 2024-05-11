@@ -1,0 +1,6 @@
+{
+  "name": "CryptGetTimeValidObject",
+  "enums": {
+    "dwFlags": "CRYPT_5"
+  }
+}

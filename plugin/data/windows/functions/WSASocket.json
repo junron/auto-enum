@@ -1,0 +1,10 @@
+{
+  "name": "WSASocket",
+  "enums": {
+    "af": "AF",
+    "type": "SOCK",
+    "protocol": "16386",
+    "g": "SG",
+    "dwFlags": "WSA_FLAG"
+  }
+}

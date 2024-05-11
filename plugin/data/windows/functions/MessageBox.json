@@ -1,0 +1,6 @@
+{
+  "name": "MessageBox",
+  "enums": {
+    "uType": "MB_1"
+  }
+}

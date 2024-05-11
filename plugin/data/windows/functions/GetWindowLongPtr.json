@@ -1,0 +1,6 @@
+{
+  "name": "GetWindowLongPtr",
+  "enums": {
+    "nIndex": "31825"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "name": "CreateService",
+  "enums": {
+    "dwServiceType": "SERVICE_2",
+    "dwStartType": "SERVICE_1",
+    "dwErrorControl": "SERVICE_ERROR"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "name": "BCryptGenRandom",
+  "enums": {
+    "dwFlags": "BCRYPT_1"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "name": "LockSetForegroundWindow",
+  "enums": {
+    "uLockCode": "LSFW"
+  }
+}

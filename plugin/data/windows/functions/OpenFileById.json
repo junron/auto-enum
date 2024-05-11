@@ -1,0 +1,7 @@
+{
+  "name": "OpenFileById",
+  "enums": {
+    "dwShareMode": "FILE_SHARE_1",
+    "dwFlagsAndAttributes": "FILE_FLAG"
+  }
+}

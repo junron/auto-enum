@@ -1,0 +1,6 @@
+{
+  "name": "WinHttpResetAutoProxy",
+  "enums": {
+    "dwFlags": "WINHTTP_RESET"
+  }
+}

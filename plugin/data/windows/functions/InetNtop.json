@@ -1,0 +1,6 @@
+{
+  "name": "InetNtop",
+  "enums": {
+    "Family": "61063"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "name": "OpenJobObject",
+  "enums": {
+    "dwDesiredAccess": "JOB_OBJECT"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "name": "GetMenuDefaultItem",
+  "enums": {
+    "gmdiFlags": "GMDI"
+  }
+}

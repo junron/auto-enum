@@ -1,0 +1,6 @@
+{
+  "name": "SetCommMask",
+  "enums": {
+    "dwEvtMask": "EV"
+  }
+}

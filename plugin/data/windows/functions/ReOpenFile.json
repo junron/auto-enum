@@ -1,0 +1,7 @@
+{
+  "name": "ReOpenFile",
+  "enums": {
+    "dwShareMode": "FILE_SHARE_1",
+    "dwFlagsAndAttributes": "FILE_FLAG_1"
+  }
+}

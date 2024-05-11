@@ -1,0 +1,6 @@
+{
+  "name": "MapViewOfFile3FromApp",
+  "enums": {
+    "AllocationType": "MEM"
+  }
+}

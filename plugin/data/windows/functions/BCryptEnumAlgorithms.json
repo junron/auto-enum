@@ -1,0 +1,6 @@
+{
+  "name": "BCryptEnumAlgorithms",
+  "enums": {
+    "dwAlgOperations": "BCRYPT"
+  }
+}

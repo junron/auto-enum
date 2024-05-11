@@ -1,0 +1,6 @@
+{
+  "name": "NotifyServiceStatusChange",
+  "enums": {
+    "dwNotifyMask": "SERVICE_NOTIFY"
+  }
+}

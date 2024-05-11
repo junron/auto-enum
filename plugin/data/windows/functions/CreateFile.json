@@ -1,0 +1,9 @@
+{
+  "name": "CreateFile",
+  "enums": {
+    "dwDesiredAccess": "98361",
+    "dwShareMode": "FILE_SHARE",
+    "dwCreationDisposition": "23344",
+    "dwFlagsAndAttributes": "FILE"
+  }
+}

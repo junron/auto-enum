@@ -1,0 +1,6 @@
+{
+  "name": "CheckMenuItem",
+  "enums": {
+    "uCheck": "MF_1"
+  }
+}

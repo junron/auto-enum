@@ -1,0 +1,6 @@
+{
+  "name": "GetWindow",
+  "enums": {
+    "uCmd": "GW"
+  }
+}

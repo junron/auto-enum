@@ -1,0 +1,6 @@
+{
+  "name": "SetLayeredWindowAttributes",
+  "enums": {
+    "dwFlags": "LWA"
+  }
+}

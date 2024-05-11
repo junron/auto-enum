@@ -1,0 +1,6 @@
+{
+  "name": "CreateFileMappingFromApp",
+  "enums": {
+    "PageProtection": "17321"
+  }
+}

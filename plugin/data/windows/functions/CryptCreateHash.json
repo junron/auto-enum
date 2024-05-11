@@ -1,0 +1,7 @@
+{
+  "name": "CryptCreateHash",
+  "enums": {
+    "Algid": "75770",
+    "dwFlags": "28897"
+  }
+}

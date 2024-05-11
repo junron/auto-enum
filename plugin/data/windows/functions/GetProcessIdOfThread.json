@@ -1,0 +1,6 @@
+{
+  "name": "GetProcessIdOfThread",
+  "enums": {
+    "Thread": "THREAD"
+  }
+}

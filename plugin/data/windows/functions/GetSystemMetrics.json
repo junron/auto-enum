@@ -1,0 +1,6 @@
+{
+  "name": "GetSystemMetrics",
+  "enums": {
+    "nIndex": "SM"
+  }
+}

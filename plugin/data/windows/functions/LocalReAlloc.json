@@ -1,0 +1,6 @@
+{
+  "name": "LocalReAlloc",
+  "enums": {
+    "uFlags": "LMEM"
+  }
+}

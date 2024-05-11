@@ -1,0 +1,6 @@
+{
+  "name": "ChangeServiceConfig2",
+  "enums": {
+    "dwInfoLevel": "SERVICE_CONFIG"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "name": "PurgeComm",
+  "enums": {
+    "dwFlags": "PURGE"
+  }
+}

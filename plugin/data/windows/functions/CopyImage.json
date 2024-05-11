@@ -1,0 +1,7 @@
+{
+  "name": "CopyImage",
+  "enums": {
+    "type": "IMAGE",
+    "flags": "LR"
+  }
+}

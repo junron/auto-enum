@@ -1,0 +1,6 @@
+{
+  "name": "VirtualProtect",
+  "enums": {
+    "flNewProtect": "PAGE"
+  }
+}

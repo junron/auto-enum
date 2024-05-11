@@ -1,0 +1,6 @@
+{
+  "name": "CallNamedPipe",
+  "enums": {
+    "nTimeOut": "NMPWAIT"
+  }
+}

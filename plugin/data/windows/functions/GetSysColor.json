@@ -1,0 +1,6 @@
+{
+  "name": "GetSysColor",
+  "enums": {
+    "nIndex": "COLOR"
+  }
+}

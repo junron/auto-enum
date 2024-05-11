@@ -1,0 +1,6 @@
+{
+  "name": "OpenProcessToken",
+  "enums": {
+    "ProcessHandle": "PROCESS"
+  }
+}

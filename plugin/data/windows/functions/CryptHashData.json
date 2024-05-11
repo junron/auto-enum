@@ -1,0 +1,6 @@
+{
+  "name": "CryptHashData",
+  "enums": {
+    "dwFlags": "CRYPT_6"
+  }
+}

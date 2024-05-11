@@ -1,0 +1,6 @@
+{
+  "name": "GlobalReAlloc",
+  "enums": {
+    "uFlags": "GMEM"
+  }
+}

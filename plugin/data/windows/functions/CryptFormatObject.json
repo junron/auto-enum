@@ -1,0 +1,6 @@
+{
+  "name": "CryptFormatObject",
+  "enums": {
+    "dwFormatStrType": "CRYPT_FORMAT_STR"
+  }
+}

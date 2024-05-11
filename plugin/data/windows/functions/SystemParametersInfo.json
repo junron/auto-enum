@@ -1,0 +1,6 @@
+{
+  "name": "SystemParametersInfo",
+  "enums": {
+    "uiAction": "SPI"
+  }
+}

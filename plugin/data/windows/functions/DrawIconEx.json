@@ -1,0 +1,6 @@
+{
+  "name": "DrawIconEx",
+  "enums": {
+    "diFlags": "DI"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "name": "SetTapePosition",
+  "enums": {
+    "dwPositionMethod": "TAPE_3"
+  }
+}

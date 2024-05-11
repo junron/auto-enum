@@ -1,0 +1,7 @@
+{
+  "name": "GetMouseMovePointsEx",
+  "enums": {
+    "lppt": "MK",
+    "resolution": "GMMP_USE"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "name": "EnumServicesStatus",
+  "enums": {
+    "dwServiceType": "SERVICE_4",
+    "dwServiceState": "SERVICE_3"
+  }
+}

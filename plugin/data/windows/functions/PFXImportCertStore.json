@@ -1,0 +1,6 @@
+{
+  "name": "PFXImportCertStore",
+  "enums": {
+    "dwFlags": "CRYPT_9"
+  }
+}

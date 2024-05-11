@@ -1,0 +1,7 @@
+{
+  "name": "VirtualAllocExNuma",
+  "enums": {
+    "flAllocationType": "MEM_5",
+    "flProtect": "PAGE"
+  }
+}

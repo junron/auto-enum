@@ -1,0 +1,6 @@
+{
+  "name": "MoveFileEx",
+  "enums": {
+    "dwFlags": "MOVEFILE"
+  }
+}

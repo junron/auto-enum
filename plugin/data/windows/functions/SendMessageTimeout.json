@@ -1,0 +1,6 @@
+{
+  "name": "SendMessageTimeout",
+  "enums": {
+    "fuFlags": "SMTO"
+  }
+}

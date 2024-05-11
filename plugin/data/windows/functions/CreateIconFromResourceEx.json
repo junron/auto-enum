@@ -1,0 +1,6 @@
+{
+  "name": "CreateIconFromResourceEx",
+  "enums": {
+    "Flags": "LR_1"
+  }
+}

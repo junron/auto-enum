@@ -1,0 +1,6 @@
+{
+  "name": "RegisterPowerSettingNotification",
+  "enums": {
+    "Flags": "DEVICE_NOTIFY_1"
+  }
+}

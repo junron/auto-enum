@@ -1,0 +1,6 @@
+{
+  "name": "AllocateUserPhysicalPages2",
+  "enums": {
+    "ObjectHandle": "PROCESS"
+  }
+}

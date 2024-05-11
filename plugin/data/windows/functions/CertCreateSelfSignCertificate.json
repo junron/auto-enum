@@ -1,0 +1,6 @@
+{
+  "name": "CertCreateSelfSignCertificate",
+  "enums": {
+    "dwFlags": "CERT_CREATE_SELFSIGN_NO"
+  }
+}

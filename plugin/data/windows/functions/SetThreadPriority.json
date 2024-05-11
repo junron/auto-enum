@@ -1,0 +1,6 @@
+{
+  "name": "SetThreadPriority",
+  "enums": {
+    "nPriority": "THREAD_1"
+  }
+}

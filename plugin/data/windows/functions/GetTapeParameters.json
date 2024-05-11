@@ -1,0 +1,6 @@
+{
+  "name": "GetTapeParameters",
+  "enums": {
+    "dwOperation": "GET_TAPE"
+  }
+}

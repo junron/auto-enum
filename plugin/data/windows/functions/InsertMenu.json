@@ -1,0 +1,6 @@
+{
+  "name": "InsertMenu",
+  "enums": {
+    "uFlags": "MF_4"
+  }
+}

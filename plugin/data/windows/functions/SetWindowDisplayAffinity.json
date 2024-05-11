@@ -1,0 +1,6 @@
+{
+  "name": "SetWindowDisplayAffinity",
+  "enums": {
+    "dwAffinity": "WDA"
+  }
+}

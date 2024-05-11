@@ -1,0 +1,6 @@
+{
+  "name": "ChangeWindowMessageFilter",
+  "enums": {
+    "dwFlag": "MSGFLT"
+  }
+}

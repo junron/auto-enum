@@ -1,0 +1,6 @@
+{
+  "name": "SetWindowLongPtr",
+  "enums": {
+    "nIndex": "31825"
+  }
+}

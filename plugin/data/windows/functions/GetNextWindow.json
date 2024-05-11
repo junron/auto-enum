@@ -1,0 +1,6 @@
+{
+  "name": "GetNextWindow",
+  "enums": {
+    "wCmd": "15875"
+  }
+}

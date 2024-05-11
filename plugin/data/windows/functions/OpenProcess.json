@@ -1,0 +1,6 @@
+{
+  "name": "OpenProcess",
+  "enums": {
+    "dwDesiredAccess": "PROCESS"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "name": "CryptImportPublicKeyInfoEx",
+  "enums": {
+    "aiKeyAlg": "75770"
+  }
+}

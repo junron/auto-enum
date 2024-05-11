@@ -1,0 +1,6 @@
+{
+  "name": "CreateRemoteThread",
+  "enums": {
+    "dwCreationFlags": "18435"
+  }
+}

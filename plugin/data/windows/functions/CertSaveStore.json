@@ -1,0 +1,7 @@
+{
+  "name": "CertSaveStore",
+  "enums": {
+    "dwSaveAs": "CERT_STORE_SAVE_AS",
+    "dwSaveTo": "CERT_STORE_SAVE_TO"
+  }
+}

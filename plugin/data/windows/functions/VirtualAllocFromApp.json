@@ -1,0 +1,7 @@
+{
+  "name": "VirtualAllocFromApp",
+  "enums": {
+    "AllocationType": "MEM_2",
+    "Protection": "PAGE"
+  }
+}

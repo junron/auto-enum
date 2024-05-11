@@ -1,0 +1,6 @@
+{
+  "name": "CryptAcquireContext",
+  "enums": {
+    "szProvider": "MS"
+  }
+}

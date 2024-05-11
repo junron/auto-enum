@@ -1,0 +1,6 @@
+{
+  "name": "AppendMenu",
+  "enums": {
+    "uFlags": "MF"
+  }
+}

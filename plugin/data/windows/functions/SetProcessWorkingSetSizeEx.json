@@ -1,0 +1,6 @@
+{
+  "name": "SetProcessWorkingSetSizeEx",
+  "enums": {
+    "Flags": "83057"
+  }
+}

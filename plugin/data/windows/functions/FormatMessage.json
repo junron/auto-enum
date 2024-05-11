@@ -1,0 +1,6 @@
+{
+  "name": "FormatMessage",
+  "enums": {
+    "dwFlags": "FORMAT_MESSAGE"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "name": "CreateProcessAsUser",
+  "enums": {
+    "dwCreationFlags": "95950"
+  }
+}

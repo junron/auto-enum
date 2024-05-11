@@ -1,0 +1,6 @@
+{
+  "name": "CryptDecrypt",
+  "enums": {
+    "dwFlags": "CRYPT"
+  }
+}

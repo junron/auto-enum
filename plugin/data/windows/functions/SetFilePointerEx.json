@@ -1,0 +1,6 @@
+{
+  "name": "SetFilePointerEx",
+  "enums": {
+    "dwMoveMethod": "FILE_1"
+  }
+}

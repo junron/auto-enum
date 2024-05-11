@@ -1,0 +1,6 @@
+{
+  "name": "SetPriorityClass",
+  "enums": {
+    "dwPriorityClass": "31777"
+  }
+}

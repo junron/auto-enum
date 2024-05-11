@@ -1,0 +1,6 @@
+{
+  "name": "GetPriorityClipboardFormat",
+  "enums": {
+    "paFormatPriorityList": "CF"
+  }
+}

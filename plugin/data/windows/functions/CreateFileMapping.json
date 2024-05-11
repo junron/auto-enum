@@ -1,0 +1,6 @@
+{
+  "name": "CreateFileMapping",
+  "enums": {
+    "flProtect": "49048"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "name": "MoveFileTransacted",
+  "enums": {
+    "dwFlags": "MOVEFILE_1"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "name": "SetDisplayConfig",
+  "enums": {
+    "flags": "SDC"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "name": "MsgWaitForMultipleObjectsEx",
+  "enums": {
+    "dwFlags": "MWMO"
+  }
+}

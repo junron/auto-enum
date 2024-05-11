@@ -1,0 +1,6 @@
+{
+  "name": "CreateWindowEx",
+  "enums": {
+    "dwExStyle": "WS_EX"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "name": "ChangeServiceConfig",
+  "enums": {
+    "dwServiceType": "SERVICE",
+    "dwStartType": "SERVICE_1",
+    "dwErrorControl": "SERVICE_ERROR"
+  }
+}

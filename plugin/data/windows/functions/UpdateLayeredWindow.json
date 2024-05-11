@@ -1,0 +1,6 @@
+{
+  "name": "UpdateLayeredWindow",
+  "enums": {
+    "dwFlags": "ULW"
+  }
+}

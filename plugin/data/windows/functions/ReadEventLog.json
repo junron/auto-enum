@@ -1,0 +1,6 @@
+{
+  "name": "ReadEventLog",
+  "enums": {
+    "dwReadFlags": "EVENTLOG"
+  }
+}

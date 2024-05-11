@@ -320,8 +320,6 @@ def main():
     binary_type = "windows"
     if "ELF" in idaapi.get_file_type_name():
         binary_type = "linux"
-    if binary_type == "windows":
-        raise Exception("Windows is not supported at the moment!")
     thisdir = os.path.dirname(__file__)
     func_map = FunctionMap(os.path.join(thisdir, "data", binary_type))
     functions = list(library_addr.items())

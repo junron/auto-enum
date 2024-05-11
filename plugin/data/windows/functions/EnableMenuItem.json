@@ -1,0 +1,6 @@
+{
+  "name": "EnableMenuItem",
+  "enums": {
+    "uEnable": "MF_2"
+  }
+}

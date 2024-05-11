@@ -1,0 +1,6 @@
+{
+  "name": "GetAncestor",
+  "enums": {
+    "gaFlags": "GA"
+  }
+}

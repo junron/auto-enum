@@ -1,0 +1,6 @@
+{
+  "name": "WSALookupServiceBegin",
+  "enums": {
+    "dwControlFlags": "LUP"
+  }
+}

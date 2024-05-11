@@ -1,0 +1,6 @@
+{
+  "name": "GetRawInputData",
+  "enums": {
+    "uiCommand": "RID"
+  }
+}

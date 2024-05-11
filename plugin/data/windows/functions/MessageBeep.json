@@ -1,0 +1,6 @@
+{
+  "name": "MessageBeep",
+  "enums": {
+    "uType": "MB"
+  }
+}

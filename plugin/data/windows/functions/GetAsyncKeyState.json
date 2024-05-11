@@ -1,0 +1,6 @@
+{
+  "name": "GetAsyncKeyState",
+  "enums": {
+    "vKey": "10948"
+  }
+}

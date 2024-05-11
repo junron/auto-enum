@@ -1,0 +1,6 @@
+{
+  "name": "GetRawInputDeviceInfo",
+  "enums": {
+    "uiCommand": "RIDI"
+  }
+}
