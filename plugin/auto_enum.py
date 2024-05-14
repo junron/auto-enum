@@ -14,6 +14,8 @@ import ida_nalt
 import ida_hexrays
 import ida_funcs
 
+from typing import Dict
+
 # From https://github.com/tmr232/Sark/blob/main/sark/ui.py#L358
 class ActionHandler(idaapi.action_handler_t):
     """A wrapper around `idaapi.action_handler_t`.
@@ -192,7 +194,7 @@ class FunctionMap:
             func.arguments = args
             return func
 
-    def expand_enum(self, enum: dict[str, int], enum_id: str) -> dict[str, int]:
+    def expand_enum(self, enum: Dict[str, int], enum_id: str) -> Dict[str, int]:
         items = list(enum.items())
         if not all_digits(enum_id):
             if re.search(r"_[0-9]+$", enum_id):
