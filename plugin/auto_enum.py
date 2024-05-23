@@ -13,6 +13,7 @@ import ida_typeinf
 import ida_nalt
 import ida_hexrays
 import ida_funcs
+import ida_enum
 
 from typing import Dict
 
@@ -270,7 +271,11 @@ def get_or_add_enum(funcmap: FunctionMap, enum_id: str):
         ida_enum_id = idc.add_enum(-1, enum_name, idaapi.hex_flag())
         enum = funcmap.get_enum(enum_id)
         for k, v in enum.items():
-            idc.add_enum_member(ida_enum_id, k, v, -1)
+            res = idc.add_enum_member(ida_enum_id, k, v, -1)
+            append = 1
+            while res == ida_enum.ENUM_MEMBER_ERROR_NAME and append < 10:
+                res = idc.add_enum_member(ida_enum_id, f"{k}_{append}", v, -1)
+                append += 1
         return enum_name
     return enum_name
 
