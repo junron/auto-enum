@@ -3,3 +3,10 @@ __pycache__
 cache.json
 generated
 stage*.json
+*.til
+*.nam
+*.i64
+*.id0
+*.id1
+*.id2
+*.idb
