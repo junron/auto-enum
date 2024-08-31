@@ -229,6 +229,14 @@ def make_import_names_callback(library_calls, library_addr):
             if ea is None:
                 return True
             ea = next(ida_funcs.get_func(ea).addresses())
+
+        wrapper = idc.get_name_ea_simple("." + name)    
+        if wrapper != idc.BADADDR:
+            ea = wrapper
+        else:
+            wrapper = idc.get_name_ea_simple(name)
+            if wrapper != idc.BADADDR:
+                ea = wrapper
         library_calls[name] = []
         library_addr[name] = ea
         for ref in idautils.CodeRefsTo(ea, 0):
