@@ -1,0 +1,6 @@
+{
+  "name": "fts_set",
+  "enums": {
+    "instr": "FTS"
+  }
+}

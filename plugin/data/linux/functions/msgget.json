@@ -1,0 +1,7 @@
+{
+  "name": "msgget",
+  "enums": {
+    "key": "24374",
+    "msgflg": "IPC"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "name": "socketpair",
+  "enums": {
+    "domain": "AF_2",
+    "type": "SOCK"
+  }
+}

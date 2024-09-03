@@ -1,0 +1,6 @@
+{
+  "name": "shutdown",
+  "enums": {
+    "how": "SHUT"
+  }
+}

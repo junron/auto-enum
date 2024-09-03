@@ -1,0 +1,6 @@
+{
+  "name": "fts_children",
+  "enums": {
+    "instr": "FTS"
+  }
+}

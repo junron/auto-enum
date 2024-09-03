@@ -1,0 +1,6 @@
+{
+  "name": "add_key",
+  "enums": {
+    "keyring": "KEY_SPEC"
+  }
+}

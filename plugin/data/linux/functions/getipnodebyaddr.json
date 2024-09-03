@@ -1,0 +1,6 @@
+{
+  "name": "getipnodebyaddr",
+  "enums": {
+    "af": "AF"
+  }
+}

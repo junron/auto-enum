@@ -1,5 +1,5 @@
 {
-  "name": "sigset",
+  "name": "sigignore",
   "enums": {
     "sig": "SIG"
   }

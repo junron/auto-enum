@@ -1,0 +1,6 @@
+{
+  "name": "dladdr1",
+  "enums": {
+    "flags": "RTLD_DL"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "name": "clock_getres",
+  "enums": {
+    "clockid": "CLOCK"
+  }
+}

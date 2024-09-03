@@ -1,0 +1,6 @@
+{
+  "name": "mremap",
+  "enums": {
+    "flags": "MREMAP"
+  }
+}

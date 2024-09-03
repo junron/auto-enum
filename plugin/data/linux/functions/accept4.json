@@ -1,0 +1,6 @@
+{
+  "name": "accept4",
+  "enums": {
+    "flags": "SOCK"
+  }
+}

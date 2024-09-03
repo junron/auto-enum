@@ -1,0 +1,7 @@
+{
+  "name": "remap_file_pages",
+  "enums": {
+    "prot": "PROT_1",
+    "flags": "MAP_1"
+  }
+}

@@ -1,6 +1,6 @@
 {
   "name": "sched_setscheduler",
   "enums": {
-    "policy": "SCHED"
+    "policy": "SCHED_1"
   }
 }

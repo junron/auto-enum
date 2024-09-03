@@ -1,143 +1,244 @@
 {
+  "FSETLOCKING": {
+    "INTERNAL": 1,
+    "QUERY": 0,
+    "BYCALLER": 2
+  },
+  "SOCK": {
+    "CLOEXEC": 524288,
+    "NONBLOCK": 2048
+  },
+  "53482": {
+    "F_OK": 0,
+    "R_OK": 4,
+    "W_OK": 2,
+    "X_OK": 1
+  },
+  "KEY_SPEC": {
+    "THREAD_KEYRING": -1,
+    "PROCESS_KEYRING": -2,
+    "SESSION_KEYRING": -3,
+    "USER_KEYRING": -4,
+    "USER_SESSION_KEYRING": -5,
+    "GROUP_KEYRING": -6,
+    "REQKEY_AUTH_KEY": -7,
+    "REQUESTOR_KEYRING": -8
+  },
   "BPF": {
-    "MAP_CREATE": 0,
-    "PROG_LOAD": 5,
-    "MAP_UPDATE_ELEM": 2,
-    "ANY": 0,
     "NOEXIST": 1,
     "MAP_LOOKUP_ELEM": 1,
     "MAP_GET_NEXT_KEY": 4,
+    "MAP_UPDATE_ELEM": 2,
+    "ANY": 0,
     "MAP_DELETE_ELEM": 3,
+    "MAP_CREATE": 0,
+    "PROG_LOAD": 5,
     "EXIST": 2
   },
+  "CLOCK": {
+    "REALTIME": 0,
+    "MONOTONIC": 1,
+    "PROCESS_CPUTIME_ID": 2,
+    "THREAD_CPUTIME_ID": 3,
+    "MONOTONIC_RAW": 4,
+    "REALTIME_COARSE": 5,
+    "MONOTONIC_COARSE": 6,
+    "BOOTTIME": 7,
+    "REALTIME_ALARM": 8,
+    "BOOTTIME_ALARM": 9,
+    "SGI_CYCLE": 10,
+    "TAI": 11
+  },
+  "97337": {
+    "TIMER_ABSTIME": 1
+  },
   "CLONE": {
-    "NEWNET": 1073741824,
-    "CHILD_CLEARTID": 2097152,
-    "SYSVSEM": 262144,
-    "VFORK": 16384,
-    "PARENT": 32768,
-    "CLEAR_SIGHAND": 0,
+    "NEWNS": 131072,
     "FS": 512,
-    "INTO_CGROUP": 0,
-    "NEWIPC": 134217728,
-    "PARENT_SETTID": 1048576,
-    "UNTRACED": 8388608,
-    "SIGHAND": 2048,
     "PTRACE": 8192,
-    "IO": -2147483648,
-    "PIDFD": 4096,
-    "VM": 256,
-    "NEWCGROUP": 33554432,
-    "DETACHED": 4194304,
     "FILES": 1024,
-    "THREAD": 65536,
-    "SETTLS": 524288,
-    "NEWPID": 536870912,
+    "CLEAR_SIGHAND": 0,
+    "NEWNET": 1073741824,
+    "SIGHAND": 2048,
+    "NEWCGROUP": 33554432,
+    "VFORK": 16384,
     "NEWUTS": 67108864,
-    "NEWUSER": 268435456,
+    "SYSVSEM": 262144,
+    "INTO_CGROUP": 0,
+    "DETACHED": 4194304,
+    "THREAD": 65536,
+    "UNTRACED": 8388608,
+    "PARENT": 32768,
+    "NEWPID": 536870912,
+    "CHILD_CLEARTID": 2097152,
+    "IO": -2147483648,
+    "NEWIPC": 134217728,
+    "VM": 256,
+    "PARENT_SETTID": 1048576,
+    "SETTLS": 524288,
     "CHILD_SETTID": 16777216,
-    "NEWNS": 131072
+    "NEWUSER": 268435456,
+    "PIDFD": 4096
   },
   "CLOSE_RANGE": {
     "UNSHARE": 2,
     "CLOEXEC": 4
   },
+  "RTLD_DL": {
+    "SYMENT": 1,
+    "LINKMAP": 2
+  },
   "RTLD": {
-    "LAZY": 1,
-    "LOCAL": 0,
     "DEEPBIND": 8,
-    "NOLOAD": 4,
-    "NODELETE": 4096,
     "NOW": 2,
-    "GLOBAL": 256
+    "LOCAL": 0,
+    "NODELETE": 4096,
+    "NOLOAD": 4,
+    "GLOBAL": 256,
+    "LAZY": 1
+  },
+  "18466": {
+    "O_CREAT": 64,
+    "O_EXCL": 128,
+    "O_NOCTTY": 256,
+    "O_TRUNC": 512,
+    "O_APPEND": 1024,
+    "O_NONBLOCK": 2048,
+    "O_SYNC": 1052672,
+    "__O_SYNC": 1048576,
+    "O_DSYNC": 4096,
+    "O_DIRECT": 16384,
+    "O_LARGEFILE": 32768,
+    "O_NOFOLLOW": 131072,
+    "O_NOATIME": 262144,
+    "O_CLOEXEC": 524288,
+    "O_PATH": 2097152,
+    "O_TMPFILE": 4259840,
+    "__O_TMPFILE": 4194304,
+    "O_DIRECTORY": 65536,
+    "FASYNC": 8192
+  },
+  "16198": {
+    "EPOLL_CLOEXEC": 524288
   },
   "EPOLL_CTL": {
     "MOD": 3,
-    "DEL": 2,
-    "ADD": 1
+    "ADD": 1,
+    "DEL": 2
   },
   "EFD": {
-    "CLOEXEC": 524288,
     "NONBLOCK": 2048,
+    "CLOEXEC": 524288,
     "SEMAPHORE": 1
   },
   "AT": {
     "EMPTY_PATH": 4096,
     "SYMLINK_NOFOLLOW": 256
   },
+  "AT_1": {
+    "SYMLINK_NOFOLLOW": 256,
+    "EACCESS": 512
+  },
+  "FALLOC_FL": {
+    "KEEP_SIZE": 1,
+    "PUNCH_HOLE": 2,
+    "NO_HIDE_STALE": 4,
+    "COLLAPSE_RANGE": 8,
+    "ZERO_RANGE": 16,
+    "INSERT_RANGE": 32,
+    "UNSHARE_RANGE": 64
+  },
   "64473": {
-    "FAN_REPORT_TID": 256,
-    "O_WRONLY": 1,
-    "O_RDWR": 2,
-    "FAN_REPORT_FID": 512,
-    "FAN_CLASS_PRE_CONTENT": 8,
-    "FAN_CLASS_CONTENT": 4,
-    "FAN_UNLIMITED_MARKS": 32,
     "FAN_REPORT_DIR_FID": 1024,
     "FAN_REPORT_NAME": 2048,
-    "FAN_CLOEXEC": 1,
-    "O_RDONLY": 0,
-    "FAN_ENABLE_AUDIT": 64,
     "FAN_UNLIMITED_QUEUE": 16,
-    "FAN_CLASS_NOTIF": 0,
     "FAN_REPORT_DFID_NAME": 3072,
-    "FAN_NONBLOCK": 2
+    "FAN_CLASS_NOTIF": 0,
+    "O_RDONLY": 0,
+    "O_WRONLY": 1,
+    "FAN_ENABLE_AUDIT": 64,
+    "FAN_NONBLOCK": 2,
+    "FAN_REPORT_FID": 512,
+    "FAN_REPORT_TID": 256,
+    "FAN_CLOEXEC": 1,
+    "FAN_UNLIMITED_MARKS": 32,
+    "O_RDWR": 2,
+    "FAN_CLASS_PRE_CONTENT": 8,
+    "FAN_CLASS_CONTENT": 4
   },
   "O": {
+    "RDONLY": 0,
     "WRONLY": 1,
-    "RDWR": 2,
     "LARGEFILE": 32768,
     "CLOEXEC": 524288,
-    "RDONLY": 0
+    "RDWR": 2
   },
   "FAN_MARK": {
-    "ONLYDIR": 8,
     "DONT_FOLLOW": 4,
-    "FILESYSTEM": 256,
-    "MOUNT": 16,
     "ADD": 1,
+    "MOUNT": 16,
     "IGNORED_MASK": 32,
     "FLUSH": 128,
+    "ONLYDIR": 8,
+    "FILESYSTEM": 256,
     "IGNORED_SURV_MODIFY": 64,
     "REMOVE": 2
   },
+  "13532": {
+    "AT_SYMLINK_NOFOLLOW": 256
+  },
   "F": {
-    "SET_RW_HINT": 1036,
+    "GET_FILE_RW_HINT": 1037,
     "RDLCK": 0,
-    "SET_FILE_RW_HINT": 1038,
+    "GET_RW_HINT": 1035,
+    "SETLEASE": 1024,
     "UNLCK": 2,
     "WRLCK": 1,
-    "GET_FILE_RW_HINT": 1037,
-    "GET_RW_HINT": 1035,
-    "SETLEASE": 1024
+    "SET_FILE_RW_HINT": 1038,
+    "SET_RW_HINT": 1036
   },
   "LOCK": {
-    "SH": 1,
     "UN": 8,
+    "SH": 1,
     "EX": 2
   },
   "MM": {
     "WARNING": 3,
     "ERROR": 2,
+    "NOSEV": 0,
     "HALT": 1,
-    "INFO": 4,
-    "NOSEV": 0
+    "INFO": 4
   },
   "FNM": {
-    "LEADING_DIR": 8,
     "PERIOD": 4,
-    "NOESCAPE": 2,
     "EXTMATCH": 32,
-    "CASEFOLD": 16,
+    "LEADING_DIR": 8,
+    "NOESCAPE": 2,
+    "PATHNAME": 1,
     "FILE_NAME": 1,
-    "PATHNAME": 1
+    "CASEFOLD": 16
   },
   "SEEK": {
-    "DATA": 3,
     "SET": 0,
-    "HOLE": 4,
     "END": 2,
+    "HOLE": 4,
+    "DATA": 3,
     "CUR": 1
+  },
+  "XATTR": {
+    "REPLACE": 2,
+    "CREATE": 1
+  },
+  "AT_2": {
+    "NO_AUTOMOUNT": 2048,
+    "EMPTY_PATH": 4096,
+    "SYMLINK_NOFOLLOW": 256
+  },
+  "FTS": {
+    "AGAIN": 1,
+    "SKIP": 4,
+    "NAMEONLY": 256,
+    "FOLLOW": 2
   },
   "GAI": {
     "NOWAIT": 1,
@@ -154,198 +255,334 @@
   },
   "ITIMER": {
     "VIRTUAL": 1,
-    "REAL": 0,
-    "PROF": 2
+    "PROF": 2,
+    "REAL": 0
   },
   "NI": {
-    "DGRAM": 16,
-    "NOFQDN": 4,
     "NUMERICHOST": 1,
+    "NUMERICSERV": 2,
     "NAMEREQD": 8,
-    "NUMERICSERV": 2
+    "DGRAM": 16,
+    "NOFQDN": 4
+  },
+  "PRIO": {
+    "PROCESS": 0,
+    "PGRP": 1,
+    "USER": 2
   },
   "GRND": {
-    "NONBLOCK": 1,
-    "RANDOM": 2
+    "RANDOM": 2,
+    "NONBLOCK": 1
   },
   "RLIMIT": {
-    "FSIZE": 1,
+    "MEMLOCK": 8,
     "NICE": 13,
-    "DATA": 2,
-    "AS": 9,
-    "MSGQUEUE": 12,
-    "SIGPENDING": 11,
-    "STACK": 3,
+    "FSIZE": 1,
     "CPU": 0,
+    "CORE": 4,
     "RSS": 5,
     "RTPRIO": 14,
-    "CORE": 4,
-    "NOFILE": 7,
-    "LOCKS": 10,
-    "NPROC": 6,
+    "STACK": 3,
+    "MSGQUEUE": 12,
+    "AS": 9,
     "RTTIME": 15,
-    "MEMLOCK": 8
+    "DATA": 2,
+    "NOFILE": 7,
+    "NPROC": 6,
+    "SIGPENDING": 11,
+    "LOCKS": 10
   },
   "RUSAGE": {
-    "THREAD": 1,
     "CHILDREN": -1,
+    "THREAD": 1,
     "SELF": 0
   },
+  "31061": {
+    "SOL_IP": 0,
+    "SOL_SOCKET": 1,
+    "SOL_TCP": 6,
+    "SOL_UDP": 17,
+    "AF_VSOCK": 40,
+    "SOL_IPV6": 41,
+    "SOL_ICMPV6": 58,
+    "SOL_CAN_BASE": 100,
+    "SOL_CAN_RAW": 101,
+    "SOL_SCTP": 132,
+    "SOL_UDPLITE": 136,
+    "SOL_RAW": 255,
+    "SOL_IPX": 256,
+    "SOL_AX25": 257,
+    "SOL_ATALK": 258,
+    "SOL_NETROM": 259,
+    "SOL_ROSE": 260,
+    "SOL_DECNET": 261,
+    "SOL_X25": 262,
+    "SOL_PACKET": 263,
+    "SOL_ATM": 264,
+    "SOL_AAL": 265,
+    "SOL_IRDA": 266,
+    "SOL_NETBEUI": 267,
+    "SOL_LLC": 268,
+    "SOL_DCCP": 269,
+    "SOL_NETLINK": 270,
+    "SOL_TIPC": 271,
+    "SOL_RXRPC": 272,
+    "SOL_PPPOL2TP": 273,
+    "SOL_BLUETOOTH": 274,
+    "SOL_PNPIPE": 275,
+    "SOL_RDS": 276,
+    "SOL_IUCV": 277,
+    "SOL_CAIF": 278,
+    "SOL_ALG": 279,
+    "SOL_NFC": 280,
+    "SOL_KCM": 281,
+    "SOL_TLS": 282,
+    "SOL_XDP": 283,
+    "SOL_MPTCP": 284,
+    "SOL_MCTP": 285,
+    "SOL_SMC": 286,
+    "SOL_VSOCK": 287
+  },
   "GLOB": {
-    "DOOFFS": 8,
-    "TILDE": 4096,
-    "TILDE_CHECK": 16384,
-    "NOSORT": 4,
+    "NOESCAPE": 64,
+    "ALTDIRFUNC": 512,
     "NOCHECK": 16,
-    "PERIOD": 128,
-    "ONLYDIR": 8192,
-    "BRACE": 1024,
     "ERR": 1,
     "NOMAGIC": 2048,
+    "ONLYDIR": 8192,
     "APPEND": 32,
-    "ALTDIRFUNC": 512,
+    "BRACE": 1024,
+    "TILDE": 4096,
+    "PERIOD": 128,
     "MARK": 2,
-    "NOESCAPE": 64
+    "TILDE_CHECK": 16384,
+    "NOSORT": 4,
+    "DOOFFS": 8
   },
   "IN": {
-    "CLOEXEC": 524288,
-    "NONBLOCK": 2048
+    "ACCESS": 1,
+    "MODIFY": 2,
+    "ATTRIB": 4,
+    "CLOSE_WRITE": 8,
+    "CLOSE_NOWRITE": 16,
+    "OPEN": 32,
+    "MOVED_FROM": 64,
+    "MOVED_TO": 128,
+    "CREATE": 256,
+    "DELETE": 512,
+    "DELETE_SELF": 1024,
+    "MOVE_SELF": 2048,
+    "UNMOUNT": 8192,
+    "Q_OVERFLOW": 16384,
+    "IGNORED": 32768,
+    "ONLYDIR": 16777216,
+    "DONT_FOLLOW": 33554432,
+    "EXCL_UNLINK": 67108864,
+    "MASK_CREATE": 268435456,
+    "MASK_ADD": 536870912,
+    "ISDIR": 1073741824,
+    "ONESHOT": 2147483648
+  },
+  "IN_1": {
+    "NONBLOCK": 2048,
+    "CLOEXEC": 524288
+  },
+  "74210": {
+    "SIGHUP": 1,
+    "SIGINT": 2,
+    "SIGQUIT": 3,
+    "SIGILL": 4,
+    "SIGTRAP": 5,
+    "SIGABRT": 6,
+    "SIGBUS": 7,
+    "SIGFPE": 8,
+    "SIGKILL": 9,
+    "SIGUSR1": 10,
+    "SIGSEGV": 11,
+    "SIGUSR2": 12,
+    "SIGPIPE": 13,
+    "SIGALRM": 14,
+    "SIGTERM": 15,
+    "SIGSTKFLT": 16,
+    "SIGCHLD": 17,
+    "SIGCONT": 18,
+    "SIGSTOP": 19,
+    "SIGTSTP": 20,
+    "SIGTTIN": 21,
+    "SIGTTOU": 22,
+    "SIGURG": 23,
+    "SIGXCPU": 24,
+    "SIGXFSZ": 25,
+    "SIGVTALRM": 26,
+    "SIGPROF": 27,
+    "SIGWINCH": 28,
+    "SIGIO": 29,
+    "SIGPWR": 30,
+    "SIGSYS": 31
+  },
+  "AT_3": {
+    "EMPTY_PATH": 4096,
+    "SYMLINK_FOLLOW": 1024
   },
   "LIO": {
     "WAIT": 0,
     "NOWAIT": 1
   },
   "MADV": {
-    "NORMAL": 0,
     "COLD": 20,
-    "UNMERGEABLE": 13,
-    "WILLNEED": 3,
-    "RANDOM": 1,
-    "WIPEONFORK": 18,
-    "HWPOISON": 100,
-    "PAGEOUT": 21,
-    "NOHUGEPAGE": 15,
-    "DONTNEED": 4,
-    "DODUMP": 17,
-    "SEQUENTIAL": 2,
-    "DONTDUMP": 16,
-    "FREE": 8,
-    "HUGEPAGE": 14,
-    "REMOVE": 9,
-    "MERGEABLE": 12,
-    "KEEPONFORK": 19,
     "DOFORK": 11,
+    "HWPOISON": 100,
+    "WIPEONFORK": 18,
+    "MERGEABLE": 12,
+    "DONTFORK": 10,
+    "DONTNEED": 4,
+    "UNMERGEABLE": 13,
+    "KEEPONFORK": 19,
+    "REMOVE": 9,
     "SOFT_OFFLINE": 101,
-    "DONTFORK": 10
+    "FREE": 8,
+    "SEQUENTIAL": 2,
+    "PAGEOUT": 21,
+    "RANDOM": 1,
+    "NOHUGEPAGE": 15,
+    "HUGEPAGE": 14,
+    "DONTDUMP": 16,
+    "DODUMP": 17,
+    "NORMAL": 0,
+    "WILLNEED": 3
   },
   "M": {
+    "PERTURB": -6,
+    "ARENA_MAX": -8,
     "ARENA_TEST": -7,
     "CHECK_ACTION": -5,
-    "MXFAST": 1,
-    "TOP_PAD": -2,
-    "TRIM_THRESHOLD": -1,
     "MMAP_MAX": -4,
-    "ARENA_MAX": -8,
-    "PERTURB": -6,
-    "MMAP_THRESHOLD": -3
+    "TOP_PAD": -2,
+    "MMAP_THRESHOLD": -3,
+    "TRIM_THRESHOLD": -1,
+    "MXFAST": 1
   },
   "MFD": {
-    "CLOEXEC": 1,
     "ALLOW_SEALING": 2,
     "HUGETLB": 4,
-    "HUGE_2MB": 1409286144
+    "HUGE_2MB": 1409286144,
+    "CLOEXEC": 1
+  },
+  "99116": {
+    "MLOCK_ONFAULT": 1,
+    "MCL_CURRENT": 1,
+    "MCL_ONFAULT": 4,
+    "MCL_FUTURE": 2
   },
   "PROT": {
-    "WRITE": 2,
+    "EXEC": 4,
     "READ": 1,
     "NONE": 0,
-    "EXEC": 4
+    "WRITE": 2
   },
   "MAP": {
-    "FILE": 0,
-    "LOCKED": 8192,
-    "HUGETLB": 262144,
-    "GROWSDOWN": 256,
-    "STACK": 131072,
-    "ANONYMOUS": 32,
     "ANON": 32,
-    "POPULATE": 32768,
-    "SHARED": 1,
-    "32BIT": 64,
-    "DENYWRITE": 2048,
-    "PRIVATE": 2,
-    "SHARED_VALIDATE": 3,
     "FIXED_NOREPLACE": 1048576,
+    "HUGE_2MB": 1409286144,
+    "DENYWRITE": 2048,
+    "NORESERVE": 16384,
+    "ANONYMOUS": 32,
+    "FIXED": 16,
     "EXECUTABLE": 4096,
     "NONBLOCK": 65536,
-    "FIXED": 16,
+    "HUGETLB": 262144,
+    "GROWSDOWN": 256,
+    "SHARED": 1,
     "SYNC": 524288,
-    "NORESERVE": 16384,
-    "HUGE_2MB": 1409286144
+    "POPULATE": 32768,
+    "SHARED_VALIDATE": 3,
+    "LOCKED": 8192,
+    "32BIT": 64,
+    "STACK": 131072,
+    "FILE": 0,
+    "PRIVATE": 2
   },
   "MS": {
-    "LAZYTIME": 33554432,
-    "STRICTATIME": 16777216,
-    "MANDLOCK": 64,
-    "NODIRATIME": 2048,
-    "RELATIME": 2097152,
-    "DIRSYNC": 128,
-    "REC": 16384,
-    "SILENT": 32768,
-    "NOSUID": 2,
-    "SYNCHRONOUS": 16,
     "NODEV": 4,
     "NOEXEC": 8,
+    "LAZYTIME": 33554432,
+    "STRICTATIME": 16777216,
+    "NODIRATIME": 2048,
+    "SYNCHRONOUS": 16,
     "NOATIME": 1024,
+    "SILENT": 32768,
     "NOSYMFOLLOW": 256,
-    "RDONLY": 1
+    "RDONLY": 1,
+    "DIRSYNC": 128,
+    "RELATIME": 2097152,
+    "REC": 16384,
+    "MANDLOCK": 64,
+    "NOSUID": 2
   },
   "PROT_1": {
-    "GROWSUP": 33554432,
-    "WRITE": 2,
     "NONE": 0,
-    "SEM": 8,
     "READ": 1,
+    "WRITE": 2,
     "EXEC": 4,
-    "GROWSDOWN": 16777216
+    "SEM": 8,
+    "GROWSDOWN": 16777216,
+    "GROWSUP": 33554432
   },
   "O_1": {
-    "WRONLY": 1,
-    "RDWR": 2,
-    "EXCL": 128,
     "RDONLY": 0,
-    "CLOEXEC": 524288,
+    "WRONLY": 1,
     "CREAT": 64,
-    "NONBLOCK": 2048
+    "NONBLOCK": 2048,
+    "CLOEXEC": 524288,
+    "RDWR": 2,
+    "EXCL": 128
+  },
+  "MREMAP": {
+    "MAYMOVE": 1,
+    "FIXED": 2,
+    "DONTUNMAP": 4
   },
   "65266": {
-    "MSG_INFO": 12,
+    "MSG_STAT": 11,
     "IPC_INFO": 3,
     "IPC_STAT": 2,
-    "IPC_SET": 1,
     "IPC_RMID": 0,
-    "MSG_STAT": 11,
-    "MSG_STAT_ANY": 13
+    "IPC_SET": 1,
+    "MSG_STAT_ANY": 13,
+    "MSG_INFO": 12
+  },
+  "24374": {
+    "IPC_PRIVATE": 0
+  },
+  "IPC": {
+    "CREAT": 512,
+    "EXCL": 1024,
+    "NOWAIT": 2048
   },
   "12245": {
     "MSG_COPY": 16384,
+    "MSG_EXCEPT": 8192,
     "MSG_NOERROR": 4096,
-    "IPC_NOWAIT": 2048,
-    "MSG_EXCEPT": 8192
+    "IPC_NOWAIT": 2048
   },
   "MS_1": {
     "ASYNC": 1,
     "INVALIDATE": 2,
     "SYNC": 4
   },
+  "AT_4": {
+    "HANDLE_FID": 512,
+    "SYMLINK_FOLLOW": 1024,
+    "EMPTY_PATH": 4096
+  },
   "FTW": {
     "DNR": 2,
     "SL": 4,
     "DP": 5,
-    "D": 1,
-    "NS": 3,
     "F": 0,
-    "SLN": 6
+    "D": 1,
+    "SLN": 6,
+    "NS": 3
   },
   "O_2": {
     "RSYNC": 1052672,
@@ -389,38 +626,84 @@
     "IRGRP": 32
   },
   "LOG": {
-    "PID": 1,
-    "CONS": 2,
-    "PERROR": 32,
+    "NDELAY": 8,
     "ODELAY": 4,
-    "NOWAIT": 16,
-    "NDELAY": 8
+    "CONS": 2,
+    "PID": 1,
+    "PERROR": 32,
+    "NOWAIT": 16
   },
   "LOG_1": {
-    "NEWS": 56,
-    "SYSLOG": 40,
-    "LOCAL0": 128,
-    "MAIL": 16,
-    "USER": 8,
-    "DAEMON": 24,
     "AUTHPRIV": 80,
-    "KERN": 0,
+    "SYSLOG": 40,
+    "LPR": 48,
+    "USER": 8,
+    "MAIL": 16,
     "CRON": 72,
     "FTP": 88,
-    "LPR": 48,
+    "AUTH": 32,
+    "NEWS": 56,
+    "KERN": 0,
+    "LOCAL0": 128,
     "UUCP": 64,
-    "AUTH": 32
+    "DAEMON": 24
   },
-  "POSIX_MADV": {
-    "WILLNEED": 3,
-    "RANDOM": 1,
-    "SEQUENTIAL": 2,
-    "DONTNEED": 4,
-    "NORMAL": 0
+  "57224": {
+    "PER_LINUX": 0,
+    "PER_LINUX_32BIT": 8388608,
+    "PER_LINUX_FDPIC": 524288,
+    "PER_SVR4": 68157441,
+    "PER_SVR3": 83886082,
+    "PER_SCOSVR3": 117440515,
+    "PER_OSR5": 100663299,
+    "PER_WYSEV386": 83886084,
+    "PER_ISCR4": 67108869,
+    "PER_BSD": 6,
+    "PER_SUNOS": 67108870,
+    "PER_XENIX": 83886087,
+    "PER_LINUX32": 8,
+    "PER_LINUX32_3GB": 134217736,
+    "PER_IRIX32": 67108873,
+    "PER_IRIXN32": 67108874,
+    "PER_IRIX64": 67108875,
+    "PER_RISCOS": 12,
+    "PER_SOLARIS": 67108877,
+    "PER_UW7": 68157454,
+    "PER_OSF4": 15,
+    "PER_HPUX": 16,
+    "PER_MASK": 255,
+    "UNAME26": 131072,
+    "ADDR_NO_RANDOMIZE": 262144,
+    "FDPIC_FUNCPTRS": 524288,
+    "MMAP_PAGE_ZERO": 1048576,
+    "ADDR_COMPAT_LAYOUT": 2097152,
+    "READ_IMPLIES_EXEC": 4194304,
+    "ADDR_LIMIT_32BIT": 8388608,
+    "SHORT_INODE": 16777216,
+    "WHOLE_SECONDS": 33554432,
+    "STICKY_TIMEOUTS": 67108864,
+    "ADDR_LIMIT_3GB": 134217728
   },
   "O_3": {
-    "NOCTTY": 256,
-    "RDWR": 2
+    "DIRECT": 16384,
+    "NONBLOCK": 2048,
+    "CLOEXEC": 524288
+  },
+  "PKEY_DISABLE": {
+    "ACCESS": 1,
+    "WRITE": 2,
+    "EXECUTE": 4
+  },
+  "POSIX_MADV": {
+    "DONTNEED": 4,
+    "SEQUENTIAL": 2,
+    "RANDOM": 1,
+    "NORMAL": 0,
+    "WILLNEED": 3
+  },
+  "O_4": {
+    "RDWR": 2,
+    "NOCTTY": 256
   },
   "PR": {
     "CAP_AMBIENT": 47,
@@ -478,6 +761,13 @@
     "SET_TSC": 26,
     "GET_TSC": 25
   },
+  "RWF": {
+    "DSYNC": 2,
+    "APPEND": 16,
+    "HIPRI": 1,
+    "SYNC": 4,
+    "NOWAIT": 8
+  },
   "PTHREAD_CREATE": {
     "DETACHED": 1,
     "JOINABLE": 0
@@ -491,127 +781,229 @@
     "PROCESS": 1
   },
   "PTHREAD_RWLOCK_PREFER": {
-    "WRITER_NP": 1,
     "WRITER_NONRECURSIVE_NP": 2,
-    "READER_NP": 0
+    "READER_NP": 0,
+    "WRITER_NP": 1
   },
   "PTHREAD_CANCEL": {
     "DISABLE": 1,
     "ENABLE": 0
+  },
+  "PTHREAD_CANCEL_1": {
+    "ASYNCHRONOUS": 1,
+    "DEFERRED": 0
   },
   "PTHREAD_PROCESS": {
     "SHARED": 1,
     "PRIVATE": 0
   },
   "PTRACE": {
-    "SETREGS": 13,
-    "GETREGSET": 16900,
-    "GETSIGINFO": 16898,
-    "PEEKSIGINFO": 16905,
-    "POKEUSER": 6,
-    "GETREGS": 12,
-    "PEEKTEXT": 1,
-    "PEEKUSER": 3,
     "SETSIGINFO": 16899,
-    "POKETEXT": 4,
+    "POKEUSER": 6,
+    "PEEKSIGINFO": 16905,
+    "PEEKTEXT": 1,
+    "TRACEME": 0,
+    "GETREGS": 12,
+    "GETREGSET": 16900,
+    "SETREGS": 13,
     "SETREGSET": 16901,
-    "TRACEME": 0
+    "PEEKUSER": 3,
+    "GETSIGINFO": 16898,
+    "POKETEXT": 4
+  },
+  "24717": {
+    "Q_V1_QUOTAON": 256,
+    "Q_V1_QUOTAOFF": 512,
+    "Q_V1_GETQUOTA": 768,
+    "Q_V1_SETQUOTA": 1024,
+    "Q_V1_SETUSE": 1280,
+    "Q_V1_SYNC": 1536,
+    "Q_SETQLIM": 1792,
+    "Q_V1_GETSTATS": 2048,
+    "Q_V1_RSQUASH": 4096,
+    "Q_V2_GETQUOTA": 3328,
+    "Q_V2_SETQUOTA": 3584,
+    "Q_V2_SETUSE": 3840,
+    "Q_V2_GETINFO": 2304,
+    "Q_V2_SETINFO": 2560,
+    "Q_V2_SETGRACE": 2816,
+    "Q_V2_SETFLAGS": 3072,
+    "Q_V2_GETSTATS": 4352,
+    "Q_SYNC": 8388609,
+    "Q_QUOTAON": 8388610,
+    "Q_QUOTAOFF": 8388611,
+    "Q_GETFMT": 8388612,
+    "Q_GETINFO": 8388613,
+    "Q_SETINFO": 8388614,
+    "Q_GETQUOTA": 8388615,
+    "Q_SETQUOTA": 8388616,
+    "Q_GETNEXTQUOTA": 8388617,
+    "Q_XQUOTAON": 22529,
+    "Q_XQUOTAOFF": 22530,
+    "Q_XGETQUOTA": 22531,
+    "Q_XSETQLIM": 22532,
+    "Q_XGETQSTAT": 22533,
+    "Q_XQUOTARM": 22534,
+    "Q_XQUOTASYNC": 22535,
+    "Q_XGETQSTATV": 22536,
+    "Q_XGETNEXTQUOTA": 22537,
+    "USRQUOTA": 0,
+    "GRPQUOTA": 1,
+    "PRJQUOTA": 2
+  },
+  "LINUX_REBOOT_CMD": {
+    "CAD_ON": -1985229329,
+    "RESTART": 19088743,
+    "HALT": -839974621,
+    "KEXEC": 1163412803,
+    "POWER_OFF": 1126301404,
+    "CAD_OFF": 0,
+    "RESTART2": -1582119980,
+    "SW_SUSPEND": -805241630
   },
   "MSG": {
-    "PEEK": 2,
-    "ERRQUEUE": 8192,
-    "DONTWAIT": 64,
     "CMSG_CLOEXEC": 1073741824,
+    "OOB": 1,
     "WAITALL": 256,
     "TRUNC": 32,
-    "OOB": 1
+    "PEEK": 2,
+    "DONTWAIT": 64,
+    "ERRQUEUE": 8192
   },
   "REG": {
-    "EXTENDED": 1,
-    "ICASE": 2,
+    "NOSUB": 8,
     "NEWLINE": 4,
-    "NOSUB": 8
+    "EXTENDED": 1,
+    "ICASE": 2
+  },
+  "REG_1": {
+    "STARTEND": 4,
+    "NOTBOL": 1,
+    "NOTEOL": 2
+  },
+  "MAP_1": {
+    "SHARED": 1,
+    "PRIVATE": 2,
+    "SHARED_VALIDATE": 3,
+    "FIXED": 16,
+    "ANONYMOUS": 32,
+    "32BIT": 64,
+    "ABOVE4G": 128,
+    "NORESERVE": 16384,
+    "POPULATE": 32768,
+    "NONBLOCK": 65536,
+    "GROWSDOWN": 256,
+    "DENYWRITE": 2048,
+    "EXECUTABLE": 4096,
+    "FILE": 0,
+    "LOCKED": 8192,
+    "STACK": 131072,
+    "HUGETLB": 262144,
+    "SYNC": 524288,
+    "UNINITIALIZED": 67108864,
+    "FIXED_NOREPLACE": 1048576
+  },
+  "RENAME": {
+    "NOREPLACE": 1,
+    "WHITEOUT": 4,
+    "EXCHANGE": 2
   },
   "SCHED": {
+    "OTHER": 0,
+    "FIFO": 1,
+    "RR": 2,
+    "BATCH": 3,
+    "ISO": 4,
     "IDLE": 5,
+    "DEADLINE": 6
+  },
+  "SCHED_1": {
+    "NORMAL": 0,
     "BATCH": 3,
     "FIFO": 1,
     "RR": 2,
-    "NORMAL": 0
+    "IDLE": 5
+  },
+  "SECCOMP": {
+    "SET_MODE_STRICT": 0,
+    "SET_MODE_FILTER": 1,
+    "GET_ACTION_AVAIL": 2,
+    "GET_NOTIF_SIZES": 3
   },
   "MSG_1": {
-    "MORE": 32768,
     "NOSIGNAL": 16384,
     "DONTROUTE": 4,
-    "DONTWAIT": 64,
-    "EOR": 128,
     "OOB": 1,
-    "CONFIRM": 2048
+    "MORE": 32768,
+    "EOR": 128,
+    "CONFIRM": 2048,
+    "DONTWAIT": 64
   },
   "CLONE_1": {
     "NEWNS": 131072,
-    "NEWIPC": 134217728,
-    "NEWUSER": 268435456,
-    "NEWNET": 1073741824,
-    "NEWUTS": 67108864,
-    "NEWCGROUP": 33554432,
     "NEWPID": 536870912,
+    "NEWCGROUP": 33554432,
+    "NEWUSER": 268435456,
+    "NEWUTS": 67108864,
+    "NEWIPC": 134217728,
+    "NEWNET": 1073741824,
     "NEWTIME": 128
   },
-  "XATTR": {
-    "REPLACE": 2,
-    "CREATE": 1
-  },
-  "O_4": {
-    "EXCL": 128,
-    "RDWR": 2,
+  "O_5": {
     "RDONLY": 0,
+    "TRUNC": 512,
     "CREAT": 64,
-    "TRUNC": 512
+    "RDWR": 2,
+    "EXCL": 128
   },
   "SHM": {
     "RDONLY": 4096,
-    "EXEC": 32768,
-    "REMAP": 16384
+    "REMAP": 16384,
+    "EXEC": 32768
   },
   "18250": {
-    "SHM_INFO": 14,
     "IPC_INFO": 3,
     "IPC_STAT": 2,
-    "IPC_SET": 1,
     "IPC_RMID": 0,
+    "IPC_SET": 1,
     "SHM_STAT": 13,
-    "SHM_STAT_ANY": 15
+    "SHM_STAT_ANY": 15,
+    "SHM_INFO": 14
   },
   "12874": {
-    "IPC_CREAT": 512,
+    "SHM_NORESERVE": 4096,
     "SHM_HUGETLB": 2048,
-    "SHM_HUGE_2MB": 1409286144,
+    "IPC_CREAT": 512,
     "IPC_EXCL": 1024,
-    "SHM_NORESERVE": 4096
+    "SHM_HUGE_2MB": 1409286144
   },
-  "SFD": {
-    "NONBLOCK": 2048,
-    "CLOEXEC": 524288
+  "SHUT": {
+    "RD": 0,
+    "WR": 1,
+    "RDWR": 2
   },
   "SIG": {
+    "IGN": 1,
+    "DFL": 0
+  },
+  "SFD": {
+    "CLOEXEC": 524288,
+    "NONBLOCK": 2048
+  },
+  "SIG_1": {
     "SETMASK": 2,
     "BLOCK": 0,
     "UNBLOCK": 1
   },
-  "SIG_1": {
-    "IGN": 1,
-    "DFL": 0
-  },
-  "SOCK": {
-    "RAW": 3,
-    "STREAM": 1,
+  "SOCK_1": {
     "RDM": 4,
     "DGRAM": 2,
-    "NONBLOCK": 2048,
-    "PACKET": 10,
+    "CLOEXEC": 524288,
+    "STREAM": 1,
     "SEQPACKET": 5,
-    "CLOEXEC": 524288
+    "PACKET": 10,
+    "NONBLOCK": 2048,
+    "RAW": 3
   },
   "AF_1": {
     "MPLS": 28,
@@ -639,28 +1031,76 @@
     "XDP": 44,
     "LLC": 26
   },
-  "SPLICE_F": {
-    "NONBLOCK": 2,
-    "GIFT": 8,
-    "MOVE": 1,
-    "MORE": 4
+  "AF_2": {
+    "UNSPEC": 0,
+    "UNIX": 1,
+    "INET": 2,
+    "AX25": 3,
+    "IPX": 4,
+    "APPLETALK": 5,
+    "NETROM": 6,
+    "BRIDGE": 7,
+    "ATMPVC": 8,
+    "X25": 9,
+    "INET6": 10,
+    "ROSE": 11,
+    "DECnet": 12,
+    "NETBEUI": 13,
+    "SECURITY": 14,
+    "KEY": 15,
+    "NETLINK": 16,
+    "PACKET": 17,
+    "ASH": 18,
+    "ECONET": 19,
+    "ATMSVC": 20,
+    "RDS": 21,
+    "SNA": 22,
+    "IRDA": 23,
+    "PPPOX": 24,
+    "WANPIPE": 25,
+    "LLC": 26,
+    "IB": 27,
+    "MPLS": 28,
+    "CAN": 29,
+    "TIPC": 30,
+    "BLUETOOTH": 31,
+    "IUCV": 32,
+    "RXRPC": 33,
+    "ISDN": 34,
+    "PHONET": 35,
+    "IEEE802154": 36,
+    "CAIF": 37,
+    "ALG": 38,
+    "NFC": 39,
+    "VSOCK": 40,
+    "KCM": 41,
+    "QIPCRTR": 42,
+    "SMC": 43,
+    "XDP": 44,
+    "MCTP": 45
   },
-  "AT_1": {
-    "STATX_DONT_SYNC": 16384,
+  "SPLICE_F": {
+    "MORE": 4,
+    "NONBLOCK": 2,
+    "MOVE": 1,
+    "GIFT": 8
+  },
+  "AT_5": {
+    "SYMLINK_NOFOLLOW": 256,
     "NO_AUTOMOUNT": 2048,
-    "STATX_FORCE_SYNC": 8192,
     "EMPTY_PATH": 4096,
     "STATX_SYNC_AS_STAT": 0,
-    "SYMLINK_NOFOLLOW": 256
+    "STATX_FORCE_SYNC": 8192,
+    "STATX_DONT_SYNC": 16384
   },
   "SYNC_FILE_RANGE": {
+    "WRITE": 2,
     "WAIT_AFTER": 4,
-    "WAIT_BEFORE": 1,
-    "WRITE": 2
+    "WAIT_BEFORE": 1
   },
-  "CLOCK": {
-    "REALTIME": 0,
+  "CLOCK_1": {
     "REALTIME_ALARM": 8,
+    "REALTIME": 0,
     "BOOTTIME_ALARM": 9,
     "BOOTTIME": 7,
     "MONOTONIC": 1
@@ -668,27 +1108,51 @@
   "TFD": {
     "TIMER_CANCEL_ON_SET": 2,
     "CLOEXEC": 524288,
-    "TIMER_ABSTIME": 1,
-    "NONBLOCK": 2048
+    "NONBLOCK": 2048,
+    "TIMER_ABSTIME": 1
   },
   "UL": {
-    "SETFSIZE": 2,
-    "GETFSIZE": 1
+    "GETFSIZE": 1,
+    "SETFSIZE": 2
+  },
+  "28100": {
+    "MNT_EXPIRE": 4,
+    "MNT_DETACH": 2,
+    "UMOUNT_NOFOLLOW": 8,
+    "MNT_FORCE": 1
+  },
+  "17653": {
+    "AT_REMOVEDIR": 512
   },
   "CLONE_2": {
-    "NEWIPC": 134217728,
     "NEWNS": 131072,
-    "SYSVSEM": 262144,
-    "NEWUSER": 268435456,
-    "FILES": 1024,
-    "NEWNET": 1073741824,
-    "NEWUTS": 67108864,
+    "NEWPID": 536870912,
     "FS": 512,
     "NEWCGROUP": 33554432,
-    "NEWPID": 536870912,
-    "NEWTIME": 128
+    "NEWUSER": 268435456,
+    "NEWUTS": 67108864,
+    "NEWIPC": 134217728,
+    "NEWNET": 1073741824,
+    "FILES": 1024,
+    "NEWTIME": 128,
+    "SYSVSEM": 262144
   },
-  "13532": {
-    "AT_SYMLINK_NOFOLLOW": 256
+  "61707": {
+    "WNOHANG": 1,
+    "WEXITED": 4,
+    "WSTOPPED": 2,
+    "WCONTINUED": 8,
+    "WNOWAIT": 16777216,
+    "__WCLONE": 2147483648,
+    "__WALL": 1073741824,
+    "__WNOTHREAD": 536870912
+  },
+  "26620": {
+    "WEXITED": 4,
+    "WCONTINUED": 8,
+    "WNOHANG": 1,
+    "WNOWAIT": 16777216,
+    "WUNTRACED": 2,
+    "WSTOPPED": 2
   }
 }

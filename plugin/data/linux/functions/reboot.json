@@ -1,0 +1,6 @@
+{
+  "name": "reboot",
+  "enums": {
+    "cmd": "LINUX_REBOOT_CMD"
+  }
+}

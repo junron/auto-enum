@@ -1,0 +1,6 @@
+{
+  "name": "faccessat",
+  "enums": {
+    "flags": "AT_1"
+  }
+}

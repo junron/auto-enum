@@ -1,0 +1,6 @@
+{
+  "name": "clock_gettime",
+  "enums": {
+    "clockid": "CLOCK"
+  }
+}

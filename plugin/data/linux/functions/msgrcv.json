@@ -1,0 +1,6 @@
+{
+  "name": "msgrcv",
+  "enums": {
+    "msgflg": "12245"
+  }
+}

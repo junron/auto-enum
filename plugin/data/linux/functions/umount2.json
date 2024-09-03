@@ -1,0 +1,6 @@
+{
+  "name": "umount2",
+  "enums": {
+    "flags": "28100"
+  }
+}

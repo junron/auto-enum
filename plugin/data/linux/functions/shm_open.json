@@ -1,6 +1,6 @@
 {
   "name": "shm_open",
   "enums": {
-    "oflag": "O_4"
+    "oflag": "O_5"
   }
 }

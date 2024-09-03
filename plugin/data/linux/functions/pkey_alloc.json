@@ -1,0 +1,6 @@
+{
+  "name": "pkey_alloc",
+  "enums": {
+    "access_rights": "PKEY_DISABLE"
+  }
+}

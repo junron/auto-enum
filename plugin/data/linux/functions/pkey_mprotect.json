@@ -1,0 +1,6 @@
+{
+  "name": "pkey_mprotect",
+  "enums": {
+    "prot": "PROT_1"
+  }
+}

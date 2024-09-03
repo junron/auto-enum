@@ -1,0 +1,6 @@
+{
+  "name": "fallocate",
+  "enums": {
+    "mode": "FALLOC_FL"
+  }
+}

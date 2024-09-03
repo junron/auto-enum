@@ -1,0 +1,6 @@
+{
+  "name": "pwritev2",
+  "enums": {
+    "flags": "RWF"
+  }
+}

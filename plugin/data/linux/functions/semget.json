@@ -1,0 +1,7 @@
+{
+  "name": "semget",
+  "enums": {
+    "key": "24374",
+    "semflg": "IPC"
+  }
+}

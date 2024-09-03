@@ -1,0 +1,6 @@
+{
+  "name": "recvmsg",
+  "enums": {
+    "flags": "MSG"
+  }
+}

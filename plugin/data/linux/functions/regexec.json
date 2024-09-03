@@ -1,0 +1,6 @@
+{
+  "name": "regexec",
+  "enums": {
+    "eflags": "REG_1"
+  }
+}

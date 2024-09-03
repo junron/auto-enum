@@ -1,0 +1,6 @@
+{
+  "name": "timer_create",
+  "enums": {
+    "clockid": "CLOCK"
+  }
+}

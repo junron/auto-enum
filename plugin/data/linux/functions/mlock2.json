@@ -1,0 +1,6 @@
+{
+  "name": "mlock2",
+  "enums": {
+    "flags": "99116"
+  }
+}

@@ -1,7 +1,7 @@
 {
   "name": "timerfd_create",
   "enums": {
-    "clockid": "CLOCK",
+    "clockid": "CLOCK_1",
     "flags": "TFD"
   }
 }

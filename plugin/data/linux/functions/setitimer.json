@@ -1,0 +1,6 @@
+{
+  "name": "setitimer",
+  "enums": {
+    "which": "ITIMER"
+  }
+}

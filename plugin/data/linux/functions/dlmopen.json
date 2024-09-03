@@ -1,0 +1,6 @@
+{
+  "name": "dlmopen",
+  "enums": {
+    "flags": "RTLD"
+  }
+}
