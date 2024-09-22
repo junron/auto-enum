@@ -1,27 +1,89 @@
+import logging
+
+logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
+
 try:
     import ida
 except ImportError:
-    print("This script requires the ida module to be installed. Please consult the IDADIR/idalib/README.txt file for instructions on how to install it.")
+    logging.fatal(
+        "This script requires the ida module to be installed. Please consult the IDADIR/idalib/README.txt file for instructions on how to install it."
+    )
     exit()
 import idaapi
-import os
+from pathlib import Path
+import argparse
 
-from auto_enum import get_function_map, get_or_add_enum
+from auto_enum import get_or_add_enum, FunctionMap
+
+default_til_masks = {
+    "windows": "mssdk*.til",
+    "linux": "gnulnx*.til",
+    #    "macos": "macos*.til", # Not supported yet, maybe just map it to linux
+}
+
+default_til_dir = idaapi.idadir("til")
+default_idb = "a.i64"
+
+config = argparse.ArgumentParser(
+    description="Apply fixes to function signatures directly to the til files"
+)
+
+config.add_argument(
+    "--tildir",
+    type=str,
+    help="Path to the IDA til directory",
+    default=default_til_dir,
+)
+config.add_argument(
+    "--tilmask",
+    type=str,
+    help=f"Til mask (mssdk*.til or gnulnx*.til depending on --binary)",
+    default=None,
+)
+config.add_argument(
+    "--binary",
+    type=str,
+    help="Binary type",
+    choices=default_til_masks.keys(),
+    default="windows",
+)
+config.add_argument("--outdir", type=str, help="Output directory", default="out")
+config.add_argument(
+    "--idb",
+    type=str,
+    help="IDB file to use for processing the til files",
+    default=default_idb,
+)
+config.add_argument(
+    "--overwrite",
+    action="store_true",
+    default=False,
+    help="Overwrite existing ida files (will backup the original files), use with caution. You will likely need an administrator / root access to overwrite the files.",
+)
+config.add_argument(
+    "--funcmap",
+    type=Path,
+    help="Path to the function map directory",
+    default=Path(__file__).parent / "data",
+)
+config.epilog = "Example: python apply_to_til.py --binary windows"
 
 
-def type_for_name(til:idaapi.til_t, s:str)->idaapi.tinfo_t:
+def type_for_name(til: idaapi.til_t, s: str) -> idaapi.tinfo_t:
     named_type = idaapi.get_named_type(til, s, 0)
     if named_type is None:
         return None
     (code, type_str, fields_str, cmt, field_cmts, sclass, value) = named_type
-    #print(f"{code=}, {type_str=}, {fields_str=}, {cmt=}, {field_cmts=}, {sclass=}, {value=}")
+    # logging.debug(f"{code=}, {type_str=}, {fields_str=}, {cmt=}, {field_cmts=}, {sclass=}, {value=}")
     t = idaapi.tinfo_t()
     # deserialize(self, til, ptype, pfields=None, pfldcmts=None, cmt=None) -> bool
-    assert t.deserialize(til, type_str, fields_str)#, field_cmts, cmt)
+    assert t.deserialize(til, type_str, fields_str)  # , field_cmts, cmt)
     return t
 
 
-def change_type(til:idaapi.til_t, name:str, ida_name:str, BOOL)->bool:
+def change_type(
+    til: idaapi.til_t, name: str, ida_name: str, BOOL: idaapi.tinfo_t, func_map
+) -> bool:
     ti = type_for_name(til, ida_name)
 
     if not ti:
@@ -32,9 +94,8 @@ def change_type(til:idaapi.til_t, name:str, ida_name:str, BOOL)->bool:
     assert ok, "Failed to get function details"
 
     if not funcdata:
-            return
-    
-    
+        return
+
     changed = False
 
     for arg in funcdata:
@@ -53,46 +114,116 @@ def change_type(til:idaapi.til_t, name:str, ida_name:str, BOOL)->bool:
                 enum_type.get_named_type(til, enum_name)
                 arg.type = enum_type
                 changed = True
-        
+
     if changed:
         ti = idaapi.tinfo_t()
         ti.create_func(funcdata)
-    
         err = ti.set_symbol_type(til, ida_name, idaapi.NTF_REPLACE | idaapi.NTF_COPY)
-
         if err:
             err_str = idaapi.tinfo_errstr(err)
-            print(f"Error setting symbol type for {name}: {err_str}")
+            logging.error(f"Error setting symbol type for {name}: {err_str}")
 
-idadir =  "/Applications/IDA Professional 9.0.app/Contents/MacOS/til/pc/"
 
-tils = os.listdir(idadir)
+class ida_opener:
+    def __init__(self, idb: Path):
+        self.idb = idb
 
-for til_name in tils:
-    if "mssdk" not in til_name:
-        continue
+    def __enter__(self):
+        self.opened = ida.open_database(str(self.idb), False)
+        return self.opened
 
-    ida.open_database(r"a.i64", False)
-
-    til = idaapi.load_til("pc/" + til_name)
-    func_map = get_function_map("windows")
-
-    BOOL = idaapi.tinfo_t()
-    if not BOOL.get_named_type(til, "MACRO_BOOL"):
+    def __exit__(self, *args):
         ida.close_database(False)
-        continue
 
-    print(f"Processing {til_name}")
 
-    for name in func_map:
-        change_type(til, name, name, BOOL)
-        change_type(til, name, name+"A", BOOL)
-        change_type(til, name, name+"W", BOOL)
+def process_til(
+    til_file: Path,
+    binary_type: str,
+    out_file: Path,
+    idb: Path,
+    func_map: FunctionMap,
+):
+    with ida_opener(idb) as opened:
+        if opened != 0:
+            logging.error(f"Failed to open {idb}")
+            return False
 
-    idaapi.compact_til(til)
-    if not os.path.exists("pc"):
-        os.mkdir("pc")
-    idaapi.store_til(til, "pc", til_name)
+        til = idaapi.load_til(str(til_file))
+        if not til:
+            logging.error(f"Failed to load til file {til_file}")
+            return False
 
-    del BOOL
-    ida.close_database(False)
+        BOOL = idaapi.tinfo_t()
+        if not BOOL.get_named_type(til, "MACRO_BOOL"):
+            logging.error("Failed to get BOOL type")
+            return False
+
+        logging.info(f"Processing {til_file}")
+
+        get_or_add_enum.cache_clear()
+
+        for name in func_map:
+            change_type(til, name, name, BOOL, func_map)
+            # Add A/W versions for windows
+            if binary_type == "windows":
+                change_type(til, name, name + "A", BOOL, func_map)
+                change_type(til, name, name + "W", BOOL, func_map)
+
+        idaapi.compact_til(til)
+
+        out_file.parent.mkdir(parents=True, exist_ok=True)
+
+        ok = idaapi.store_til(til, None, str(out_file))
+        if not ok:
+            logging.error(f"Failed to save til file to {out_file}")
+            return False
+
+        logging.info(f"Saved til file to {out_file}")
+        return True
+
+
+def main():
+    args = config.parse_args()
+    tildir = Path(args.tildir)
+    tilmask = args.tilmask or default_til_masks[args.binary]
+
+    function_map = FunctionMap(args.funcmap / args.binary)
+
+    changed_files: "list[tuple[Path, Path]]" = []
+
+    for old_til in tildir.rglob(tilmask):
+        new_til = Path(args.outdir) / old_til.relative_to(tildir)
+        ok = process_til(
+            old_til,
+            args.binary,
+            new_til,
+            Path(args.idb),
+            function_map,
+        )
+        if ok:
+            changed_files.append((old_til, new_til))
+
+    if args.overwrite:
+        # https://www.youtube.com/watch?v=yNY6ZstdUdY
+        if (
+            not input(
+                f"Are you sure you want to overwrite the existing til files in {tildir}? (y/n)"
+            )
+            .lower()
+            .startswith("y")
+        ):
+            logging.warning("Aborting")
+            return
+
+        for old_til, new_til in changed_files:
+            backup = Path(str(old_til) + ".bak")
+            if not backup.exists():
+                old_til.rename(backup)
+            else:
+                logging.warning(f"Backup file {backup} already exists, skipping")
+
+            old_til.write_bytes(new_til.read_bytes())
+
+
+if __name__ == "__main__":
+    main()
