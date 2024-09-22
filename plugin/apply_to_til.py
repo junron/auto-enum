@@ -29,23 +29,23 @@ config = argparse.ArgumentParser(
 )
 
 config.add_argument(
-    "--tildir",
-    type=str,
-    help="Path to the IDA til directory",
-    default=default_til_dir,
-)
-config.add_argument(
-    "--tilmask",
-    type=str,
-    help=f"Til mask (mssdk*.til or gnulnx*.til depending on --binary)",
-    default=None,
-)
-config.add_argument(
     "--binary",
     type=str,
     help="Binary type",
     choices=default_til_masks.keys(),
     default="windows",
+)
+config.add_argument(
+    "--tilmask",
+    type=str,
+    help=f"Til mask (defaults to mssdk*.til or gnulnx*.til depending on --binary)",
+    default=None,
+)
+config.add_argument(
+    "--tildir",
+    type=str,
+    help="Path to the IDA til directory (defaults to the IDA til directory)",
+    default=default_til_dir,
 )
 config.add_argument("--outdir", type=str, help="Output directory", default="out")
 config.add_argument(
@@ -55,17 +55,18 @@ config.add_argument(
     default=default_idb,
 )
 config.add_argument(
+    "--funcmap",
+    type=Path,
+    help="Path to the function map directory. Defaults to the data folder next to the script.",
+    default=Path(__file__).parent / "data",
+)
+config.add_argument(
     "--overwrite",
     action="store_true",
     default=False,
     help="Overwrite existing ida files (will backup the original files), use with caution. You will likely need an administrator / root access to overwrite the files.",
 )
-config.add_argument(
-    "--funcmap",
-    type=Path,
-    help="Path to the function map directory",
-    default=Path(__file__).parent / "data",
-)
+config.add_argument("--loglevel", type=str, help="Log level", default="INFO")
 config.epilog = "Example: python apply_to_til.py --binary windows"
 
 
@@ -184,6 +185,7 @@ def process_til(
 
 def main():
     args = config.parse_args()
+    logging.getLogger().setLevel(args.loglevel)
     tildir = Path(args.tildir)
     tilmask = args.tilmask or default_til_masks[args.binary]
 
