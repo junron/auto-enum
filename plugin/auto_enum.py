@@ -353,11 +353,6 @@ def PLUGIN_ENTRY():
     return AutoEnumPlugin()
 
 
-def get_function_map(binary_type = "windows"):
-    thisdir = os.path.dirname(__file__)
-    return FunctionMap(os.path.join(thisdir, "data", binary_type))
-
-
 def main():
     handle = ida_hexrays.open_pseudocode(idc.here(), 0)
     library_calls = {}
