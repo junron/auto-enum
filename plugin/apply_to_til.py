@@ -1,4 +1,8 @@
-import ida
+try:
+    import ida
+except ImportError:
+    print("This script requires the ida module to be installed. Please consult the IDADIR/idalib/README.txt file for instructions on how to install it.")
+    exit()
 import idaapi
 import os
 
