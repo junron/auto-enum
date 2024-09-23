@@ -22,7 +22,7 @@ default_til_masks = {
 }
 
 default_til_dir = idaapi.idadir("til")
-default_idb = "a.i64"
+default_idb = "../demo/demo"
 
 config = argparse.ArgumentParser(
     description="Apply fixes to function signatures directly to the til files"
