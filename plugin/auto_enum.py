@@ -172,6 +172,12 @@ class FunctionMap:
         self.data_dir = data_dir
         self.enums = json.loads(open(f"{self.data_dir}/enums.json").read())
 
+    def __iter__(self):
+        for funcname in os.listdir(f"{self.data_dir}/functions"):
+            if not funcname.endswith(".json"):
+                continue
+            yield funcname.split(".")[0]
+
     @functools.lru_cache()
     def __contains__(self, funcname: str):
         return os.path.exists(f"{self.data_dir}/functions/{funcname}.json")
@@ -271,7 +277,7 @@ def get_funcinfo(funcptr_addr):
 
 
 @functools.lru_cache()
-def get_or_add_enum(funcmap: FunctionMap, enum_id: str):
+def get_or_add_enum(funcmap: FunctionMap, enum_id: str, til: idaapi.til_t=None):
     enum_name = f"ENUM_{enum_id}"
     ida_enum_id = idc.get_enum(enum_name)
     if ida_enum_id == idaapi.BADADDR:
@@ -285,6 +291,10 @@ def get_or_add_enum(funcmap: FunctionMap, enum_id: str):
                 res = idc.add_enum_member(ida_enum_id, f"{k}_{append}", v, -1)
                 append += 1
         ida_typeinf.end_type_updating(ida_typeinf.UTP_ENUM)
+        if til:
+            tif = idaapi.tinfo_t()
+            tif.get_type_by_tid(ida_enum_id)
+            tif.set_named_type(til, enum_name, idaapi.NTF_REPLACE | idaapi.NTF_COPY)
         return enum_name
     return enum_name
 
