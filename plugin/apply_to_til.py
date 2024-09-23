@@ -29,16 +29,16 @@ config = argparse.ArgumentParser(
 )
 
 config.add_argument(
-    "--binary",
+    "--platform",
     type=str,
-    help="Binary type",
+    help="Platform type",
     choices=default_til_masks.keys(),
     default="windows",
 )
 config.add_argument(
     "--tilmask",
     type=str,
-    help=f"Til mask (defaults to mssdk*.til or gnulnx*.til depending on --binary)",
+    help=f"Til mask (defaults to mssdk*.til or gnulnx*.til depending on --platform)",
     default=None,
 )
 config.add_argument(
@@ -67,7 +67,7 @@ config.add_argument(
     help="Overwrite existing ida files (will backup the original files), use with caution. You will likely need an administrator / root access to overwrite the files.",
 )
 config.add_argument("--loglevel", type=str, help="Log level", default="INFO")
-config.epilog = "Example: python apply_to_til.py --binary windows"
+config.epilog = "Example: python apply_to_til.py --platform windows"
 
 
 def type_for_name(til: idaapi.til_t, s: str) -> idaapi.tinfo_t:
@@ -139,7 +139,7 @@ class ida_opener:
 
 def process_til(
     til_file: Path,
-    binary_type: str,
+    platform_type: str,
     out_file: Path,
     idb: Path,
     func_map: FunctionMap,
@@ -166,7 +166,7 @@ def process_til(
         for name in func_map:
             change_type(til, name, name, BOOL, func_map)
             # Add A/W versions for windows
-            if binary_type == "windows":
+            if platform_type == "windows":
                 change_type(til, name, name + "A", BOOL, func_map)
                 change_type(til, name, name + "W", BOOL, func_map)
 
@@ -187,9 +187,9 @@ def main():
     args = config.parse_args()
     logging.getLogger().setLevel(args.loglevel)
     tildir = Path(args.tildir)
-    tilmask = args.tilmask or default_til_masks[args.binary]
+    tilmask = args.tilmask or default_til_masks[args.platform]
 
-    function_map = FunctionMap(args.funcmap / args.binary)
+    function_map = FunctionMap(args.funcmap / args.platform)
 
     changed_files: "list[tuple[Path, Path]]" = []
 
@@ -197,7 +197,7 @@ def main():
         new_til = Path(args.outdir) / old_til.relative_to(tildir)
         ok = process_til(
             old_til,
-            args.binary,
+            args.platform,
             new_til,
             Path(args.idb),
             function_map,
