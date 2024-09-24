@@ -221,7 +221,7 @@ class FunctionMap:
 
     def get_enum(self, name: str):
         enum = self.enums[name]
-        return self.expand_enum(enum, name)
+        return self.expand_enum(dict(enum), name)
 
 
 def make_import_names_callback(library_calls, library_addr):

@@ -88,14 +88,14 @@ def change_type(
     ti = type_for_name(til, ida_name)
 
     if not ti:
-        return
+        return False
 
     funcdata = idaapi.func_type_data_t()
     ok = ti.get_func_details(funcdata)
     assert ok, "Failed to get function details"
 
     if not funcdata:
-        return
+        return False
 
     changed = False
 
@@ -123,6 +123,9 @@ def change_type(
         if err:
             err_str = idaapi.tinfo_errstr(err)
             logging.error(f"Error setting symbol type for {name}: {err_str}")
+        else:
+            logging.debug(f"Setting symbol type for {name}")
+    return changed
 
 
 class ida_opener:
@@ -163,12 +166,16 @@ def process_til(
 
         get_or_add_enum.cache_clear()
 
+        changed_types_count = 0
+
         for name in func_map:
-            change_type(til, name, name, BOOL, func_map)
+            changed_types_count += change_type(til, name, name, BOOL, func_map)
             # Add A/W versions for windows
             if platform_type == "windows":
-                change_type(til, name, name + "A", BOOL, func_map)
-                change_type(til, name, name + "W", BOOL, func_map)
+                changed_types_count += change_type(til, name, name + "A", BOOL, func_map)
+                changed_types_count += change_type(til, name, name + "W", BOOL, func_map)
+            else:
+                changed_types_count += change_type(til, name, "_" + name, BOOL, func_map)
 
         idaapi.compact_til(til)
 
@@ -179,7 +186,7 @@ def process_til(
             logging.error(f"Failed to save til file to {out_file}")
             return False
 
-        logging.info(f"Saved til file to {out_file}")
+        logging.info(f"Saved til file to {out_file}, {changed_types_count=}")
         return True
 
 
