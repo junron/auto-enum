@@ -8,6 +8,8 @@ disallow_headers = [
 
 additional_headers = {
     "AT_SYMLINK_NOFOLLOW": "#include <linux/fcntl.h>\n",
+    "AT_REMOVEDIR": "#include <linux/fcntl.h>\n",
+    "AT_EMPTY_PATH": "#include <linux/fcntl.h>\n",
     "IPC_INFO": "#define IPC_INFO 3\n",
     "PROT_SEM": "#include <asm/mman.h>\n",
     "SEEK_HOLE": "#include <linux/fs.h>\n",
@@ -18,6 +20,8 @@ additional_headers = {
     "SHM_HUGE_2MB":"#define SHM_HUGE_2MB    (21 << 26)\n",
     "MAP_32BIT":"#define MAP_32BIT 0x40\n",
     "MAP_HUGE_2MB":"#define MAP_HUGE_2MB (21 << MAP_HUGE_SHIFT)\n",
+    "LINUX_REBOOT_CMD_CAD_OFF": "#include <linux/reboot.h>\n",
+    "O_NONBLOCK": "#include <fcntl.h>\n",
 }
 
 replacement_headers = {
@@ -57,6 +61,9 @@ remap = {
     "flock": {"fd": None},
     "epoll_create": {"rename": []},
     "open": {"rename": ["open", "openat"]},
+    "klogctl": {"rename": []},
+    "res_nmkquery": {"rename": []},
+    "res_mkquery": {"rename": []}
 }
 
 custom = {

@@ -3,7 +3,9 @@ from resolve import resolve_enums
 from compress import compress
 import overrides
 import os
+import json
 
+extra_enums = json.load(open(os.path.join(os.path.dirname(__file__), "extra_enums.json")))
 
 enums = parse()
 filtered_enums = {}
@@ -14,8 +16,14 @@ for func_name, func in overrides.custom.items():
             enums[func_name]["prefix"] = func["prefix"]
     else:
         enums[func_name] = func
+    enums[func_name]["pre_resolved"] = False
 for func_name, func in enums.items():
     if any(header in func["prefix"] for header in overrides.disallow_headers):
+        continue
+    if func["pre_resolved"]:
+        if func_name == "access":
+            func["args"]["type"] = func["args"]["mode"]
+        filtered_enums[func_name] = func
         continue
     remapped_args = {}
     for arg_name, enum_vals in func["args"].items():
@@ -39,16 +47,18 @@ for func_name, func in enums.items():
             for name in overrides.remap[func_name]["rename"]:
                 filtered_enums[name] = {
                     "prefix": func["prefix"],
-                    "args": remapped_args
+                    "args": remapped_args,
+                    "pre_resolved": func["pre_resolved"]
                 }
             continue
     filtered_enums[func_name] = {
         "prefix": func["prefix"],
-        "args": remapped_args
+        "args": remapped_args,
+        "pre_resolved": func["pre_resolved"]
     }
 enums = resolve_enums(filtered_enums)
 if not os.path.isdir("generated"):
     os.mkdir("generated")
 if not os.path.isdir("generated/functions"):
     os.mkdir("generated/functions")
-compress(enums, "generated")
+compress(enums, extra_enums, "generated")

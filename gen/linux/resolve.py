@@ -38,7 +38,11 @@ def resolve_enums(enums):
         full_resolved = json.load(open("./cache.json"))
     for funcname in enums.keys():
         if funcname not in full_resolved or list(enums[funcname]["args"].keys()) != list(full_resolved[funcname].keys()):
-            print("Resolving enum values for", funcname)
-            full_resolved[funcname] = resolve(enums[funcname])
-            json.dump(full_resolved, open("./cache.json", "w"))
+            if enums[funcname]["pre_resolved"]:
+                print(f"{funcname} data from strace, skipping")
+                full_resolved[funcname] = enums[funcname]["args"]
+            else:
+                print("Resolving enum values for", funcname)
+                full_resolved[funcname] = resolve(enums[funcname])
+                json.dump(full_resolved, open("./cache.json", "w"))
     return full_resolved

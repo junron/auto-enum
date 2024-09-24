@@ -39,17 +39,21 @@ def parse_synopsis(text):
         l2 = line.replace('"', "")
         if l2.startswith(".B #"):
             prefix += l2[3:] + "\n"
-    first_decl = new_text.split(";")[0].strip()
-    m = re.match(r'"(?:\w+ )+\**(\w+)\((.+)\)', first_decl)
-    if m is None:
-        return None
-    name, args = m.groups()
-    args = args.split(",")
-    args = [x.strip(" \"") for x in args]
-    if any('"' not in arg for arg in args):
-        return None
-    args = [(name.strip('" '), t.strip('" ')) for t, name in [x.split('"', 1) for x in args]]
-    return prefix, name, args
+    parsed_decls = []
+    for decl in new_text.split(";"):
+        m = re.match(r'"(?:\w+ )+\**(\w+)\((.+)\)', decl.strip())
+        if m is None:
+            continue
+        name, args = m.groups()
+        args = args.split(",")
+        args = [x.strip(" \"") for x in args]
+        if args and "..." in args[-1]:
+            args.pop()
+        if any('"' not in arg for arg in args):
+            continue
+        args = [(name.strip('" '), t.strip('" ')) for t, name in [x.split('"', 1) for x in args]]
+        parsed_decls.append((name, args))
+    return prefix, parsed_decls
 
 
 def split_on(text, splitters):
@@ -87,7 +91,7 @@ def find_enum_names(desc, possible_enums):
         out[enum] = list(set(out[enum]))
     return out
 
-
+strace_data = json.load(open(os.path.join(os.path.dirname(__file__), "strace.json"), "r"))
 
 def parse():
     files = os.listdir("../man-pages/man2") + os.listdir("../man-pages/man3")
@@ -99,16 +103,22 @@ def parse():
         sections = split_sections(text)
         if "SYNOPSIS" not in sections:
             continue
-        res = parse_synopsis(sections["SYNOPSIS"])
-        if res is not None:
-            prefix, name, args = res
+        prefix, parsed_decls = parse_synopsis(sections["SYNOPSIS"])
+        for name, args in parsed_decls:
             possible_enums = [x[0] for x in args if x[1] == 'int' or x[1].startswith('enum') or "flag" in x[0]]
             desc = sections["DESCRIPTION"]
             enums = find_enum_names(desc, possible_enums)
             if enums:
                 out[name] = {
                     "args": enums,
-                    "prefix": prefix
+                    "prefix": prefix,
+                    "pre_resolved": False
+                }
+            elif name in strace_data:
+                out[name] = {
+                    "args": {args[int(arg_idx)][0]: arg_data for arg_idx, arg_data in strace_data[name].items()},
+                    "prefix": prefix,
+                    "pre_resolved": True
                 }
     return out
 

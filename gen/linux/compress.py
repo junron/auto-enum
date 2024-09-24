@@ -91,7 +91,10 @@ def expand_enum(enum: dict[str, int], enum_id: str) -> dict[str, int]:
     return enum
 
 
-def compress(resolved_enums, out_dir):
+def compress(resolved_enums, extra_enums, out_dir):
+    for enum in extra_enums:
+        enumid = enum_id(enum)
+        enums[enumid] = compress_enum(enum, enumid)
     funcnames = sorted(resolved_enums.keys())
     for funcname in funcnames:
         funcout = {
