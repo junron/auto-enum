@@ -1,0 +1,22 @@
+{
+  "name": "mremap",
+  "args": [
+    {
+      "name": "old_address",
+      "type": "void *"
+    },
+    {
+      "name": "old_size",
+      "type": "size_t"
+    },
+    {
+      "name": "new_size",
+      "type": "size_t"
+    },
+    {
+      "name": "flags",
+      "enum": "MREMAP"
+    }
+  ],
+  "varargs": true
+}

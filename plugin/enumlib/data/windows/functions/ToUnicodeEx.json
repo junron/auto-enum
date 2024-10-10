@@ -1,0 +1,22 @@
+{
+  "name": "ToUnicodeEx",
+  "args": [
+    {
+      "name": "wVirtKey",
+      "enum": "10948"
+    },
+    {
+      "name": "lpKeyState",
+      "type": ""
+    },
+    {
+      "name": "pwszBuff",
+      "type": ""
+    },
+    {
+      "name": "cchBuff",
+      "type": ""
+    }
+  ],
+  "varargs": false
+}

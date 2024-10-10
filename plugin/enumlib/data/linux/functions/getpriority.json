@@ -1,0 +1,14 @@
+{
+  "name": "getpriority",
+  "args": [
+    {
+      "name": "which",
+      "enum": "PRIO"
+    },
+    {
+      "name": "who",
+      "type": "id_t"
+    }
+  ],
+  "varargs": false
+}

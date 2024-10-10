@@ -1,0 +1,22 @@
+{
+  "name": "socketpair",
+  "args": [
+    {
+      "name": "domain",
+      "enum": "AF_2"
+    },
+    {
+      "name": "type",
+      "enum": "SOCK"
+    },
+    {
+      "name": "protocol",
+      "type": "int"
+    },
+    {
+      "name": "arg3",
+      "type": "void*"
+    }
+  ],
+  "varargs": false
+}

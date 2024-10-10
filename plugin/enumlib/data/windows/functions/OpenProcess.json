@@ -1,0 +1,14 @@
+{
+  "name": "OpenProcess",
+  "args": [
+    {
+      "name": "dwDesiredAccess",
+      "enum": "PROCESS"
+    },
+    {
+      "name": "bInheritHandle",
+      "type": ""
+    }
+  ],
+  "varargs": false
+}

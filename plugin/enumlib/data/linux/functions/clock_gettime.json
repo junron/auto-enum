@@ -1,0 +1,14 @@
+{
+  "name": "clock_gettime",
+  "args": [
+    {
+      "name": "clockid",
+      "enum": "CLOCK"
+    },
+    {
+      "name": "tp",
+      "type": "struct timespec *"
+    }
+  ],
+  "varargs": false
+}

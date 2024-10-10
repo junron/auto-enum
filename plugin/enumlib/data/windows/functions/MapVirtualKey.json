@@ -1,0 +1,10 @@
+{
+  "name": "MapVirtualKey",
+  "args": [
+    {
+      "name": "uCode",
+      "enum": "10948"
+    }
+  ],
+  "varargs": false
+}

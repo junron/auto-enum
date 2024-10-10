@@ -1,0 +1,34 @@
+{
+  "name": "ReadDirectoryChangesEx",
+  "args": [
+    {
+      "name": "hDirectory",
+      "type": ""
+    },
+    {
+      "name": "lpBuffer",
+      "type": ""
+    },
+    {
+      "name": "bWatchSubtree",
+      "type": ""
+    },
+    {
+      "name": "dwNotifyFilter",
+      "enum": "FILE_NOTIFY_CHANGE_1"
+    },
+    {
+      "name": "lpBytesReturned",
+      "type": ""
+    },
+    {
+      "name": "lpOverlapped",
+      "type": ""
+    },
+    {
+      "name": "lpCompletionRoutine",
+      "type": ""
+    }
+  ],
+  "varargs": false
+}

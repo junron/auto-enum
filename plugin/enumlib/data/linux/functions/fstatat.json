@@ -1,0 +1,22 @@
+{
+  "name": "fstatat",
+  "args": [
+    {
+      "name": "dirfd",
+      "type": "int"
+    },
+    {
+      "name": "pathname",
+      "type": "const char *"
+    },
+    {
+      "name": "statbuf",
+      "type": "struct stat *"
+    },
+    {
+      "name": "flags",
+      "enum": "AT_2"
+    }
+  ],
+  "varargs": false
+}

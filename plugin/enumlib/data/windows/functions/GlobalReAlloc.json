@@ -1,0 +1,14 @@
+{
+  "name": "GlobalReAlloc",
+  "args": [
+    {
+      "name": "hMem",
+      "type": ""
+    },
+    {
+      "name": "uFlags",
+      "enum": "GMEM"
+    }
+  ],
+  "varargs": false
+}

@@ -1,0 +1,22 @@
+{
+  "name": "fallocate",
+  "args": [
+    {
+      "name": "fd",
+      "type": "int"
+    },
+    {
+      "name": "mode",
+      "enum": "FALLOC_FL"
+    },
+    {
+      "name": "offset",
+      "type": "off_t"
+    },
+    {
+      "name": "len",
+      "type": "off_t"
+    }
+  ],
+  "varargs": false
+}

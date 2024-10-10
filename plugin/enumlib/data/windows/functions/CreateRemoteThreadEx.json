@@ -1,0 +1,34 @@
+{
+  "name": "CreateRemoteThreadEx",
+  "args": [
+    {
+      "name": "hProcess",
+      "type": ""
+    },
+    {
+      "name": "lpThreadAttributes",
+      "type": ""
+    },
+    {
+      "name": "lpStartAddress",
+      "type": ""
+    },
+    {
+      "name": "lpParameter",
+      "type": ""
+    },
+    {
+      "name": "dwCreationFlags",
+      "enum": "18435"
+    },
+    {
+      "name": "lpAttributeList",
+      "type": ""
+    },
+    {
+      "name": "lpThreadId",
+      "type": ""
+    }
+  ],
+  "varargs": false
+}

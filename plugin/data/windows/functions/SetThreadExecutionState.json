@@ -1,6 +1,0 @@
-{
-  "name": "SetThreadExecutionState",
-  "enums": {
-    "esFlags": "ES"
-  }
-}

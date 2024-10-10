@@ -1,0 +1,22 @@
+{
+  "name": "CreateFileMapping",
+  "args": [
+    {
+      "name": "hFile",
+      "type": ""
+    },
+    {
+      "name": "lpFileMappingAttributes",
+      "type": ""
+    },
+    {
+      "name": "flProtect",
+      "enum": "49048"
+    },
+    {
+      "name": "lpName",
+      "type": ""
+    }
+  ],
+  "varargs": false
+}

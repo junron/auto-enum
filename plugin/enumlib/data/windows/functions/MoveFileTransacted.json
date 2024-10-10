@@ -1,0 +1,30 @@
+{
+  "name": "MoveFileTransacted",
+  "args": [
+    {
+      "name": "lpExistingFileName",
+      "type": ""
+    },
+    {
+      "name": "lpNewFileName",
+      "type": ""
+    },
+    {
+      "name": "lpProgressRoutine",
+      "type": ""
+    },
+    {
+      "name": "lpData",
+      "type": ""
+    },
+    {
+      "name": "dwFlags",
+      "enum": "MOVEFILE_1"
+    },
+    {
+      "name": "hTransaction",
+      "type": ""
+    }
+  ],
+  "varargs": false
+}

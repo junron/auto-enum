@@ -1,0 +1,22 @@
+{
+  "name": "waitid",
+  "args": [
+    {
+      "name": "idtype",
+      "type": "idtype_t"
+    },
+    {
+      "name": "id",
+      "type": "id_t"
+    },
+    {
+      "name": "infop",
+      "type": "siginfo_t *"
+    },
+    {
+      "name": "options",
+      "enum": "15768"
+    }
+  ],
+  "varargs": false
+}

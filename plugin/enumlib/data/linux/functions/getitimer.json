@@ -1,0 +1,14 @@
+{
+  "name": "getitimer",
+  "args": [
+    {
+      "name": "which",
+      "enum": "ITIMER"
+    },
+    {
+      "name": "curr_value",
+      "type": "struct itimerval *"
+    }
+  ],
+  "varargs": false
+}

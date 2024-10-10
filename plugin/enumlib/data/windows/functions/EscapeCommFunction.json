@@ -1,0 +1,14 @@
+{
+  "name": "EscapeCommFunction",
+  "args": [
+    {
+      "name": "hFile",
+      "type": ""
+    },
+    {
+      "name": "dwFunc",
+      "enum": "24418"
+    }
+  ],
+  "varargs": false
+}

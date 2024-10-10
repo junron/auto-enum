@@ -1,0 +1,30 @@
+{
+  "name": "QueryDisplayConfig",
+  "args": [
+    {
+      "name": "flags",
+      "enum": "QDC"
+    },
+    {
+      "name": "numPathArrayElements",
+      "type": ""
+    },
+    {
+      "name": "pathArray",
+      "type": ""
+    },
+    {
+      "name": "numModeInfoArrayElements",
+      "type": ""
+    },
+    {
+      "name": "modeInfoArray",
+      "type": ""
+    },
+    {
+      "name": "currentTopologyId",
+      "type": ""
+    }
+  ],
+  "varargs": false
+}

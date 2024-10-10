@@ -1,0 +1,10 @@
+{
+  "name": "SetSearchPathMode",
+  "args": [
+    {
+      "name": "Flags",
+      "enum": "BASE_SEARCH_PATH"
+    }
+  ],
+  "varargs": false
+}

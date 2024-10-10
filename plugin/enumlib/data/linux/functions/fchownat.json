@@ -1,0 +1,26 @@
+{
+  "name": "fchownat",
+  "args": [
+    {
+      "name": "dirfd",
+      "type": "int"
+    },
+    {
+      "name": "pathname",
+      "type": "const char *"
+    },
+    {
+      "name": "owner",
+      "type": "uid_t"
+    },
+    {
+      "name": "group",
+      "type": "gid_t"
+    },
+    {
+      "name": "flags",
+      "enum": "AT"
+    }
+  ],
+  "varargs": false
+}

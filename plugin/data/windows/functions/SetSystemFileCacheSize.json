@@ -1,6 +1,0 @@
-{
-  "name": "SetSystemFileCacheSize",
-  "enums": {
-    "Flags": "99072"
-  }
-}

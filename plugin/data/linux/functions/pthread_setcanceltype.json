@@ -1,6 +1,0 @@
-{
-  "name": "pthread_setcanceltype",
-  "enums": {
-    "type": "PTHREAD_CANCEL_1"
-  }
-}

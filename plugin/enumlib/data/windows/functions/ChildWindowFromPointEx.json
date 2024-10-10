@@ -1,0 +1,14 @@
+{
+  "name": "ChildWindowFromPointEx",
+  "args": [
+    {
+      "name": "hwnd",
+      "type": ""
+    },
+    {
+      "name": "flags",
+      "enum": "CWP"
+    }
+  ],
+  "varargs": false
+}

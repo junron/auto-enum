@@ -1,6 +1,0 @@
-{
-  "name": "SetSearchPathMode",
-  "enums": {
-    "Flags": "BASE_SEARCH_PATH"
-  }
-}

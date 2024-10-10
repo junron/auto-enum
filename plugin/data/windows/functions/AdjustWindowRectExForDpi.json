@@ -1,6 +1,0 @@
-{
-  "name": "AdjustWindowRectExForDpi",
-  "enums": {
-    "dwExStyle": "WS_EX"
-  }
-}

@@ -1,0 +1,30 @@
+{
+  "name": "CertStrToName",
+  "args": [
+    {
+      "name": "pszX500",
+      "type": ""
+    },
+    {
+      "name": "dwStrType",
+      "enum": "CERT_1"
+    },
+    {
+      "name": "pvReserved",
+      "type": ""
+    },
+    {
+      "name": "pbEncoded",
+      "type": ""
+    },
+    {
+      "name": "pcbEncoded",
+      "type": ""
+    },
+    {
+      "name": "ppszError",
+      "type": ""
+    }
+  ],
+  "varargs": false
+}

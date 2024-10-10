@@ -1,0 +1,14 @@
+{
+  "name": "shutdown",
+  "args": [
+    {
+      "name": "sockfd",
+      "type": "int"
+    },
+    {
+      "name": "how",
+      "enum": "SHUT"
+    }
+  ],
+  "varargs": false
+}

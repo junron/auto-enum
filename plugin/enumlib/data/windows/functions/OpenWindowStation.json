@@ -1,0 +1,14 @@
+{
+  "name": "OpenWindowStation",
+  "args": [
+    {
+      "name": "lpszWinSta",
+      "type": ""
+    },
+    {
+      "name": "dwDesiredAccess",
+      "enum": "18573"
+    }
+  ],
+  "varargs": false
+}

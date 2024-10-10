@@ -1,0 +1,22 @@
+{
+  "name": "timer_settime",
+  "args": [
+    {
+      "name": "timerid",
+      "type": "timer_t"
+    },
+    {
+      "name": "flags",
+      "enum": "97337"
+    },
+    {
+      "name": "new_value",
+      "type": "const struct itimerspec *"
+    },
+    {
+      "name": "old_value",
+      "type": "struct itimerspec *"
+    }
+  ],
+  "varargs": false
+}

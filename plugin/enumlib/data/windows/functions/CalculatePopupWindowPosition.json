@@ -1,0 +1,14 @@
+{
+  "name": "CalculatePopupWindowPosition",
+  "args": [
+    {
+      "name": "flags",
+      "enum": "TPM_1"
+    },
+    {
+      "name": "popupWindowPosition",
+      "type": ""
+    }
+  ],
+  "varargs": false
+}

@@ -1,0 +1,14 @@
+{
+  "name": "RegisterPowerSettingNotification",
+  "args": [
+    {
+      "name": "hRecipient",
+      "type": ""
+    },
+    {
+      "name": "Flags",
+      "enum": "DEVICE_NOTIFY_1"
+    }
+  ],
+  "varargs": false
+}

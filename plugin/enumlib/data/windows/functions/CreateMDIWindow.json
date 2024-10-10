@@ -1,0 +1,26 @@
+{
+  "name": "CreateMDIWindow",
+  "args": [
+    {
+      "name": "lpClassName",
+      "type": ""
+    },
+    {
+      "name": "lpWindowName",
+      "type": ""
+    },
+    {
+      "name": "dwStyle",
+      "enum": "WS"
+    },
+    {
+      "name": "hWndParent",
+      "type": ""
+    },
+    {
+      "name": "hInstance",
+      "type": ""
+    }
+  ],
+  "varargs": false
+}

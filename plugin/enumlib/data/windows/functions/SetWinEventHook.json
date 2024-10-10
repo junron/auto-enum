@@ -1,0 +1,14 @@
+{
+  "name": "SetWinEventHook",
+  "args": [
+    {
+      "name": "eventMin",
+      "enum": "55127"
+    },
+    {
+      "name": "eventMax",
+      "enum": "55127"
+    }
+  ],
+  "varargs": false
+}

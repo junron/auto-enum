@@ -1,0 +1,14 @@
+{
+  "name": "pkey_alloc",
+  "args": [
+    {
+      "name": "flags",
+      "type": "unsigned int"
+    },
+    {
+      "name": "access_rights",
+      "enum": "PKEY_DISABLE"
+    }
+  ],
+  "varargs": false
+}

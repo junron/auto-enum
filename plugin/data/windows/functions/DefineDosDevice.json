@@ -1,6 +1,0 @@
-{
-  "name": "DefineDosDevice",
-  "enums": {
-    "dwFlags": "DDD"
-  }
-}

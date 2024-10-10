@@ -1,0 +1,18 @@
+{
+  "name": "InetPton",
+  "args": [
+    {
+      "name": "Family",
+      "enum": "61063"
+    },
+    {
+      "name": "pszAddrString",
+      "type": ""
+    },
+    {
+      "name": "pAddrBuf",
+      "type": ""
+    }
+  ],
+  "varargs": false
+}

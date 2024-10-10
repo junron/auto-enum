@@ -1,0 +1,10 @@
+{
+  "name": "sighold",
+  "args": [
+    {
+      "name": "sig",
+      "enum": "SIG"
+    }
+  ],
+  "varargs": false
+}

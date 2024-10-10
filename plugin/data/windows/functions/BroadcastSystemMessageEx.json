@@ -1,6 +1,0 @@
-{
-  "name": "BroadcastSystemMessageEx",
-  "enums": {
-    "flags": "BSF_1"
-  }
-}

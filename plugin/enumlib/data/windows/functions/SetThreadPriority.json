@@ -1,0 +1,14 @@
+{
+  "name": "SetThreadPriority",
+  "args": [
+    {
+      "name": "hThread",
+      "type": ""
+    },
+    {
+      "name": "nPriority",
+      "enum": "THREAD_1"
+    }
+  ],
+  "varargs": false
+}

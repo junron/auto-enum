@@ -1,0 +1,30 @@
+{
+  "name": "splice",
+  "args": [
+    {
+      "name": "fd_in",
+      "type": "int"
+    },
+    {
+      "name": "off_in",
+      "type": "off64_t *"
+    },
+    {
+      "name": "fd_out",
+      "type": "int"
+    },
+    {
+      "name": "off_out",
+      "type": "off64_t *"
+    },
+    {
+      "name": "len",
+      "type": "size_t"
+    },
+    {
+      "name": "flags",
+      "enum": "SPLICE_F"
+    }
+  ],
+  "varargs": false
+}

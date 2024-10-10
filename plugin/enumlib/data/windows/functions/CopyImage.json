@@ -1,0 +1,14 @@
+{
+  "name": "CopyImage",
+  "args": [
+    {
+      "name": "type",
+      "enum": "IMAGE"
+    },
+    {
+      "name": "flags",
+      "enum": "LR_2"
+    }
+  ],
+  "varargs": false
+}

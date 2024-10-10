@@ -1,0 +1,14 @@
+{
+  "name": "CreateFileMappingFromApp",
+  "args": [
+    {
+      "name": "hFile",
+      "type": ""
+    },
+    {
+      "name": "PageProtection",
+      "enum": "17321"
+    }
+  ],
+  "varargs": false
+}

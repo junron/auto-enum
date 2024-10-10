@@ -1,0 +1,14 @@
+{
+  "name": "VirtualAllocFromApp",
+  "args": [
+    {
+      "name": "AllocationType",
+      "enum": "MEM"
+    },
+    {
+      "name": "Protection",
+      "enum": "PAGE"
+    }
+  ],
+  "varargs": false
+}

@@ -1,0 +1,14 @@
+{
+  "name": "CheckDlgButton",
+  "args": [
+    {
+      "name": "hDlg",
+      "type": ""
+    },
+    {
+      "name": "uCheck",
+      "enum": "BS"
+    }
+  ],
+  "varargs": false
+}

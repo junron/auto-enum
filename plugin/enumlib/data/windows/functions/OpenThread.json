@@ -1,0 +1,14 @@
+{
+  "name": "OpenThread",
+  "args": [
+    {
+      "name": "dwDesiredAccess",
+      "enum": "THREAD"
+    },
+    {
+      "name": "bInheritHandle",
+      "type": ""
+    }
+  ],
+  "varargs": false
+}

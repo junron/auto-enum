@@ -1,0 +1,10 @@
+{
+  "name": "SetProcessDEPPolicy",
+  "args": [
+    {
+      "name": "dwFlags",
+      "enum": "PROCESS_DEP"
+    }
+  ],
+  "varargs": false
+}

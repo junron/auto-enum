@@ -1,0 +1,22 @@
+{
+  "name": "epoll_ctl",
+  "args": [
+    {
+      "name": "epfd",
+      "type": "int"
+    },
+    {
+      "name": "op",
+      "enum": "EPOLL_CTL"
+    },
+    {
+      "name": "fd",
+      "type": "int"
+    },
+    {
+      "name": "event",
+      "type": "struct epoll_event *"
+    }
+  ],
+  "varargs": false
+}

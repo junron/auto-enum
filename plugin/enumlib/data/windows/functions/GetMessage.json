@@ -1,0 +1,22 @@
+{
+  "name": "GetMessage",
+  "args": [
+    {
+      "name": "lpMsg",
+      "type": ""
+    },
+    {
+      "name": "hWnd",
+      "type": ""
+    },
+    {
+      "name": "wMsgFilterMin",
+      "enum": "16546"
+    },
+    {
+      "name": "wMsgFilterMax",
+      "enum": "16546"
+    }
+  ],
+  "varargs": false
+}

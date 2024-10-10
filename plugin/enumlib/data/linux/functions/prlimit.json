@@ -1,0 +1,22 @@
+{
+  "name": "prlimit",
+  "args": [
+    {
+      "name": "pid",
+      "type": "pid_t"
+    },
+    {
+      "name": "resource",
+      "enum": "RLIMIT"
+    },
+    {
+      "name": "new_limit",
+      "type": "const struct rlimit *"
+    },
+    {
+      "name": "old_limit",
+      "type": "struct rlimit *"
+    }
+  ],
+  "varargs": false
+}

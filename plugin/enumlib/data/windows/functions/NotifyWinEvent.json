@@ -1,0 +1,14 @@
+{
+  "name": "NotifyWinEvent",
+  "args": [
+    {
+      "name": "event",
+      "enum": "55127"
+    },
+    {
+      "name": "hwnd",
+      "type": ""
+    }
+  ],
+  "varargs": false
+}

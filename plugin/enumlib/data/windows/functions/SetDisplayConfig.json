@@ -1,0 +1,10 @@
+{
+  "name": "SetDisplayConfig",
+  "args": [
+    {
+      "name": "flags",
+      "enum": "SDC"
+    }
+  ],
+  "varargs": false
+}

@@ -1,7 +1,0 @@
-{
-  "name": "GetMessage",
-  "enums": {
-    "wMsgFilterMin": "16546",
-    "wMsgFilterMax": "16546"
-  }
-}

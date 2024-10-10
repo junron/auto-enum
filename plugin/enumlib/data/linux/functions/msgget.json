@@ -1,0 +1,14 @@
+{
+  "name": "msgget",
+  "args": [
+    {
+      "name": "key",
+      "enum": "24374"
+    },
+    {
+      "name": "msgflg",
+      "enum": "IPC"
+    }
+  ],
+  "varargs": false
+}

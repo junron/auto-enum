@@ -1,0 +1,22 @@
+{
+  "name": "clock_nanosleep",
+  "args": [
+    {
+      "name": "clockid",
+      "enum": "CLOCK"
+    },
+    {
+      "name": "flags",
+      "enum": "97337"
+    },
+    {
+      "name": "request",
+      "type": "const struct timespec *"
+    },
+    {
+      "name": "remain",
+      "type": "struct timespec *"
+    }
+  ],
+  "varargs": false
+}

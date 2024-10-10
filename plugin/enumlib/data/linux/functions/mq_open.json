@@ -1,0 +1,22 @@
+{
+  "name": "mq_open",
+  "args": [
+    {
+      "name": "name",
+      "type": "const char *"
+    },
+    {
+      "name": "oflag",
+      "enum": "O_1"
+    },
+    {
+      "name": "mode",
+      "type": "mode_t"
+    },
+    {
+      "name": "attr",
+      "type": "struct mq_attr *"
+    }
+  ],
+  "varargs": false
+}

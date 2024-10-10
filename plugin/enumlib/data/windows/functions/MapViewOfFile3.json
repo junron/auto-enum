@@ -1,0 +1,14 @@
+{
+  "name": "MapViewOfFile3",
+  "args": [
+    {
+      "name": "AllocationType",
+      "enum": "MEM_2"
+    },
+    {
+      "name": "ExtendedParameters",
+      "type": ""
+    }
+  ],
+  "varargs": false
+}

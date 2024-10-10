@@ -1,0 +1,22 @@
+{
+  "name": "GetTapeParameters",
+  "args": [
+    {
+      "name": "hDevice",
+      "type": ""
+    },
+    {
+      "name": "dwOperation",
+      "enum": "GET_TAPE"
+    },
+    {
+      "name": "lpdwSize",
+      "type": ""
+    },
+    {
+      "name": "lpTapeInformation",
+      "type": ""
+    }
+  ],
+  "varargs": false
+}

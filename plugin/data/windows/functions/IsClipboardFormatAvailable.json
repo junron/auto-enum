@@ -1,6 +1,0 @@
-{
-  "name": "IsClipboardFormatAvailable",
-  "enums": {
-    "format": "CF"
-  }
-}

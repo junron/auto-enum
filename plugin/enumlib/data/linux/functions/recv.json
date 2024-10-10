@@ -1,0 +1,22 @@
+{
+  "name": "recv",
+  "args": [
+    {
+      "name": "sockfd",
+      "type": "int"
+    },
+    {
+      "name": "buf",
+      "type": "void *"
+    },
+    {
+      "name": "len",
+      "type": "size_t"
+    },
+    {
+      "name": "flags",
+      "enum": "MSG"
+    }
+  ],
+  "varargs": false
+}

@@ -1,0 +1,30 @@
+{
+  "name": "CryptEncodeObjectEx",
+  "args": [
+    {
+      "name": "lpszStructType",
+      "type": ""
+    },
+    {
+      "name": "pvStructInfo",
+      "type": ""
+    },
+    {
+      "name": "dwFlags",
+      "enum": "CRYPT_7"
+    },
+    {
+      "name": "pEncodePara",
+      "type": ""
+    },
+    {
+      "name": "pvEncoded",
+      "type": ""
+    },
+    {
+      "name": "pcbEncoded",
+      "type": ""
+    }
+  ],
+  "varargs": false
+}

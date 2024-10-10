@@ -1,8 +1,0 @@
-{
-  "name": "socket",
-  "enums": {
-    "af": "AF",
-    "type": "SOCK",
-    "protocol": "16386"
-  }
-}

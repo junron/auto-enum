@@ -1,0 +1,14 @@
+{
+  "name": "ioctl",
+  "args": [
+    {
+      "name": "fd",
+      "type": "int"
+    },
+    {
+      "name": "cmd",
+      "enum": "31706"
+    }
+  ],
+  "varargs": true
+}

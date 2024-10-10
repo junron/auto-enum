@@ -1,0 +1,34 @@
+{
+  "name": "nftw",
+  "args": [
+    {
+      "name": "dirpath",
+      "type": "const char *"
+    },
+    {
+      "name": "arg1",
+      "type": "void*"
+    },
+    {
+      "name": "sb",
+      "type": "const struct stat *"
+    },
+    {
+      "name": "typeflag",
+      "enum": "FTW"
+    },
+    {
+      "name": "arg4",
+      "type": "void*"
+    },
+    {
+      "name": "nopenfd",
+      "type": "int"
+    },
+    {
+      "name": "flags",
+      "type": "int"
+    }
+  ],
+  "varargs": false
+}

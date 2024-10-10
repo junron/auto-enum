@@ -1,0 +1,26 @@
+{
+  "name": "ScrollWindow",
+  "args": [
+    {
+      "name": "hWnd",
+      "type": ""
+    },
+    {
+      "name": "XAmount",
+      "enum": "CS"
+    },
+    {
+      "name": "YAmount",
+      "enum": "CS"
+    },
+    {
+      "name": "lpRect",
+      "type": ""
+    },
+    {
+      "name": "lpClipRect",
+      "type": ""
+    }
+  ],
+  "varargs": false
+}

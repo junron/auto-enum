@@ -1,0 +1,14 @@
+{
+  "name": "kill",
+  "args": [
+    {
+      "name": "pid",
+      "type": "pid_t"
+    },
+    {
+      "name": "sig",
+      "enum": "74210"
+    }
+  ],
+  "varargs": false
+}

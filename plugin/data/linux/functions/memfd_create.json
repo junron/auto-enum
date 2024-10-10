@@ -1,6 +1,0 @@
-{
-  "name": "memfd_create",
-  "enums": {
-    "flags": "MFD"
-  }
-}

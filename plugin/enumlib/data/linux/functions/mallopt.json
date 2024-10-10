@@ -1,0 +1,14 @@
+{
+  "name": "mallopt",
+  "args": [
+    {
+      "name": "param",
+      "enum": "M"
+    },
+    {
+      "name": "value",
+      "type": "int"
+    }
+  ],
+  "varargs": false
+}

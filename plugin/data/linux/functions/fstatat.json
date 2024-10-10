@@ -1,6 +1,0 @@
-{
-  "name": "fstatat",
-  "enums": {
-    "flags": "AT_2"
-  }
-}

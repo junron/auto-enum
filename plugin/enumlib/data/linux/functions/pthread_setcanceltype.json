@@ -1,0 +1,14 @@
+{
+  "name": "pthread_setcanceltype",
+  "args": [
+    {
+      "name": "type",
+      "enum": "PTHREAD_CANCEL_1"
+    },
+    {
+      "name": "oldtype",
+      "type": "int *"
+    }
+  ],
+  "varargs": false
+}

@@ -1,6 +1,0 @@
-{
-  "name": "SetWindowsHookEx",
-  "enums": {
-    "idHook": "WH"
-  }
-}

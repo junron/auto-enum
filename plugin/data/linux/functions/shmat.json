@@ -1,6 +1,0 @@
-{
-  "name": "shmat",
-  "enums": {
-    "shmflg": "SHM"
-  }
-}

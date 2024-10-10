@@ -1,0 +1,26 @@
+{
+  "name": "statx",
+  "args": [
+    {
+      "name": "dirfd",
+      "type": "int"
+    },
+    {
+      "name": "pathname",
+      "type": "const char *"
+    },
+    {
+      "name": "flags",
+      "enum": "AT_5"
+    },
+    {
+      "name": "mask",
+      "type": "unsigned int"
+    },
+    {
+      "name": "statxbuf",
+      "type": "struct statx *"
+    }
+  ],
+  "varargs": false
+}

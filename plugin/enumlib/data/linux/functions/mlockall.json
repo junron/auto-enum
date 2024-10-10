@@ -1,0 +1,10 @@
+{
+  "name": "mlockall",
+  "args": [
+    {
+      "name": "flags",
+      "enum": "16957"
+    }
+  ],
+  "varargs": false
+}

@@ -1,0 +1,22 @@
+{
+  "name": "CreateNamedPipe",
+  "args": [
+    {
+      "name": "lpName",
+      "type": ""
+    },
+    {
+      "name": "dwOpenMode",
+      "enum": "13762"
+    },
+    {
+      "name": "dwPipeMode",
+      "enum": "PIPE"
+    },
+    {
+      "name": "lpSecurityAttributes",
+      "type": ""
+    }
+  ],
+  "varargs": false
+}

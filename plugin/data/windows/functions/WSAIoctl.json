@@ -1,6 +1,0 @@
-{
-  "name": "WSAIoctl",
-  "enums": {
-    "dwIoControlCode": "32122"
-  }
-}

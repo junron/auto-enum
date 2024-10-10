@@ -1,0 +1,22 @@
+{
+  "name": "ptrace",
+  "args": [
+    {
+      "name": "request",
+      "enum": "PTRACE"
+    },
+    {
+      "name": "pid",
+      "type": "pid_t"
+    },
+    {
+      "name": "addr",
+      "type": "void *"
+    },
+    {
+      "name": "data",
+      "type": "void *"
+    }
+  ],
+  "varargs": false
+}

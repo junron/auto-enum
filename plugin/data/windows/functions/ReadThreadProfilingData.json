@@ -1,6 +1,0 @@
-{
-  "name": "ReadThreadProfilingData",
-  "enums": {
-    "Flags": "READ_THREAD_PROFILING_FLAG"
-  }
-}

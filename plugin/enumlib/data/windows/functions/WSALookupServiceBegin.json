@@ -1,0 +1,14 @@
+{
+  "name": "WSALookupServiceBegin",
+  "args": [
+    {
+      "name": "dwControlFlags",
+      "enum": "LUP"
+    },
+    {
+      "name": "lphLookup",
+      "type": ""
+    }
+  ],
+  "varargs": false
+}

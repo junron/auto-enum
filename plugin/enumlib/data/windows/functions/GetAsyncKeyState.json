@@ -1,0 +1,10 @@
+{
+  "name": "GetAsyncKeyState",
+  "args": [
+    {
+      "name": "vKey",
+      "enum": "10948"
+    }
+  ],
+  "varargs": false
+}

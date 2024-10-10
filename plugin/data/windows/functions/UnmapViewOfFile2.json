@@ -1,6 +1,0 @@
-{
-  "name": "UnmapViewOfFile2",
-  "enums": {
-    "UnmapFlags": "MEM_1"
-  }
-}

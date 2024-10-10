@@ -1,6 +1,0 @@
-{
-  "name": "WaitNamedPipe",
-  "enums": {
-    "nTimeOut": "NMPWAIT_1"
-  }
-}

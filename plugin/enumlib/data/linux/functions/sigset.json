@@ -1,0 +1,14 @@
+{
+  "name": "sigset",
+  "args": [
+    {
+      "name": "sig",
+      "enum": "SIG"
+    },
+    {
+      "name": "disp",
+      "type": "sighandler_t"
+    }
+  ],
+  "varargs": false
+}

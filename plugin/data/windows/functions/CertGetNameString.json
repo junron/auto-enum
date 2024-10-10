@@ -1,7 +1,0 @@
-{
-  "name": "CertGetNameString",
-  "enums": {
-    "dwType": "CERT_NAME",
-    "dwFlags": "CERT_NAME_1"
-  }
-}

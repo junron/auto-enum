@@ -1,0 +1,14 @@
+{
+  "name": "timerfd_create",
+  "args": [
+    {
+      "name": "clockid",
+      "enum": "CLOCK_1"
+    },
+    {
+      "name": "flags",
+      "enum": "TFD"
+    }
+  ],
+  "varargs": false
+}

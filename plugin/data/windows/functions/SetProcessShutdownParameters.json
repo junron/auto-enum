@@ -1,6 +1,0 @@
-{
-  "name": "SetProcessShutdownParameters",
-  "enums": {
-    "dwFlags": "14079"
-  }
-}

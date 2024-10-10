@@ -1,0 +1,10 @@
+{
+  "name": "GetSysColor",
+  "args": [
+    {
+      "name": "nIndex",
+      "enum": "COLOR"
+    }
+  ],
+  "varargs": false
+}

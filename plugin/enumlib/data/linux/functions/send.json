@@ -1,0 +1,22 @@
+{
+  "name": "send",
+  "args": [
+    {
+      "name": "sockfd",
+      "type": "int"
+    },
+    {
+      "name": "buf",
+      "type": "const void *"
+    },
+    {
+      "name": "len",
+      "type": "size_t"
+    },
+    {
+      "name": "flags",
+      "enum": "MSG_1"
+    }
+  ],
+  "varargs": false
+}

@@ -1,0 +1,10 @@
+{
+  "name": "SetProcessShutdownParameters",
+  "args": [
+    {
+      "name": "dwFlags",
+      "enum": "14079"
+    }
+  ],
+  "varargs": false
+}

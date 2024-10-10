@@ -1,0 +1,22 @@
+{
+  "name": "SetMenuItemBitmaps",
+  "args": [
+    {
+      "name": "hMenu",
+      "type": ""
+    },
+    {
+      "name": "uFlags",
+      "enum": "80379"
+    },
+    {
+      "name": "hBitmapUnchecked",
+      "type": ""
+    },
+    {
+      "name": "hBitmapChecked",
+      "type": ""
+    }
+  ],
+  "varargs": false
+}

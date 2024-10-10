@@ -1,0 +1,14 @@
+{
+  "name": "PFXImportCertStore",
+  "args": [
+    {
+      "name": "pPFX",
+      "type": ""
+    },
+    {
+      "name": "dwFlags",
+      "enum": "CRYPT_8"
+    }
+  ],
+  "varargs": false
+}

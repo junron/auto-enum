@@ -1,0 +1,22 @@
+{
+  "name": "QueryServiceConfig2",
+  "args": [
+    {
+      "name": "hService",
+      "type": ""
+    },
+    {
+      "name": "dwInfoLevel",
+      "enum": "SERVICE_CONFIG"
+    },
+    {
+      "name": "lpBuffer",
+      "type": ""
+    },
+    {
+      "name": "pcbBytesNeeded",
+      "type": ""
+    }
+  ],
+  "varargs": false
+}

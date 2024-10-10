@@ -1,0 +1,14 @@
+{
+  "name": "GetGuiResources",
+  "args": [
+    {
+      "name": "hProcess",
+      "type": ""
+    },
+    {
+      "name": "uiFlags",
+      "enum": "GR"
+    }
+  ],
+  "varargs": false
+}

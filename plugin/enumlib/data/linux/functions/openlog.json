@@ -1,0 +1,18 @@
+{
+  "name": "openlog",
+  "args": [
+    {
+      "name": "ident",
+      "type": "const char *"
+    },
+    {
+      "name": "option",
+      "enum": "LOG"
+    },
+    {
+      "name": "facility",
+      "enum": "LOG_1"
+    }
+  ],
+  "varargs": false
+}

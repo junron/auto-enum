@@ -1,0 +1,22 @@
+{
+  "name": "HttpReceiveClientCertificate",
+  "args": [
+    {
+      "name": "RequestQueueHandle",
+      "type": ""
+    },
+    {
+      "name": "Flags",
+      "enum": "11148"
+    },
+    {
+      "name": "SslClientCertInfo",
+      "type": ""
+    },
+    {
+      "name": "BytesReceived",
+      "type": ""
+    }
+  ],
+  "varargs": false
+}

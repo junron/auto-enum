@@ -1,0 +1,14 @@
+{
+  "name": "DrawIconEx",
+  "args": [
+    {
+      "name": "hIcon",
+      "type": ""
+    },
+    {
+      "name": "diFlags",
+      "enum": "DI"
+    }
+  ],
+  "varargs": false
+}

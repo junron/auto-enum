@@ -1,0 +1,10 @@
+{
+  "name": "GetThreadId",
+  "args": [
+    {
+      "name": "Thread",
+      "enum": "THREAD"
+    }
+  ],
+  "varargs": false
+}

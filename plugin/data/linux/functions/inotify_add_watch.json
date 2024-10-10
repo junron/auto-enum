@@ -1,6 +1,0 @@
-{
-  "name": "inotify_add_watch",
-  "enums": {
-    "mask": "IN"
-  }
-}

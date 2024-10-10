@@ -1,0 +1,22 @@
+{
+  "name": "getaddrinfo_a",
+  "args": [
+    {
+      "name": "mode",
+      "enum": "GAI"
+    },
+    {
+      "name": "arg1",
+      "type": "void*"
+    },
+    {
+      "name": "nitems",
+      "type": "int"
+    },
+    {
+      "name": "sevp",
+      "type": "struct sigevent *"
+    }
+  ],
+  "varargs": false
+}

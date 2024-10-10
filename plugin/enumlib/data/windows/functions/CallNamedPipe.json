@@ -1,0 +1,26 @@
+{
+  "name": "CallNamedPipe",
+  "args": [
+    {
+      "name": "lpNamedPipeName",
+      "type": ""
+    },
+    {
+      "name": "lpInBuffer",
+      "type": ""
+    },
+    {
+      "name": "lpOutBuffer",
+      "type": ""
+    },
+    {
+      "name": "lpBytesRead",
+      "type": ""
+    },
+    {
+      "name": "nTimeOut",
+      "enum": "NMPWAIT"
+    }
+  ],
+  "varargs": false
+}

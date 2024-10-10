@@ -1,6 +1,0 @@
-{
-  "name": "fsetxattr",
-  "enums": {
-    "flags": "XATTR"
-  }
-}

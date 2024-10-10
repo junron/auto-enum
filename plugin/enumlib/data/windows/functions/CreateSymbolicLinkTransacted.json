@@ -1,0 +1,22 @@
+{
+  "name": "CreateSymbolicLinkTransacted",
+  "args": [
+    {
+      "name": "lpSymlinkFileName",
+      "type": ""
+    },
+    {
+      "name": "lpTargetFileName",
+      "type": ""
+    },
+    {
+      "name": "dwFlags",
+      "enum": "61040"
+    },
+    {
+      "name": "hTransaction",
+      "type": ""
+    }
+  ],
+  "varargs": false
+}

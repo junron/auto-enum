@@ -1,0 +1,14 @@
+{
+  "name": "CreateTapePartition",
+  "args": [
+    {
+      "name": "hDevice",
+      "type": ""
+    },
+    {
+      "name": "dwPartitionMethod",
+      "enum": "TAPE_2"
+    }
+  ],
+  "varargs": false
+}

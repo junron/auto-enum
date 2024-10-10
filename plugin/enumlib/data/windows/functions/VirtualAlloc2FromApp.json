@@ -1,0 +1,22 @@
+{
+  "name": "VirtualAlloc2FromApp",
+  "args": [
+    {
+      "name": "Process",
+      "enum": "PROCESS"
+    },
+    {
+      "name": "AllocationType",
+      "enum": "MEM_6"
+    },
+    {
+      "name": "PageProtection",
+      "enum": "PAGE"
+    },
+    {
+      "name": "ExtendedParameters",
+      "type": ""
+    }
+  ],
+  "varargs": false
+}

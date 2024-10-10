@@ -1,0 +1,14 @@
+{
+  "name": "pthread_attr_setscope",
+  "args": [
+    {
+      "name": "attr",
+      "type": "pthread_attr_t *"
+    },
+    {
+      "name": "scope",
+      "enum": "PTHREAD_SCOPE"
+    }
+  ],
+  "varargs": false
+}

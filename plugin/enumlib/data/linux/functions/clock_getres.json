@@ -1,0 +1,14 @@
+{
+  "name": "clock_getres",
+  "args": [
+    {
+      "name": "clockid",
+      "enum": "CLOCK"
+    },
+    {
+      "name": "res",
+      "type": "struct timespec *"
+    }
+  ],
+  "varargs": false
+}

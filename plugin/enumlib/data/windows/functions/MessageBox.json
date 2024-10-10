@@ -1,0 +1,22 @@
+{
+  "name": "MessageBox",
+  "args": [
+    {
+      "name": "hWnd",
+      "type": ""
+    },
+    {
+      "name": "lpText",
+      "type": ""
+    },
+    {
+      "name": "lpCaption",
+      "type": ""
+    },
+    {
+      "name": "uType",
+      "enum": "MB_1"
+    }
+  ],
+  "varargs": false
+}

@@ -1,0 +1,26 @@
+{
+  "name": "pwritev2",
+  "args": [
+    {
+      "name": "fd",
+      "type": "int"
+    },
+    {
+      "name": "iov",
+      "type": "const struct iovec *"
+    },
+    {
+      "name": "iovcnt",
+      "type": "int"
+    },
+    {
+      "name": "offset",
+      "type": "off_t"
+    },
+    {
+      "name": "flags",
+      "enum": "RWF"
+    }
+  ],
+  "varargs": false
+}

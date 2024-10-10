@@ -1,0 +1,14 @@
+{
+  "name": "clock_adjtime",
+  "args": [
+    {
+      "name": "clk_id",
+      "enum": "CLOCK"
+    },
+    {
+      "name": "buf",
+      "type": "struct timex *"
+    }
+  ],
+  "varargs": false
+}

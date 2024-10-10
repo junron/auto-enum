@@ -1,0 +1,22 @@
+{
+  "name": "CryptGetKeyParam",
+  "args": [
+    {
+      "name": "hKey",
+      "type": ""
+    },
+    {
+      "name": "dwParam",
+      "enum": "75770"
+    },
+    {
+      "name": "pbData",
+      "type": ""
+    },
+    {
+      "name": "pdwDataLen",
+      "type": ""
+    }
+  ],
+  "varargs": false
+}

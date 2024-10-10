@@ -1,0 +1,50 @@
+{
+  "name": "CreateProcessWithLogon",
+  "args": [
+    {
+      "name": "lpUsername",
+      "type": ""
+    },
+    {
+      "name": "lpDomain",
+      "type": ""
+    },
+    {
+      "name": "lpPassword",
+      "type": ""
+    },
+    {
+      "name": "dwLogonFlags",
+      "enum": "LOGON"
+    },
+    {
+      "name": "lpApplicationName",
+      "type": ""
+    },
+    {
+      "name": "lpCommandLine",
+      "type": ""
+    },
+    {
+      "name": "dwCreationFlags",
+      "enum": "95950"
+    },
+    {
+      "name": "lpEnvironment",
+      "type": ""
+    },
+    {
+      "name": "lpCurrentDirectory",
+      "type": ""
+    },
+    {
+      "name": "lpStartupInfo",
+      "type": ""
+    },
+    {
+      "name": "lpProcessInformation",
+      "type": ""
+    }
+  ],
+  "varargs": false
+}

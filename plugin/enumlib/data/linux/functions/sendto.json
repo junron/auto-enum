@@ -1,0 +1,30 @@
+{
+  "name": "sendto",
+  "args": [
+    {
+      "name": "sockfd",
+      "type": "int"
+    },
+    {
+      "name": "buf",
+      "type": "const void *"
+    },
+    {
+      "name": "len",
+      "type": "size_t"
+    },
+    {
+      "name": "flags",
+      "enum": "MSG_1"
+    },
+    {
+      "name": "dest_addr",
+      "type": "const struct sockaddr *"
+    },
+    {
+      "name": "addrlen",
+      "type": "socklen_t"
+    }
+  ],
+  "varargs": false
+}

@@ -1,0 +1,10 @@
+{
+  "name": "personality",
+  "args": [
+    {
+      "name": "persona",
+      "enum": "30288"
+    }
+  ],
+  "varargs": false
+}

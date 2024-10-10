@@ -1,0 +1,10 @@
+{
+  "name": "LoadKeyboardLayout",
+  "args": [
+    {
+      "name": "Flags",
+      "enum": "KLF"
+    }
+  ],
+  "varargs": false
+}

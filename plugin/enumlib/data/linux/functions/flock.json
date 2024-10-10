@@ -1,0 +1,10 @@
+{
+  "name": "flock",
+  "args": [
+    {
+      "name": "operation",
+      "enum": "LOCK"
+    }
+  ],
+  "varargs": false
+}

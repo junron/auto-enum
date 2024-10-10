@@ -1,0 +1,10 @@
+{
+  "name": "GlobalAlloc",
+  "args": [
+    {
+      "name": "uFlags",
+      "enum": "14923"
+    }
+  ],
+  "varargs": false
+}

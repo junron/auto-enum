@@ -1,0 +1,18 @@
+{
+  "name": "ToAsciiEx",
+  "args": [
+    {
+      "name": "uVirtKey",
+      "enum": "10948"
+    },
+    {
+      "name": "lpKeyState",
+      "type": ""
+    },
+    {
+      "name": "lpChar",
+      "type": ""
+    }
+  ],
+  "varargs": false
+}

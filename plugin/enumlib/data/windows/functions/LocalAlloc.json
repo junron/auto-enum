@@ -1,0 +1,10 @@
+{
+  "name": "LocalAlloc",
+  "args": [
+    {
+      "name": "uFlags",
+      "enum": "92305"
+    }
+  ],
+  "varargs": false
+}

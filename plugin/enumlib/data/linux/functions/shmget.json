@@ -1,0 +1,18 @@
+{
+  "name": "shmget",
+  "args": [
+    {
+      "name": "key",
+      "type": "key_t"
+    },
+    {
+      "name": "size",
+      "type": "size_t"
+    },
+    {
+      "name": "shmflg",
+      "enum": "12874"
+    }
+  ],
+  "varargs": false
+}

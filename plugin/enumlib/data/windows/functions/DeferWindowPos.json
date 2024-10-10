@@ -1,0 +1,22 @@
+{
+  "name": "DeferWindowPos",
+  "args": [
+    {
+      "name": "hWinPosInfo",
+      "type": ""
+    },
+    {
+      "name": "hWnd",
+      "type": ""
+    },
+    {
+      "name": "hWndInsertAfter",
+      "type": ""
+    },
+    {
+      "name": "uFlags",
+      "enum": "SWP_1"
+    }
+  ],
+  "varargs": false
+}

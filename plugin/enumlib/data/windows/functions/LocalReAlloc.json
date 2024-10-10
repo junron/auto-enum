@@ -1,0 +1,14 @@
+{
+  "name": "LocalReAlloc",
+  "args": [
+    {
+      "name": "hMem",
+      "type": ""
+    },
+    {
+      "name": "uFlags",
+      "enum": "LMEM"
+    }
+  ],
+  "varargs": false
+}

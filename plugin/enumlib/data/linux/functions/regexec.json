@@ -1,0 +1,26 @@
+{
+  "name": "regexec",
+  "args": [
+    {
+      "name": "preg",
+      "type": "const regex_t *"
+    },
+    {
+      "name": "string",
+      "type": "const char *"
+    },
+    {
+      "name": "nmatch",
+      "type": "size_t"
+    },
+    {
+      "name": "arg3",
+      "type": "void*"
+    },
+    {
+      "name": "eflags",
+      "enum": "REG_1"
+    }
+  ],
+  "varargs": false
+}

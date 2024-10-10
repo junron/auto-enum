@@ -1,0 +1,18 @@
+{
+  "name": "CryptHashSessionKey",
+  "args": [
+    {
+      "name": "hHash",
+      "type": ""
+    },
+    {
+      "name": "hKey",
+      "type": ""
+    },
+    {
+      "name": "dwFlags",
+      "enum": "18968"
+    }
+  ],
+  "varargs": false
+}

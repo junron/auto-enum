@@ -1,0 +1,10 @@
+{
+  "name": "CreateIconFromResourceEx",
+  "args": [
+    {
+      "name": "Flags",
+      "enum": "LR"
+    }
+  ],
+  "varargs": false
+}

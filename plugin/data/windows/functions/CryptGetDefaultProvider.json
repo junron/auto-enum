@@ -1,6 +1,0 @@
-{
-  "name": "CryptGetDefaultProvider",
-  "enums": {
-    "dwFlags": "CRYPT_3"
-  }
-}

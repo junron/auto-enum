@@ -1,6 +1,0 @@
-{
-  "name": "SetFileAttributesTransacted",
-  "enums": {
-    "dwFileAttributes": "FILE_ATTRIBUTE_1"
-  }
-}

@@ -1,0 +1,14 @@
+{
+  "name": "WinHttpResetAutoProxy",
+  "args": [
+    {
+      "name": "hSession",
+      "type": ""
+    },
+    {
+      "name": "dwFlags",
+      "enum": "WINHTTP_RESET"
+    }
+  ],
+  "varargs": false
+}

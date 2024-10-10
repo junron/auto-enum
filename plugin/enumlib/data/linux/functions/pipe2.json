@@ -1,0 +1,14 @@
+{
+  "name": "pipe2",
+  "args": [
+    {
+      "name": "arg0",
+      "type": "void*"
+    },
+    {
+      "name": "flags",
+      "enum": "O_3"
+    }
+  ],
+  "varargs": false
+}

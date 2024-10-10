@@ -1,0 +1,22 @@
+{
+  "name": "GetFinalPathNameByHandle",
+  "args": [
+    {
+      "name": "hFile",
+      "type": ""
+    },
+    {
+      "name": "lpszFilePath",
+      "type": ""
+    },
+    {
+      "name": "cchFilePath",
+      "type": ""
+    },
+    {
+      "name": "dwFlags",
+      "enum": "28697"
+    }
+  ],
+  "varargs": false
+}

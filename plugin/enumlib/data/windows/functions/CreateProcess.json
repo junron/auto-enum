@@ -1,0 +1,46 @@
+{
+  "name": "CreateProcess",
+  "args": [
+    {
+      "name": "lpApplicationName",
+      "type": ""
+    },
+    {
+      "name": "lpCommandLine",
+      "type": ""
+    },
+    {
+      "name": "lpProcessAttributes",
+      "type": ""
+    },
+    {
+      "name": "lpThreadAttributes",
+      "type": ""
+    },
+    {
+      "name": "bInheritHandles",
+      "type": ""
+    },
+    {
+      "name": "dwCreationFlags",
+      "enum": "95950"
+    },
+    {
+      "name": "lpEnvironment",
+      "type": ""
+    },
+    {
+      "name": "lpCurrentDirectory",
+      "type": ""
+    },
+    {
+      "name": "lpStartupInfo",
+      "type": ""
+    },
+    {
+      "name": "lpProcessInformation",
+      "type": ""
+    }
+  ],
+  "varargs": false
+}

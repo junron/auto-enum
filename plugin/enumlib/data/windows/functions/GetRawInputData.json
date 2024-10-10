@@ -1,0 +1,22 @@
+{
+  "name": "GetRawInputData",
+  "args": [
+    {
+      "name": "hRawInput",
+      "type": ""
+    },
+    {
+      "name": "uiCommand",
+      "enum": "RID"
+    },
+    {
+      "name": "pData",
+      "type": ""
+    },
+    {
+      "name": "pcbSize",
+      "type": ""
+    }
+  ],
+  "varargs": false
+}

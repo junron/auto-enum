@@ -1,0 +1,10 @@
+{
+  "name": "SetThreadExecutionState",
+  "args": [
+    {
+      "name": "esFlags",
+      "enum": "ES"
+    }
+  ],
+  "varargs": false
+}

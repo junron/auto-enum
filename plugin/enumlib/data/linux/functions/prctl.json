@@ -1,0 +1,26 @@
+{
+  "name": "prctl",
+  "args": [
+    {
+      "name": "option",
+      "enum": "PR"
+    },
+    {
+      "name": "arg2",
+      "type": "unsigned long"
+    },
+    {
+      "name": "arg3",
+      "type": "unsigned long"
+    },
+    {
+      "name": "arg4",
+      "type": "unsigned long"
+    },
+    {
+      "name": "arg5",
+      "type": "unsigned long"
+    }
+  ],
+  "varargs": false
+}

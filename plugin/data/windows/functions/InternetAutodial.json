@@ -1,6 +1,0 @@
-{
-  "name": "InternetAutodial",
-  "enums": {
-    "dwFlags": "INTERNET_AUTODIAL"
-  }
-}

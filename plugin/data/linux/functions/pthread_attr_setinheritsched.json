@@ -1,6 +1,0 @@
-{
-  "name": "pthread_attr_setinheritsched",
-  "enums": {
-    "inheritsched": "PTHREAD"
-  }
-}

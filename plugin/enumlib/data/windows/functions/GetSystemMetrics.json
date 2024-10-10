@@ -1,0 +1,10 @@
+{
+  "name": "GetSystemMetrics",
+  "args": [
+    {
+      "name": "nIndex",
+      "enum": "SM"
+    }
+  ],
+  "varargs": false
+}

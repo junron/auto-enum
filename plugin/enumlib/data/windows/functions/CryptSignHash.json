@@ -1,0 +1,22 @@
+{
+  "name": "CryptSignHash",
+  "args": [
+    {
+      "name": "hHash",
+      "type": ""
+    },
+    {
+      "name": "dwFlags",
+      "enum": "CRYPT_4"
+    },
+    {
+      "name": "pbSignature",
+      "type": ""
+    },
+    {
+      "name": "pdwSigLen",
+      "type": ""
+    }
+  ],
+  "varargs": false
+}

@@ -1,0 +1,22 @@
+{
+  "name": "PFXExportCertStoreEx",
+  "args": [
+    {
+      "name": "hStore",
+      "type": ""
+    },
+    {
+      "name": "pPFX",
+      "type": ""
+    },
+    {
+      "name": "pvPara",
+      "type": ""
+    },
+    {
+      "name": "dwFlags",
+      "enum": "91490"
+    }
+  ],
+  "varargs": false
+}

@@ -1,0 +1,10 @@
+{
+  "name": "OpenCommPort",
+  "args": [
+    {
+      "name": "dwFlagsAndAttributes",
+      "enum": "73346"
+    }
+  ],
+  "varargs": false
+}

@@ -1,0 +1,26 @@
+{
+  "name": "GetTapePosition",
+  "args": [
+    {
+      "name": "hDevice",
+      "type": ""
+    },
+    {
+      "name": "dwPositionType",
+      "enum": "TAPE_4"
+    },
+    {
+      "name": "lpdwPartition",
+      "type": ""
+    },
+    {
+      "name": "lpdwOffsetLow",
+      "type": ""
+    },
+    {
+      "name": "lpdwOffsetHigh",
+      "type": ""
+    }
+  ],
+  "varargs": false
+}

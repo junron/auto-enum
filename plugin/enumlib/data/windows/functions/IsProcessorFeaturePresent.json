@@ -1,0 +1,10 @@
+{
+  "name": "IsProcessorFeaturePresent",
+  "args": [
+    {
+      "name": "ProcessorFeature",
+      "enum": "PF"
+    }
+  ],
+  "varargs": false
+}

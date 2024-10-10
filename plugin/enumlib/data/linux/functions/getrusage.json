@@ -1,0 +1,14 @@
+{
+  "name": "getrusage",
+  "args": [
+    {
+      "name": "who",
+      "enum": "RUSAGE"
+    },
+    {
+      "name": "usage",
+      "type": "struct rusage *"
+    }
+  ],
+  "varargs": false
+}

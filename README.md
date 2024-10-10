@@ -1,5 +1,5 @@
 # Auto Enum
-IDA Plugin to automatically identify and set enums for standard functions
+IDA/Binary Ninja Plugin to automatically identify and set enums for standard functions
 
 ## Demo
 
@@ -20,13 +20,13 @@ See [`demo-win.cpp`](./demo/demo-win.cpp) for the source code.
 
 ## Plugin Installation
 
-Copy `plugin/*` to your IDA Plugin directory. No dependencies required.
+Copy `plugin/*` to your IDA/Binary Ninja Plugin directory. No dependencies required.
 
-## TIL patching
+## TIL patching for IDA
 
 Auto-enum can be integrated directly into the type library (TIL) files, allowing for enum loading without the plugin's installation. However, per-call analysis will only be available if the plugin is installed.
 
-To modify the TIL files, run the following commands in the `plugins` directory:
+To modify the TIL files, run the following commands in the `plugin/enumlib/scripts` directory:
 ```shell
 # Generate for linux
 python3 apply_to_til.py --platform linux --overwrite

@@ -1,0 +1,14 @@
+{
+  "name": "GetNextWindow",
+  "args": [
+    {
+      "name": "hWnd",
+      "type": ""
+    },
+    {
+      "name": "wCmd",
+      "enum": "15875"
+    }
+  ],
+  "varargs": false
+}

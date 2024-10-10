@@ -1,0 +1,22 @@
+{
+  "name": "SetFirmwareEnvironmentVariableEx",
+  "args": [
+    {
+      "name": "lpName",
+      "type": ""
+    },
+    {
+      "name": "lpGuid",
+      "type": ""
+    },
+    {
+      "name": "pValue",
+      "type": ""
+    },
+    {
+      "name": "dwAttributes",
+      "enum": "VARIABLE_ATTRIBUTE"
+    }
+  ],
+  "varargs": false
+}

@@ -1,0 +1,22 @@
+{
+  "name": "msgsnd",
+  "args": [
+    {
+      "name": "msqid",
+      "type": "int"
+    },
+    {
+      "name": "msgp",
+      "type": "const void *"
+    },
+    {
+      "name": "msgsz",
+      "type": "size_t"
+    },
+    {
+      "name": "msgflg",
+      "enum": "12245"
+    }
+  ],
+  "varargs": false
+}

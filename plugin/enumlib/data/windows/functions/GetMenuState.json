@@ -1,0 +1,14 @@
+{
+  "name": "GetMenuState",
+  "args": [
+    {
+      "name": "hMenu",
+      "type": ""
+    },
+    {
+      "name": "uFlags",
+      "enum": "80379"
+    }
+  ],
+  "varargs": false
+}

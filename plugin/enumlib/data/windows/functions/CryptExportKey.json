@@ -1,0 +1,26 @@
+{
+  "name": "CryptExportKey",
+  "args": [
+    {
+      "name": "hKey",
+      "type": ""
+    },
+    {
+      "name": "hExpKey",
+      "type": ""
+    },
+    {
+      "name": "dwFlags",
+      "enum": "CRYPT_5"
+    },
+    {
+      "name": "pbData",
+      "type": ""
+    },
+    {
+      "name": "pdwDataLen",
+      "type": ""
+    }
+  ],
+  "varargs": false
+}

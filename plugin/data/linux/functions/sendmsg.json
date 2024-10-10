@@ -1,6 +1,0 @@
-{
-  "name": "sendmsg",
-  "enums": {
-    "flags": "MSG_1"
-  }
-}

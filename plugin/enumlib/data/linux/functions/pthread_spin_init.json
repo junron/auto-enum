@@ -1,0 +1,14 @@
+{
+  "name": "pthread_spin_init",
+  "args": [
+    {
+      "name": "lock",
+      "type": "pthread_spinlock_t *"
+    },
+    {
+      "name": "pshared",
+      "enum": "PTHREAD_PROCESS"
+    }
+  ],
+  "varargs": false
+}

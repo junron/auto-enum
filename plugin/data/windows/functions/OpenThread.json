@@ -1,6 +1,0 @@
-{
-  "name": "OpenThread",
-  "enums": {
-    "dwDesiredAccess": "THREAD"
-  }
-}

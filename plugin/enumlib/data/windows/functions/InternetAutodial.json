@@ -1,0 +1,14 @@
+{
+  "name": "InternetAutodial",
+  "args": [
+    {
+      "name": "dwFlags",
+      "enum": "INTERNET_AUTODIAL"
+    },
+    {
+      "name": "hwndParent",
+      "type": ""
+    }
+  ],
+  "varargs": false
+}

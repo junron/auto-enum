@@ -1,0 +1,14 @@
+{
+  "name": "ulimit",
+  "args": [
+    {
+      "name": "cmd",
+      "enum": "UL"
+    },
+    {
+      "name": "newlimit",
+      "type": "long"
+    }
+  ],
+  "varargs": false
+}

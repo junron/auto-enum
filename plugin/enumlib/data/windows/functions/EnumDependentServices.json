@@ -1,0 +1,26 @@
+{
+  "name": "EnumDependentServices",
+  "args": [
+    {
+      "name": "hService",
+      "type": ""
+    },
+    {
+      "name": "dwServiceState",
+      "enum": "SERVICE_3"
+    },
+    {
+      "name": "lpServices",
+      "type": ""
+    },
+    {
+      "name": "pcbBytesNeeded",
+      "type": ""
+    },
+    {
+      "name": "lpServicesReturned",
+      "type": ""
+    }
+  ],
+  "varargs": false
+}

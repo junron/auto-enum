@@ -1,0 +1,14 @@
+{
+  "name": "CryptFindOIDInfo",
+  "args": [
+    {
+      "name": "dwKeyType",
+      "enum": "29460"
+    },
+    {
+      "name": "pvKey",
+      "type": ""
+    }
+  ],
+  "varargs": false
+}

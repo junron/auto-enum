@@ -1,0 +1,26 @@
+{
+  "name": "setxattr",
+  "args": [
+    {
+      "name": "path",
+      "type": "const char\\ *"
+    },
+    {
+      "name": "name",
+      "type": "const char\\ *"
+    },
+    {
+      "name": "value",
+      "type": "const void\\ *"
+    },
+    {
+      "name": "size",
+      "type": "size_t"
+    },
+    {
+      "name": "flags",
+      "enum": "XATTR"
+    }
+  ],
+  "varargs": false
+}

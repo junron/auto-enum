@@ -1,0 +1,22 @@
+{
+  "name": "GetUserObjectInformation",
+  "args": [
+    {
+      "name": "hObj",
+      "type": ""
+    },
+    {
+      "name": "nIndex",
+      "enum": "UOI"
+    },
+    {
+      "name": "pvInfo",
+      "type": ""
+    },
+    {
+      "name": "lpnLengthNeeded",
+      "type": ""
+    }
+  ],
+  "varargs": false
+}

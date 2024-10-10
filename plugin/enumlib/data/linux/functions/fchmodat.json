@@ -1,0 +1,22 @@
+{
+  "name": "fchmodat",
+  "args": [
+    {
+      "name": "dirfd",
+      "type": "int"
+    },
+    {
+      "name": "pathname",
+      "type": "const char *"
+    },
+    {
+      "name": "mode",
+      "type": "mode_t"
+    },
+    {
+      "name": "flags",
+      "enum": "13532"
+    }
+  ],
+  "varargs": false
+}

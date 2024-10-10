@@ -1,0 +1,26 @@
+{
+  "name": "ReportEvent",
+  "args": [
+    {
+      "name": "hEventLog",
+      "type": ""
+    },
+    {
+      "name": "wType",
+      "enum": "EVENTLOG_1"
+    },
+    {
+      "name": "lpUserSid",
+      "type": ""
+    },
+    {
+      "name": "lpStrings",
+      "type": ""
+    },
+    {
+      "name": "lpRawData",
+      "type": ""
+    }
+  ],
+  "varargs": false
+}

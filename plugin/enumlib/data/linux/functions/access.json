@@ -1,0 +1,14 @@
+{
+  "name": "access",
+  "args": [
+    {
+      "name": "pathname",
+      "type": "const char *"
+    },
+    {
+      "name": "mode",
+      "enum": "53482"
+    }
+  ],
+  "varargs": false
+}

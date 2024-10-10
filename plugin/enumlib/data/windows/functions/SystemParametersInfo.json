@@ -1,0 +1,14 @@
+{
+  "name": "SystemParametersInfo",
+  "args": [
+    {
+      "name": "uiAction",
+      "enum": "SPI"
+    },
+    {
+      "name": "pvParam",
+      "type": ""
+    }
+  ],
+  "varargs": false
+}

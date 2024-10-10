@@ -1,0 +1,10 @@
+{
+  "name": "MessageBeep",
+  "args": [
+    {
+      "name": "uType",
+      "enum": "MB"
+    }
+  ],
+  "varargs": false
+}

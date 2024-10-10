@@ -1,0 +1,18 @@
+{
+  "name": "sendmsg",
+  "args": [
+    {
+      "name": "sockfd",
+      "type": "int"
+    },
+    {
+      "name": "msg",
+      "type": "const struct msghdr *"
+    },
+    {
+      "name": "flags",
+      "enum": "MSG_1"
+    }
+  ],
+  "varargs": false
+}

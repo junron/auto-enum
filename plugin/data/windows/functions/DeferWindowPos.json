@@ -1,6 +1,0 @@
-{
-  "name": "DeferWindowPos",
-  "enums": {
-    "uFlags": "SWP"
-  }
-}

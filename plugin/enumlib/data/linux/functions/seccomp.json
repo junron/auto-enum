@@ -1,0 +1,18 @@
+{
+  "name": "seccomp",
+  "args": [
+    {
+      "name": "operation",
+      "enum": "SECCOMP"
+    },
+    {
+      "name": "flags",
+      "type": "unsigned int"
+    },
+    {
+      "name": "args",
+      "type": "void *"
+    }
+  ],
+  "varargs": false
+}

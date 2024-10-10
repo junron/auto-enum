@@ -1,6 +1,0 @@
-{
-  "name": "setrlimit",
-  "enums": {
-    "resource": "RLIMIT"
-  }
-}

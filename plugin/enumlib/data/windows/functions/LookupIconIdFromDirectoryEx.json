@@ -1,0 +1,10 @@
+{
+  "name": "LookupIconIdFromDirectoryEx",
+  "args": [
+    {
+      "name": "Flags",
+      "enum": "LR_1"
+    }
+  ],
+  "varargs": false
+}

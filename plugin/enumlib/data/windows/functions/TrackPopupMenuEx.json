@@ -1,0 +1,18 @@
+{
+  "name": "TrackPopupMenuEx",
+  "args": [
+    {
+      "name": "hMenu",
+      "type": ""
+    },
+    {
+      "name": "uFlags",
+      "enum": "TPM_2"
+    },
+    {
+      "name": "hwnd",
+      "type": ""
+    }
+  ],
+  "varargs": false
+}

@@ -1,0 +1,26 @@
+{
+  "name": "fanotify_mark",
+  "args": [
+    {
+      "name": "fanotify_fd",
+      "type": "int"
+    },
+    {
+      "name": "flags",
+      "enum": "FAN_MARK"
+    },
+    {
+      "name": "mask",
+      "type": "uint64_t"
+    },
+    {
+      "name": "dirfd",
+      "type": "int"
+    },
+    {
+      "name": "pathname",
+      "type": "const char *"
+    }
+  ],
+  "varargs": false
+}

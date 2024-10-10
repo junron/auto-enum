@@ -1,0 +1,22 @@
+{
+  "name": "AddConditionalAce",
+  "args": [
+    {
+      "name": "pAcl",
+      "type": ""
+    },
+    {
+      "name": "AceType",
+      "enum": "34279"
+    },
+    {
+      "name": "pSid",
+      "type": ""
+    },
+    {
+      "name": "ReturnLength",
+      "type": ""
+    }
+  ],
+  "varargs": false
+}

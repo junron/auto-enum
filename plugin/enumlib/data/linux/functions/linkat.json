@@ -1,0 +1,26 @@
+{
+  "name": "linkat",
+  "args": [
+    {
+      "name": "olddirfd",
+      "type": "int"
+    },
+    {
+      "name": "oldpath",
+      "type": "const char *"
+    },
+    {
+      "name": "newdirfd",
+      "type": "int"
+    },
+    {
+      "name": "newpath",
+      "type": "const char *"
+    },
+    {
+      "name": "flags",
+      "enum": "AT_3"
+    }
+  ],
+  "varargs": false
+}

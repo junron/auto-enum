@@ -1,6 +1,0 @@
-{
-  "name": "CertGetCertificateChain",
-  "enums": {
-    "dwFlags": "CERT_CHAIN"
-  }
-}

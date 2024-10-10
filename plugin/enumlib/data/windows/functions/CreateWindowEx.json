@@ -1,0 +1,34 @@
+{
+  "name": "CreateWindowEx",
+  "args": [
+    {
+      "name": "dwExStyle",
+      "enum": "WS_EX"
+    },
+    {
+      "name": "lpClassName",
+      "type": ""
+    },
+    {
+      "name": "lpWindowName",
+      "type": ""
+    },
+    {
+      "name": "hWndParent",
+      "type": ""
+    },
+    {
+      "name": "hMenu",
+      "type": ""
+    },
+    {
+      "name": "hInstance",
+      "type": ""
+    },
+    {
+      "name": "lpParam",
+      "type": ""
+    }
+  ],
+  "varargs": false
+}

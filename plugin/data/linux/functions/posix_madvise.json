@@ -1,6 +1,0 @@
-{
-  "name": "posix_madvise",
-  "enums": {
-    "advice": "POSIX_MADV"
-  }
-}

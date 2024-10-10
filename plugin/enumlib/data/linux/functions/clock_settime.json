@@ -1,0 +1,14 @@
+{
+  "name": "clock_settime",
+  "args": [
+    {
+      "name": "clockid",
+      "enum": "CLOCK"
+    },
+    {
+      "name": "tp",
+      "type": "const struct timespec *"
+    }
+  ],
+  "varargs": false
+}

@@ -1,0 +1,10 @@
+{
+  "name": "RequestWakeupLatency",
+  "args": [
+    {
+      "name": "latency",
+      "enum": "LT"
+    }
+  ],
+  "varargs": false
+}

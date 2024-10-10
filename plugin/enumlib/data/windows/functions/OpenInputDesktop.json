@@ -1,0 +1,10 @@
+{
+  "name": "OpenInputDesktop",
+  "args": [
+    {
+      "name": "dwFlags",
+      "enum": "23806"
+    }
+  ],
+  "varargs": false
+}

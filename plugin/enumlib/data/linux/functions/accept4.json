@@ -1,0 +1,22 @@
+{
+  "name": "accept4",
+  "args": [
+    {
+      "name": "sockfd",
+      "type": "int"
+    },
+    {
+      "name": "addr",
+      "type": "struct sockaddr *"
+    },
+    {
+      "name": "addrlen",
+      "type": "socklen_t *"
+    },
+    {
+      "name": "flags",
+      "enum": "SOCK"
+    }
+  ],
+  "varargs": false
+}

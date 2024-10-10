@@ -1,0 +1,22 @@
+{
+  "name": "GetRawInputDeviceInfo",
+  "args": [
+    {
+      "name": "hDevice",
+      "type": ""
+    },
+    {
+      "name": "uiCommand",
+      "enum": "RIDI"
+    },
+    {
+      "name": "pData",
+      "type": ""
+    },
+    {
+      "name": "pcbSize",
+      "type": ""
+    }
+  ],
+  "varargs": false
+}

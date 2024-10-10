@@ -1,0 +1,14 @@
+{
+  "name": "SetCommMask",
+  "args": [
+    {
+      "name": "hFile",
+      "type": ""
+    },
+    {
+      "name": "dwEvtMask",
+      "enum": "EV"
+    }
+  ],
+  "varargs": false
+}

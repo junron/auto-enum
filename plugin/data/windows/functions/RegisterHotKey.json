@@ -1,7 +1,0 @@
-{
-  "name": "RegisterHotKey",
-  "enums": {
-    "fsModifiers": "MOD",
-    "vk": "10948"
-  }
-}

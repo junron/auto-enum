@@ -1,0 +1,14 @@
+{
+  "name": "SetWindowLong",
+  "args": [
+    {
+      "name": "hWnd",
+      "type": ""
+    },
+    {
+      "name": "nIndex",
+      "enum": "24759"
+    }
+  ],
+  "varargs": false
+}

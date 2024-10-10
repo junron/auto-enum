@@ -1,0 +1,14 @@
+{
+  "name": "CheckMenuItem",
+  "args": [
+    {
+      "name": "hMenu",
+      "type": ""
+    },
+    {
+      "name": "uCheck",
+      "enum": "MF_4"
+    }
+  ],
+  "varargs": false
+}

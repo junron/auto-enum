@@ -1,0 +1,14 @@
+{
+  "name": "memfd_create",
+  "args": [
+    {
+      "name": "name",
+      "type": "const char *"
+    },
+    {
+      "name": "flags",
+      "enum": "MFD"
+    }
+  ],
+  "varargs": false
+}

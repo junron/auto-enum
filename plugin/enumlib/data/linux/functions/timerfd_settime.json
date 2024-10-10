@@ -1,0 +1,22 @@
+{
+  "name": "timerfd_settime",
+  "args": [
+    {
+      "name": "fd",
+      "type": "int"
+    },
+    {
+      "name": "flags",
+      "enum": "TFD"
+    },
+    {
+      "name": "new_value",
+      "type": "const struct itimerspec *"
+    },
+    {
+      "name": "old_value",
+      "type": "struct itimerspec *"
+    }
+  ],
+  "varargs": false
+}

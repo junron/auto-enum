@@ -1,6 +1,0 @@
-{
-  "name": "seccomp",
-  "enums": {
-    "operation": "SECCOMP"
-  }
-}

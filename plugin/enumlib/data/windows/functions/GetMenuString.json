@@ -1,0 +1,22 @@
+{
+  "name": "GetMenuString",
+  "args": [
+    {
+      "name": "hMenu",
+      "type": ""
+    },
+    {
+      "name": "lpString",
+      "type": ""
+    },
+    {
+      "name": "cchMax",
+      "type": ""
+    },
+    {
+      "name": "flags",
+      "enum": "80379"
+    }
+  ],
+  "varargs": false
+}

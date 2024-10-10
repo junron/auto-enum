@@ -1,0 +1,10 @@
+{
+  "name": "SetProcessDefaultLayout",
+  "args": [
+    {
+      "name": "dwDefaultLayout",
+      "enum": "29363"
+    }
+  ],
+  "varargs": false
+}

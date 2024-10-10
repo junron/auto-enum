@@ -1,6 +1,0 @@
-{
-  "name": "ReportEvent",
-  "enums": {
-    "wType": "EVENTLOG_1"
-  }
-}

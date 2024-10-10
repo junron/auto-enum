@@ -1,6 +1,0 @@
-{
-  "name": "mq_open",
-  "enums": {
-    "oflag": "O_1"
-  }
-}

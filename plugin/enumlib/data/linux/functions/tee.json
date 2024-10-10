@@ -1,0 +1,22 @@
+{
+  "name": "tee",
+  "args": [
+    {
+      "name": "fd_in",
+      "type": "int"
+    },
+    {
+      "name": "fd_out",
+      "type": "int"
+    },
+    {
+      "name": "len",
+      "type": "size_t"
+    },
+    {
+      "name": "flags",
+      "enum": "SPLICE_F"
+    }
+  ],
+  "varargs": false
+}

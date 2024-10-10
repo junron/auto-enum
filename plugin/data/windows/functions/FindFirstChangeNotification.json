@@ -1,6 +1,0 @@
-{
-  "name": "FindFirstChangeNotification",
-  "enums": {
-    "dwNotifyFilter": "FILE_NOTIFY_CHANGE"
-  }
-}

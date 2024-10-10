@@ -1,6 +1,0 @@
-{
-  "name": "regcomp",
-  "enums": {
-    "cflags": "REG"
-  }
-}

@@ -1,0 +1,18 @@
+{
+  "name": "recvmsg",
+  "args": [
+    {
+      "name": "sockfd",
+      "type": "int"
+    },
+    {
+      "name": "msg",
+      "type": "struct msghdr *"
+    },
+    {
+      "name": "flags",
+      "enum": "MSG"
+    }
+  ],
+  "varargs": false
+}

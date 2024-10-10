@@ -1,6 +1,0 @@
-{
-  "name": "prlimit",
-  "enums": {
-    "resource": "RLIMIT"
-  }
-}

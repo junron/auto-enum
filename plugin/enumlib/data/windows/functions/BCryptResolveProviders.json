@@ -1,0 +1,34 @@
+{
+  "name": "BCryptResolveProviders",
+  "args": [
+    {
+      "name": "pszContext",
+      "type": ""
+    },
+    {
+      "name": "dwInterface",
+      "enum": "14720"
+    },
+    {
+      "name": "pszFunction",
+      "type": ""
+    },
+    {
+      "name": "pszProvider",
+      "type": ""
+    },
+    {
+      "name": "dwFlags",
+      "enum": "CRYPT_ALL"
+    },
+    {
+      "name": "pcbBuffer",
+      "type": ""
+    },
+    {
+      "name": "ppBuffer",
+      "type": ""
+    }
+  ],
+  "varargs": false
+}

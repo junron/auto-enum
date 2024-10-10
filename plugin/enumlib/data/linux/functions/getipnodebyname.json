@@ -1,0 +1,22 @@
+{
+  "name": "getipnodebyname",
+  "args": [
+    {
+      "name": "name",
+      "type": "const char *"
+    },
+    {
+      "name": "af",
+      "enum": "AF"
+    },
+    {
+      "name": "flags",
+      "enum": "AI"
+    },
+    {
+      "name": "error_num",
+      "type": "int *"
+    }
+  ],
+  "varargs": false
+}

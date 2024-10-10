@@ -1,0 +1,30 @@
+{
+  "name": "recvfrom",
+  "args": [
+    {
+      "name": "sockfd",
+      "type": "int"
+    },
+    {
+      "name": "buf",
+      "type": "void *"
+    },
+    {
+      "name": "len",
+      "type": "size_t"
+    },
+    {
+      "name": "flags",
+      "enum": "MSG"
+    },
+    {
+      "name": "src_addr",
+      "type": "struct sockaddr *"
+    },
+    {
+      "name": "addrlen",
+      "type": "socklen_t *"
+    }
+  ],
+  "varargs": false
+}

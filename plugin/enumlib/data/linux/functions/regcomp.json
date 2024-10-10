@@ -1,0 +1,18 @@
+{
+  "name": "regcomp",
+  "args": [
+    {
+      "name": "preg",
+      "type": "regex_t *"
+    },
+    {
+      "name": "regex",
+      "type": "const char *"
+    },
+    {
+      "name": "cflags",
+      "enum": "REG"
+    }
+  ],
+  "varargs": false
+}

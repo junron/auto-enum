@@ -1,6 +1,0 @@
-{
-  "name": "madvise",
-  "enums": {
-    "advice": "MADV"
-  }
-}

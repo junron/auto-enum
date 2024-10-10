@@ -1,6 +1,0 @@
-{
-  "name": "CryptMsgControl",
-  "enums": {
-    "dwCtrlType": "CMSG_CTRL"
-  }
-}

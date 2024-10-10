@@ -1,0 +1,26 @@
+{
+  "name": "msgrcv",
+  "args": [
+    {
+      "name": "msqid",
+      "type": "int"
+    },
+    {
+      "name": "msgp",
+      "type": "void *"
+    },
+    {
+      "name": "msgsz",
+      "type": "size_t"
+    },
+    {
+      "name": "msgtyp",
+      "type": "long"
+    },
+    {
+      "name": "msgflg",
+      "enum": "12245"
+    }
+  ],
+  "varargs": false
+}

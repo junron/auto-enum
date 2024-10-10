@@ -1,0 +1,10 @@
+{
+  "name": "GetKeyNameText",
+  "args": [
+    {
+      "name": "lParam",
+      "enum": "14420"
+    }
+  ],
+  "varargs": false
+}

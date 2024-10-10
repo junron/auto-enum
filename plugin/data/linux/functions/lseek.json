@@ -1,6 +1,0 @@
-{
-  "name": "lseek",
-  "enums": {
-    "whence": "SEEK"
-  }
-}

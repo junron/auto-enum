@@ -1,6 +1,0 @@
-{
-  "name": "sched_get_priority_max",
-  "enums": {
-    "policy": "SCHED"
-  }
-}

@@ -1,0 +1,26 @@
+{
+  "name": "remap_file_pages",
+  "args": [
+    {
+      "name": "addr",
+      "type": "void *"
+    },
+    {
+      "name": "size",
+      "type": "size_t"
+    },
+    {
+      "name": "prot",
+      "enum": "PROT_1"
+    },
+    {
+      "name": "pgoff",
+      "type": "size_t"
+    },
+    {
+      "name": "flags",
+      "enum": "MAP_1"
+    }
+  ],
+  "varargs": false
+}

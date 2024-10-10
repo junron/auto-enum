@@ -1,0 +1,18 @@
+{
+  "name": "InsertMenu",
+  "args": [
+    {
+      "name": "hMenu",
+      "type": ""
+    },
+    {
+      "name": "uFlags",
+      "enum": "MF_1"
+    },
+    {
+      "name": "lpNewItem",
+      "type": ""
+    }
+  ],
+  "varargs": false
+}

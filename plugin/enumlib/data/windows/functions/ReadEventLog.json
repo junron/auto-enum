@@ -1,0 +1,26 @@
+{
+  "name": "ReadEventLog",
+  "args": [
+    {
+      "name": "hEventLog",
+      "type": ""
+    },
+    {
+      "name": "dwReadFlags",
+      "enum": "EVENTLOG"
+    },
+    {
+      "name": "lpBuffer",
+      "type": ""
+    },
+    {
+      "name": "pnBytesRead",
+      "type": ""
+    },
+    {
+      "name": "pnMinNumberOfBytesNeeded",
+      "type": ""
+    }
+  ],
+  "varargs": false
+}

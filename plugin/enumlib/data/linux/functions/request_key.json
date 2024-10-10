@@ -1,0 +1,22 @@
+{
+  "name": "request_key",
+  "args": [
+    {
+      "name": "type",
+      "type": "const char *"
+    },
+    {
+      "name": "description",
+      "type": "const char *"
+    },
+    {
+      "name": "callout_info",
+      "type": "const char *"
+    },
+    {
+      "name": "dest_keyring",
+      "enum": "KEY_SPEC"
+    }
+  ],
+  "varargs": false
+}

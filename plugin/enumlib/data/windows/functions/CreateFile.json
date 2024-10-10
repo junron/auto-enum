@@ -1,0 +1,34 @@
+{
+  "name": "CreateFile",
+  "args": [
+    {
+      "name": "lpFileName",
+      "type": ""
+    },
+    {
+      "name": "dwDesiredAccess",
+      "enum": "98361"
+    },
+    {
+      "name": "dwShareMode",
+      "enum": "FILE_SHARE"
+    },
+    {
+      "name": "lpSecurityAttributes",
+      "type": ""
+    },
+    {
+      "name": "dwCreationDisposition",
+      "enum": "23344"
+    },
+    {
+      "name": "dwFlagsAndAttributes",
+      "enum": "FILE_1"
+    },
+    {
+      "name": "hTemplateFile",
+      "type": ""
+    }
+  ],
+  "varargs": false
+}

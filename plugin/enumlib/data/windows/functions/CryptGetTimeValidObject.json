@@ -1,0 +1,34 @@
+{
+  "name": "CryptGetTimeValidObject",
+  "args": [
+    {
+      "name": "pszTimeValidOid",
+      "type": ""
+    },
+    {
+      "name": "pvPara",
+      "type": ""
+    },
+    {
+      "name": "pIssuer",
+      "type": ""
+    },
+    {
+      "name": "dwFlags",
+      "enum": "CRYPT_2"
+    },
+    {
+      "name": "ppvObject",
+      "type": ""
+    },
+    {
+      "name": "pCredentials",
+      "type": ""
+    },
+    {
+      "name": "pExtraInfo",
+      "type": ""
+    }
+  ],
+  "varargs": false
+}

@@ -1,0 +1,18 @@
+{
+  "name": "semctl",
+  "args": [
+    {
+      "name": "semid",
+      "type": "int"
+    },
+    {
+      "name": "semnum",
+      "type": "int"
+    },
+    {
+      "name": "cmd",
+      "enum": "17314"
+    }
+  ],
+  "varargs": true
+}

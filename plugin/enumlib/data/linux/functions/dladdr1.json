@@ -1,0 +1,22 @@
+{
+  "name": "dladdr1",
+  "args": [
+    {
+      "name": "addr",
+      "type": "const void *"
+    },
+    {
+      "name": "info",
+      "type": "Dl_info *"
+    },
+    {
+      "name": "extra_info",
+      "type": "void **"
+    },
+    {
+      "name": "flags",
+      "enum": "RTLD_DL"
+    }
+  ],
+  "varargs": false
+}

@@ -1,6 +1,0 @@
-{
-  "name": "request_key",
-  "enums": {
-    "dest_keyring": "KEY_SPEC"
-  }
-}

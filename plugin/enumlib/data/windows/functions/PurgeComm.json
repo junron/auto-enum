@@ -1,0 +1,14 @@
+{
+  "name": "PurgeComm",
+  "args": [
+    {
+      "name": "hFile",
+      "type": ""
+    },
+    {
+      "name": "dwFlags",
+      "enum": "PURGE"
+    }
+  ],
+  "varargs": false
+}

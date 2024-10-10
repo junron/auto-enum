@@ -1,0 +1,26 @@
+{
+  "name": "CreateFileMappingNuma",
+  "args": [
+    {
+      "name": "hFile",
+      "type": ""
+    },
+    {
+      "name": "lpFileMappingAttributes",
+      "type": ""
+    },
+    {
+      "name": "flProtect",
+      "enum": "49048"
+    },
+    {
+      "name": "lpName",
+      "type": ""
+    },
+    {
+      "name": "nndPreferred",
+      "enum": "13080"
+    }
+  ],
+  "varargs": false
+}

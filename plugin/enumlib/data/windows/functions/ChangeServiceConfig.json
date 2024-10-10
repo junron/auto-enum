@@ -1,0 +1,50 @@
+{
+  "name": "ChangeServiceConfig",
+  "args": [
+    {
+      "name": "hService",
+      "type": ""
+    },
+    {
+      "name": "dwServiceType",
+      "enum": "SERVICE_2"
+    },
+    {
+      "name": "dwStartType",
+      "enum": "SERVICE_1"
+    },
+    {
+      "name": "dwErrorControl",
+      "enum": "SERVICE_ERROR"
+    },
+    {
+      "name": "lpBinaryPathName",
+      "type": ""
+    },
+    {
+      "name": "lpLoadOrderGroup",
+      "type": ""
+    },
+    {
+      "name": "lpdwTagId",
+      "type": ""
+    },
+    {
+      "name": "lpDependencies",
+      "type": ""
+    },
+    {
+      "name": "lpServiceStartName",
+      "type": ""
+    },
+    {
+      "name": "lpPassword",
+      "type": ""
+    },
+    {
+      "name": "lpDisplayName",
+      "type": ""
+    }
+  ],
+  "varargs": false
+}

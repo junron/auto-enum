@@ -1,0 +1,18 @@
+{
+  "name": "setitimer",
+  "args": [
+    {
+      "name": "which",
+      "enum": "ITIMER"
+    },
+    {
+      "name": "new_value",
+      "type": "const struct itimerval *"
+    },
+    {
+      "name": "old_value",
+      "type": "struct itimerval *"
+    }
+  ],
+  "varargs": false
+}

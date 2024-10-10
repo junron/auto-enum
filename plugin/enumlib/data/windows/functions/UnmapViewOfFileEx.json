@@ -1,0 +1,10 @@
+{
+  "name": "UnmapViewOfFileEx",
+  "args": [
+    {
+      "name": "UnmapFlags",
+      "enum": "MEM_4"
+    }
+  ],
+  "varargs": false
+}

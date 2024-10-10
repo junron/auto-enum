@@ -1,0 +1,10 @@
+{
+  "name": "sigignore",
+  "args": [
+    {
+      "name": "sig",
+      "enum": "SIG"
+    }
+  ],
+  "varargs": false
+}

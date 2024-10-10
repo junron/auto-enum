@@ -1,0 +1,22 @@
+{
+  "name": "quotactl",
+  "args": [
+    {
+      "name": "cmd",
+      "enum": "24717"
+    },
+    {
+      "name": "special",
+      "type": "const char *"
+    },
+    {
+      "name": "id",
+      "type": "int"
+    },
+    {
+      "name": "addr",
+      "type": "caddr_t"
+    }
+  ],
+  "varargs": false
+}

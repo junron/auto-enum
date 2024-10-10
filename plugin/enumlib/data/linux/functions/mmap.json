@@ -1,0 +1,30 @@
+{
+  "name": "mmap",
+  "args": [
+    {
+      "name": "addr",
+      "type": "void *"
+    },
+    {
+      "name": "length",
+      "type": "size_t"
+    },
+    {
+      "name": "prot",
+      "enum": "PROT"
+    },
+    {
+      "name": "flags",
+      "enum": "MAP"
+    },
+    {
+      "name": "fd",
+      "type": "int"
+    },
+    {
+      "name": "offset",
+      "type": "off_t"
+    }
+  ],
+  "varargs": false
+}

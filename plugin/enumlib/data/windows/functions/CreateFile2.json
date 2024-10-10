@@ -1,0 +1,26 @@
+{
+  "name": "CreateFile2",
+  "args": [
+    {
+      "name": "lpFileName",
+      "type": ""
+    },
+    {
+      "name": "dwDesiredAccess",
+      "enum": "98361"
+    },
+    {
+      "name": "dwShareMode",
+      "enum": "FILE_SHARE"
+    },
+    {
+      "name": "dwCreationDisposition",
+      "enum": "23344"
+    },
+    {
+      "name": "pCreateExParams",
+      "type": ""
+    }
+  ],
+  "varargs": false
+}

@@ -1,0 +1,10 @@
+{
+  "name": "GetPriorityClipboardFormat",
+  "args": [
+    {
+      "name": "paFormatPriorityList",
+      "enum": "CF"
+    }
+  ],
+  "varargs": false
+}

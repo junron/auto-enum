@@ -1,0 +1,26 @@
+{
+  "name": "CryptCreateHash",
+  "args": [
+    {
+      "name": "hProv",
+      "type": ""
+    },
+    {
+      "name": "Algid",
+      "enum": "75770"
+    },
+    {
+      "name": "hKey",
+      "type": ""
+    },
+    {
+      "name": "dwFlags",
+      "enum": "28897"
+    },
+    {
+      "name": "phHash",
+      "type": ""
+    }
+  ],
+  "varargs": false
+}

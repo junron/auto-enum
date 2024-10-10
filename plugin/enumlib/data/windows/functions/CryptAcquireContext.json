@@ -1,0 +1,14 @@
+{
+  "name": "CryptAcquireContext",
+  "args": [
+    {
+      "name": "phProv",
+      "type": ""
+    },
+    {
+      "name": "szProvider",
+      "enum": "MS"
+    }
+  ],
+  "varargs": false
+}

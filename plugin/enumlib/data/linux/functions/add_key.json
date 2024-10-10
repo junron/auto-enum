@@ -1,0 +1,26 @@
+{
+  "name": "add_key",
+  "args": [
+    {
+      "name": "type",
+      "type": "const char *"
+    },
+    {
+      "name": "description",
+      "type": "const char *"
+    },
+    {
+      "name": "payload",
+      "type": "const void *"
+    },
+    {
+      "name": "plen",
+      "type": "size_t"
+    },
+    {
+      "name": "keyring",
+      "enum": "KEY_SPEC"
+    }
+  ],
+  "varargs": false
+}

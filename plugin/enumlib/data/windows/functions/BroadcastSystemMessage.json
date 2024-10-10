@@ -1,0 +1,14 @@
+{
+  "name": "BroadcastSystemMessage",
+  "args": [
+    {
+      "name": "flags",
+      "enum": "BSF"
+    },
+    {
+      "name": "lpInfo",
+      "type": ""
+    }
+  ],
+  "varargs": false
+}

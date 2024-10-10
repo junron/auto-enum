@@ -1,0 +1,26 @@
+{
+  "name": "name_to_handle_at",
+  "args": [
+    {
+      "name": "dirfd",
+      "type": "int"
+    },
+    {
+      "name": "pathname",
+      "type": "const char *"
+    },
+    {
+      "name": "handle",
+      "type": "struct file_handle *"
+    },
+    {
+      "name": "mount_id",
+      "type": "int *"
+    },
+    {
+      "name": "flags",
+      "enum": "AT_4"
+    }
+  ],
+  "varargs": false
+}

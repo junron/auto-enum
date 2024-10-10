@@ -1,0 +1,14 @@
+{
+  "name": "CryptSetProviderEx",
+  "args": [
+    {
+      "name": "pszProvName",
+      "type": ""
+    },
+    {
+      "name": "dwFlags",
+      "enum": "CRYPT"
+    }
+  ],
+  "varargs": false
+}

@@ -1,0 +1,14 @@
+{
+  "name": "pthread_rwlockattr_setkind_np",
+  "args": [
+    {
+      "name": "attr",
+      "type": "pthread_rwlockattr_t *"
+    },
+    {
+      "name": "pref",
+      "enum": "PTHREAD_RWLOCK_PREFER"
+    }
+  ],
+  "varargs": false
+}

@@ -1,0 +1,34 @@
+{
+  "name": "CryptVerifyCertificateSignatureEx",
+  "args": [
+    {
+      "name": "hCryptProv",
+      "type": ""
+    },
+    {
+      "name": "dwSubjectType",
+      "enum": "CRYPT_VERIFY_CERT_SIGN_SUBJECT"
+    },
+    {
+      "name": "pvSubject",
+      "type": ""
+    },
+    {
+      "name": "dwIssuerType",
+      "enum": "CRYPT_VERIFY_CERT_SIGN_ISSUER"
+    },
+    {
+      "name": "pvIssuer",
+      "type": ""
+    },
+    {
+      "name": "dwFlags",
+      "enum": "CRYPT_VERIFY_CERT_SIGN"
+    },
+    {
+      "name": "pvExtra",
+      "type": ""
+    }
+  ],
+  "varargs": false
+}

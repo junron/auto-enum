@@ -1,6 +1,0 @@
-{
-  "name": "RegisterWaitForSingleObject",
-  "enums": {
-    "dwFlags": "WT"
-  }
-}

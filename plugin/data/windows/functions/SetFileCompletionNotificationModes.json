@@ -1,6 +1,0 @@
-{
-  "name": "SetFileCompletionNotificationModes",
-  "enums": {
-    "Flags": "FILE_SKIP"
-  }
-}

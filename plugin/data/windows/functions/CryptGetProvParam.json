@@ -1,7 +1,0 @@
-{
-  "name": "CryptGetProvParam",
-  "enums": {
-    "dwParam": "PP",
-    "dwFlags": "CRYPT_4"
-  }
-}

@@ -1,6 +1,0 @@
-{
-  "name": "epoll_create1",
-  "enums": {
-    "flags": "16198"
-  }
-}

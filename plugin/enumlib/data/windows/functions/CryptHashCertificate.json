@@ -1,0 +1,22 @@
+{
+  "name": "CryptHashCertificate",
+  "args": [
+    {
+      "name": "hCryptProv",
+      "type": ""
+    },
+    {
+      "name": "Algid",
+      "enum": "75770"
+    },
+    {
+      "name": "pbComputedHash",
+      "type": ""
+    },
+    {
+      "name": "pcbComputedHash",
+      "type": ""
+    }
+  ],
+  "varargs": false
+}

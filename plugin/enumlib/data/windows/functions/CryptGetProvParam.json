@@ -1,0 +1,26 @@
+{
+  "name": "CryptGetProvParam",
+  "args": [
+    {
+      "name": "hProv",
+      "type": ""
+    },
+    {
+      "name": "dwParam",
+      "enum": "PP"
+    },
+    {
+      "name": "pbData",
+      "type": ""
+    },
+    {
+      "name": "pdwDataLen",
+      "type": ""
+    },
+    {
+      "name": "dwFlags",
+      "enum": "CRYPT_1"
+    }
+  ],
+  "varargs": false
+}

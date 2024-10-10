@@ -1,0 +1,26 @@
+{
+  "name": "CryptEncrypt",
+  "args": [
+    {
+      "name": "hKey",
+      "type": ""
+    },
+    {
+      "name": "hHash",
+      "type": ""
+    },
+    {
+      "name": "dwFlags",
+      "enum": "17971"
+    },
+    {
+      "name": "pbData",
+      "type": ""
+    },
+    {
+      "name": "pdwDataLen",
+      "type": ""
+    }
+  ],
+  "varargs": false
+}

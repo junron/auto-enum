@@ -1,0 +1,10 @@
+{
+  "name": "ChangeWindowMessageFilter",
+  "args": [
+    {
+      "name": "dwFlag",
+      "enum": "MSGFLT_1"
+    }
+  ],
+  "varargs": false
+}

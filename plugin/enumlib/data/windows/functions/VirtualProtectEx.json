@@ -1,0 +1,22 @@
+{
+  "name": "VirtualProtectEx",
+  "args": [
+    {
+      "name": "hProcess",
+      "type": ""
+    },
+    {
+      "name": "lpAddress",
+      "type": ""
+    },
+    {
+      "name": "flNewProtect",
+      "enum": "PAGE"
+    },
+    {
+      "name": "lpflOldProtect",
+      "type": ""
+    }
+  ],
+  "varargs": false
+}

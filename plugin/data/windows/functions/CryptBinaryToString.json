@@ -1,6 +1,0 @@
-{
-  "name": "CryptBinaryToString",
-  "enums": {
-    "dwFlags": "CRYPT_STRING"
-  }
-}

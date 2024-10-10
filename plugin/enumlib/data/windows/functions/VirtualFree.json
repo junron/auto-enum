@@ -1,0 +1,14 @@
+{
+  "name": "VirtualFree",
+  "args": [
+    {
+      "name": "lpAddress",
+      "type": ""
+    },
+    {
+      "name": "dwFreeType",
+      "enum": "MEM_3"
+    }
+  ],
+  "varargs": false
+}

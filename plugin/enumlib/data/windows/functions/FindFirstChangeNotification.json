@@ -1,0 +1,18 @@
+{
+  "name": "FindFirstChangeNotification",
+  "args": [
+    {
+      "name": "lpPathName",
+      "type": ""
+    },
+    {
+      "name": "bWatchSubtree",
+      "type": ""
+    },
+    {
+      "name": "dwNotifyFilter",
+      "enum": "FILE_NOTIFY_CHANGE"
+    }
+  ],
+  "varargs": false
+}

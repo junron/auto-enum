@@ -1,6 +1,0 @@
-{
-  "name": "pthread_attr_setscope",
-  "enums": {
-    "scope": "PTHREAD_SCOPE"
-  }
-}

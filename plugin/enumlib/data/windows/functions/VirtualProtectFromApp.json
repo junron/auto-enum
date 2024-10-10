@@ -1,0 +1,14 @@
+{
+  "name": "VirtualProtectFromApp",
+  "args": [
+    {
+      "name": "NewProtection",
+      "enum": "PAGE"
+    },
+    {
+      "name": "OldProtection",
+      "type": ""
+    }
+  ],
+  "varargs": false
+}

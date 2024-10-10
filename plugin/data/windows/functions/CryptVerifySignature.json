@@ -1,6 +1,0 @@
-{
-  "name": "CryptVerifySignature",
-  "enums": {
-    "dwFlags": "CRYPT_8"
-  }
-}

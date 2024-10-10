@@ -1,0 +1,10 @@
+{
+  "name": "reboot",
+  "args": [
+    {
+      "name": "cmd",
+      "enum": "LINUX_REBOOT_CMD"
+    }
+  ],
+  "varargs": false
+}

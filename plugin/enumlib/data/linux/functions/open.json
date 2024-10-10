@@ -1,0 +1,14 @@
+{
+  "name": "open",
+  "args": [
+    {
+      "name": "pathname",
+      "type": "const char*"
+    },
+    {
+      "name": "oflag",
+      "enum": "O_2"
+    }
+  ],
+  "varargs": false
+}

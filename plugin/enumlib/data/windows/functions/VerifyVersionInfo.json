@@ -1,0 +1,14 @@
+{
+  "name": "VerifyVersionInfo",
+  "args": [
+    {
+      "name": "lpVersionInformation",
+      "type": ""
+    },
+    {
+      "name": "dwTypeMask",
+      "enum": "VER"
+    }
+  ],
+  "varargs": false
+}

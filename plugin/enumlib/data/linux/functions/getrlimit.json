@@ -1,0 +1,14 @@
+{
+  "name": "getrlimit",
+  "args": [
+    {
+      "name": "resource",
+      "enum": "RLIMIT"
+    },
+    {
+      "name": "rlim",
+      "type": "struct rlimit *"
+    }
+  ],
+  "varargs": false
+}

@@ -1,6 +1,0 @@
-{
-  "name": "AdjustWindowRectEx",
-  "enums": {
-    "dwExStyle": "WS_EX"
-  }
-}

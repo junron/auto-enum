@@ -1,0 +1,10 @@
+{
+  "name": "SetSystemFileCacheSize",
+  "args": [
+    {
+      "name": "Flags",
+      "enum": "99072"
+    }
+  ],
+  "varargs": false
+}

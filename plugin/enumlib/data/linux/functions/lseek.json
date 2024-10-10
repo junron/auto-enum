@@ -1,0 +1,14 @@
+{
+  "name": "lseek",
+  "args": [
+    {
+      "name": "offset",
+      "type": "off_t"
+    },
+    {
+      "name": "whence",
+      "enum": "SEEK"
+    }
+  ],
+  "varargs": false
+}

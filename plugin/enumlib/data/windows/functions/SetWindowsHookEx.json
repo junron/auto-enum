@@ -1,0 +1,10 @@
+{
+  "name": "SetWindowsHookEx",
+  "args": [
+    {
+      "name": "idHook",
+      "enum": "WH"
+    }
+  ],
+  "varargs": false
+}

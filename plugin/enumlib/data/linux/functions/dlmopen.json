@@ -1,0 +1,18 @@
+{
+  "name": "dlmopen",
+  "args": [
+    {
+      "name": "lmid",
+      "type": "Lmid_t"
+    },
+    {
+      "name": "filename",
+      "type": "const char *"
+    },
+    {
+      "name": "flags",
+      "enum": "RTLD"
+    }
+  ],
+  "varargs": false
+}

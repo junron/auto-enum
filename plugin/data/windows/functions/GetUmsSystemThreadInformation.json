@@ -1,6 +1,0 @@
-{
-  "name": "GetUmsSystemThreadInformation",
-  "enums": {
-    "ThreadHandle": "THREAD"
-  }
-}

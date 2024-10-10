@@ -1,0 +1,22 @@
+{
+  "name": "utimensat",
+  "args": [
+    {
+      "name": "dirfd",
+      "type": "int"
+    },
+    {
+      "name": "pathname",
+      "type": "const char *"
+    },
+    {
+      "name": "arg2",
+      "type": "void*"
+    },
+    {
+      "name": "flags",
+      "enum": "13532"
+    }
+  ],
+  "varargs": false
+}

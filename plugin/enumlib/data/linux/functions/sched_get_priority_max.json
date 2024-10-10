@@ -1,0 +1,10 @@
+{
+  "name": "sched_get_priority_max",
+  "args": [
+    {
+      "name": "policy",
+      "enum": "SCHED"
+    }
+  ],
+  "varargs": false
+}

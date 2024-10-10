@@ -1,0 +1,18 @@
+{
+  "name": "semget",
+  "args": [
+    {
+      "name": "key",
+      "enum": "24374"
+    },
+    {
+      "name": "nsems",
+      "type": "int"
+    },
+    {
+      "name": "semflg",
+      "enum": "IPC"
+    }
+  ],
+  "varargs": false
+}

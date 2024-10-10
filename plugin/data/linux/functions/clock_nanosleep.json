@@ -1,7 +1,0 @@
-{
-  "name": "clock_nanosleep",
-  "enums": {
-    "clockid": "CLOCK",
-    "flags": "97337"
-  }
-}

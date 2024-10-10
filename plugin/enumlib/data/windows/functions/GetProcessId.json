@@ -1,0 +1,10 @@
+{
+  "name": "GetProcessId",
+  "args": [
+    {
+      "name": "Process",
+      "enum": "PROCESS"
+    }
+  ],
+  "varargs": false
+}

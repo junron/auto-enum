@@ -1,7 +1,0 @@
-{
-  "name": "openlog",
-  "enums": {
-    "option": "LOG",
-    "facility": "LOG_1"
-  }
-}

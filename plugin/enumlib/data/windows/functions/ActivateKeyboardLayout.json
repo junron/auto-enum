@@ -1,0 +1,14 @@
+{
+  "name": "ActivateKeyboardLayout",
+  "args": [
+    {
+      "name": "hkl",
+      "enum": "HKL"
+    },
+    {
+      "name": "Flags",
+      "enum": "KLF_1"
+    }
+  ],
+  "varargs": false
+}

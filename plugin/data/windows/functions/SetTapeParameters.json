@@ -1,6 +1,0 @@
-{
-  "name": "SetTapeParameters",
-  "enums": {
-    "dwOperation": "SET_TAPE"
-  }
-}

@@ -1,6 +1,0 @@
-{
-  "name": "LoadKeyboardLayout",
-  "enums": {
-    "Flags": "KLF_1"
-  }
-}

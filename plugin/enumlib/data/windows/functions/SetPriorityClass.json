@@ -1,0 +1,14 @@
+{
+  "name": "SetPriorityClass",
+  "args": [
+    {
+      "name": "hProcess",
+      "type": ""
+    },
+    {
+      "name": "dwPriorityClass",
+      "enum": "31777"
+    }
+  ],
+  "varargs": false
+}

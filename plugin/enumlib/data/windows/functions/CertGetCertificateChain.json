@@ -1,0 +1,38 @@
+{
+  "name": "CertGetCertificateChain",
+  "args": [
+    {
+      "name": "hChainEngine",
+      "type": ""
+    },
+    {
+      "name": "pCertContext",
+      "type": ""
+    },
+    {
+      "name": "pTime",
+      "type": ""
+    },
+    {
+      "name": "hAdditionalStore",
+      "type": ""
+    },
+    {
+      "name": "pChainPara",
+      "type": ""
+    },
+    {
+      "name": "dwFlags",
+      "enum": "CERT_CHAIN"
+    },
+    {
+      "name": "pvReserved",
+      "type": ""
+    },
+    {
+      "name": "ppChainContext",
+      "type": ""
+    }
+  ],
+  "varargs": false
+}

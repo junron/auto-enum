@@ -1,0 +1,22 @@
+{
+  "name": "faccessat",
+  "args": [
+    {
+      "name": "dirfd",
+      "type": "int"
+    },
+    {
+      "name": "pathname",
+      "type": "const char *"
+    },
+    {
+      "name": "mode",
+      "type": "int"
+    },
+    {
+      "name": "flags",
+      "enum": "AT_1"
+    }
+  ],
+  "varargs": false
+}

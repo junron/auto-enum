@@ -1,0 +1,14 @@
+{
+  "name": "SetWindowDisplayAffinity",
+  "args": [
+    {
+      "name": "hWnd",
+      "type": ""
+    },
+    {
+      "name": "dwAffinity",
+      "enum": "WDA"
+    }
+  ],
+  "varargs": false
+}

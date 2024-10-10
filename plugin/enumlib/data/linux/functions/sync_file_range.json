@@ -1,0 +1,22 @@
+{
+  "name": "sync_file_range",
+  "args": [
+    {
+      "name": "fd",
+      "type": "int"
+    },
+    {
+      "name": "offset",
+      "type": "off64_t"
+    },
+    {
+      "name": "nbytes",
+      "type": "off64_t"
+    },
+    {
+      "name": "flags",
+      "enum": "SYNC_FILE_RANGE"
+    }
+  ],
+  "varargs": false
+}

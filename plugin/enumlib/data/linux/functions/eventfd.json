@@ -1,0 +1,14 @@
+{
+  "name": "eventfd",
+  "args": [
+    {
+      "name": "initval",
+      "type": "unsigned int"
+    },
+    {
+      "name": "flags",
+      "enum": "EFD"
+    }
+  ],
+  "varargs": false
+}

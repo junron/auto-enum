@@ -1,0 +1,10 @@
+{
+  "name": "posix_openpt",
+  "args": [
+    {
+      "name": "flags",
+      "enum": "O_4"
+    }
+  ],
+  "varargs": false
+}

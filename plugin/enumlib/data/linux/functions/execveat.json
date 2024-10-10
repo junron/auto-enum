@@ -1,0 +1,26 @@
+{
+  "name": "execveat",
+  "args": [
+    {
+      "name": "dirfd",
+      "type": "int"
+    },
+    {
+      "name": "pathname",
+      "type": "const char *"
+    },
+    {
+      "name": "arg2",
+      "type": "void*"
+    },
+    {
+      "name": "arg3",
+      "type": "void*"
+    },
+    {
+      "name": "flags",
+      "enum": "AT"
+    }
+  ],
+  "varargs": false
+}

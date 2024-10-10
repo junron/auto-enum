@@ -1,7 +1,0 @@
-{
-  "name": "CreateFileMappingNuma",
-  "enums": {
-    "flProtect": "49048",
-    "nndPreferred": "13080"
-  }
-}

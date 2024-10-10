@@ -1,6 +1,0 @@
-{
-  "name": "sigprocmask",
-  "enums": {
-    "how": "SIG_1"
-  }
-}

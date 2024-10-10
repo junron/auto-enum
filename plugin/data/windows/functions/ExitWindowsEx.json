@@ -1,7 +1,0 @@
-{
-  "name": "ExitWindowsEx",
-  "enums": {
-    "uFlags": "EWX",
-    "dwReason": "SHTDN_REASON"
-  }
-}

@@ -1,0 +1,22 @@
+{
+  "name": "VirtualAllocEx",
+  "args": [
+    {
+      "name": "hProcess",
+      "type": ""
+    },
+    {
+      "name": "lpAddress",
+      "type": ""
+    },
+    {
+      "name": "flAllocationType",
+      "enum": "MEM_1"
+    },
+    {
+      "name": "flProtect",
+      "enum": "PAGE"
+    }
+  ],
+  "varargs": false
+}

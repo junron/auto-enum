@@ -1,0 +1,14 @@
+{
+  "name": "GetWindow",
+  "args": [
+    {
+      "name": "hWnd",
+      "type": ""
+    },
+    {
+      "name": "uCmd",
+      "enum": "GW"
+    }
+  ],
+  "varargs": false
+}

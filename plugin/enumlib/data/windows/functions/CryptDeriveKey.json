@@ -1,0 +1,26 @@
+{
+  "name": "CryptDeriveKey",
+  "args": [
+    {
+      "name": "hProv",
+      "type": ""
+    },
+    {
+      "name": "Algid",
+      "enum": "75770"
+    },
+    {
+      "name": "hBaseData",
+      "type": ""
+    },
+    {
+      "name": "dwFlags",
+      "enum": "55875"
+    },
+    {
+      "name": "phKey",
+      "type": ""
+    }
+  ],
+  "varargs": false
+}

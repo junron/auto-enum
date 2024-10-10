@@ -1,0 +1,10 @@
+{
+  "name": "RegisterApplicationRestart",
+  "args": [
+    {
+      "name": "dwFlags",
+      "enum": "RESTART_NO"
+    }
+  ],
+  "varargs": false
+}

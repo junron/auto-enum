@@ -1,6 +1,0 @@
-{
-  "name": "posix_openpt",
-  "enums": {
-    "flags": "O_4"
-  }
-}

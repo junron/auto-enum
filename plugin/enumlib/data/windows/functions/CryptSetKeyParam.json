@@ -1,0 +1,14 @@
+{
+  "name": "CryptSetKeyParam",
+  "args": [
+    {
+      "name": "hKey",
+      "type": ""
+    },
+    {
+      "name": "dwParam",
+      "enum": "75770"
+    }
+  ],
+  "varargs": false
+}

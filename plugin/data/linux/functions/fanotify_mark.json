@@ -1,6 +1,0 @@
-{
-  "name": "fanotify_mark",
-  "enums": {
-    "flags": "FAN_MARK"
-  }
-}

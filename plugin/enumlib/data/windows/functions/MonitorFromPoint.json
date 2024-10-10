@@ -1,0 +1,10 @@
+{
+  "name": "MonitorFromPoint",
+  "args": [
+    {
+      "name": "dwFlags",
+      "enum": "25255"
+    }
+  ],
+  "varargs": false
+}

@@ -1,0 +1,26 @@
+{
+  "name": "OpenFileById",
+  "args": [
+    {
+      "name": "hVolumeHint",
+      "type": ""
+    },
+    {
+      "name": "lpFileId",
+      "type": ""
+    },
+    {
+      "name": "dwShareMode",
+      "enum": "FILE_SHARE_1"
+    },
+    {
+      "name": "lpSecurityAttributes",
+      "type": ""
+    },
+    {
+      "name": "dwFlagsAndAttributes",
+      "enum": "FILE_FLAG"
+    }
+  ],
+  "varargs": false
+}

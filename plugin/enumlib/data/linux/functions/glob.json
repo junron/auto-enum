@@ -1,0 +1,26 @@
+{
+  "name": "glob",
+  "args": [
+    {
+      "name": "pattern",
+      "type": "const char *"
+    },
+    {
+      "name": "flags",
+      "enum": "GLOB"
+    },
+    {
+      "name": "arg2",
+      "type": "void*"
+    },
+    {
+      "name": "arg3",
+      "type": "void*"
+    },
+    {
+      "name": "pglob",
+      "type": "glob_t *"
+    }
+  ],
+  "varargs": false
+}

@@ -1,0 +1,18 @@
+{
+  "name": "CryptVerifySignature",
+  "args": [
+    {
+      "name": "hHash",
+      "type": ""
+    },
+    {
+      "name": "hPubKey",
+      "type": ""
+    },
+    {
+      "name": "dwFlags",
+      "enum": "CRYPT_4"
+    }
+  ],
+  "varargs": false
+}

@@ -1,0 +1,18 @@
+{
+  "name": "getsockopt",
+  "args": [
+    {
+      "name": "level",
+      "enum": "21353"
+    },
+    {
+      "name": "optval",
+      "type": ""
+    },
+    {
+      "name": "optlen",
+      "type": ""
+    }
+  ],
+  "varargs": false
+}

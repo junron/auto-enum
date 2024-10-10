@@ -1,0 +1,18 @@
+{
+  "name": "HiliteMenuItem",
+  "args": [
+    {
+      "name": "hWnd",
+      "type": ""
+    },
+    {
+      "name": "hMenu",
+      "type": ""
+    },
+    {
+      "name": "uHilite",
+      "enum": "MF_3"
+    }
+  ],
+  "varargs": false
+}

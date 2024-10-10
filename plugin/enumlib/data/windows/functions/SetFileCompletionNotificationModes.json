@@ -1,0 +1,14 @@
+{
+  "name": "SetFileCompletionNotificationModes",
+  "args": [
+    {
+      "name": "FileHandle",
+      "type": ""
+    },
+    {
+      "name": "Flags",
+      "enum": "FILE_SKIP"
+    }
+  ],
+  "varargs": false
+}

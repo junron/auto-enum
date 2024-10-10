@@ -1,0 +1,30 @@
+{
+  "name": "CryptExportPublicKeyInfoFromBCryptKeyHandle",
+  "args": [
+    {
+      "name": "hBCryptKey",
+      "type": ""
+    },
+    {
+      "name": "pszPublicKeyObjId",
+      "type": ""
+    },
+    {
+      "name": "dwFlags",
+      "enum": "CRYPT_OID_INFO_PUBKEY"
+    },
+    {
+      "name": "pvAuxInfo",
+      "type": ""
+    },
+    {
+      "name": "pInfo",
+      "type": ""
+    },
+    {
+      "name": "pcbInfo",
+      "type": ""
+    }
+  ],
+  "varargs": false
+}

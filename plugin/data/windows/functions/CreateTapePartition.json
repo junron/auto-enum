@@ -1,6 +1,0 @@
-{
-  "name": "CreateTapePartition",
-  "enums": {
-    "dwPartitionMethod": "TAPE"
-  }
-}

@@ -1,0 +1,22 @@
+{
+  "name": "getipnodebyaddr",
+  "args": [
+    {
+      "name": "addr",
+      "type": "const void *"
+    },
+    {
+      "name": "len",
+      "type": "size_t"
+    },
+    {
+      "name": "af",
+      "enum": "AF"
+    },
+    {
+      "name": "error_num",
+      "type": "int *"
+    }
+  ],
+  "varargs": false
+}

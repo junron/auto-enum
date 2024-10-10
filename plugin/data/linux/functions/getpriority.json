@@ -1,6 +1,0 @@
-{
-  "name": "getpriority",
-  "enums": {
-    "which": "PRIO"
-  }
-}

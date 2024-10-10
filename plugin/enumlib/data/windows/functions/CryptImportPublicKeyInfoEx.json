@@ -1,0 +1,26 @@
+{
+  "name": "CryptImportPublicKeyInfoEx",
+  "args": [
+    {
+      "name": "hCryptProv",
+      "type": ""
+    },
+    {
+      "name": "pInfo",
+      "type": ""
+    },
+    {
+      "name": "aiKeyAlg",
+      "enum": "75770"
+    },
+    {
+      "name": "pvAuxInfo",
+      "type": ""
+    },
+    {
+      "name": "phKey",
+      "type": ""
+    }
+  ],
+  "varargs": false
+}

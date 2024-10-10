@@ -1,0 +1,18 @@
+{
+  "name": "CryptBinaryToString",
+  "args": [
+    {
+      "name": "dwFlags",
+      "enum": "CRYPT_STRING"
+    },
+    {
+      "name": "pszString",
+      "type": ""
+    },
+    {
+      "name": "pcchString",
+      "type": ""
+    }
+  ],
+  "varargs": false
+}

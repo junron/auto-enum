@@ -1,0 +1,14 @@
+{
+  "name": "EnableMenuItem",
+  "args": [
+    {
+      "name": "hMenu",
+      "type": ""
+    },
+    {
+      "name": "uEnable",
+      "enum": "MF"
+    }
+  ],
+  "varargs": false
+}

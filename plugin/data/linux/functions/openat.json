@@ -1,7 +1,0 @@
-{
-  "name": "openat",
-  "enums": {
-    "oflag": "O_2",
-    "mode": "S"
-  }
-}

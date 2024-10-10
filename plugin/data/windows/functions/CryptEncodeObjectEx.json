@@ -1,6 +1,0 @@
-{
-  "name": "CryptEncodeObjectEx",
-  "enums": {
-    "dwFlags": "CRYPT_1"
-  }
-}

@@ -1,0 +1,18 @@
+{
+  "name": "mprotect",
+  "args": [
+    {
+      "name": "addr",
+      "type": "void *"
+    },
+    {
+      "name": "len",
+      "type": "size_t"
+    },
+    {
+      "name": "prot",
+      "enum": "PROT_1"
+    }
+  ],
+  "varargs": false
+}

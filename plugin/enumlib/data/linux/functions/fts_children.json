@@ -1,0 +1,14 @@
+{
+  "name": "fts_children",
+  "args": [
+    {
+      "name": "ftsp",
+      "type": "FTS *"
+    },
+    {
+      "name": "instr",
+      "enum": "FTS"
+    }
+  ],
+  "varargs": false
+}

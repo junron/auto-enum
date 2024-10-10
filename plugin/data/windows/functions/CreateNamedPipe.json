@@ -1,7 +1,0 @@
-{
-  "name": "CreateNamedPipe",
-  "enums": {
-    "dwOpenMode": "13762",
-    "dwPipeMode": "PIPE"
-  }
-}

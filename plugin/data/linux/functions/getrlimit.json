@@ -1,6 +1,0 @@
-{
-  "name": "getrlimit",
-  "enums": {
-    "resource": "RLIMIT"
-  }
-}

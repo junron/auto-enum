@@ -1,0 +1,38 @@
+{
+  "name": "EnumServicesStatusEx",
+  "args": [
+    {
+      "name": "hSCManager",
+      "type": ""
+    },
+    {
+      "name": "dwServiceType",
+      "enum": "SERVICE_4"
+    },
+    {
+      "name": "dwServiceState",
+      "enum": "SERVICE_3"
+    },
+    {
+      "name": "lpServices",
+      "type": ""
+    },
+    {
+      "name": "pcbBytesNeeded",
+      "type": ""
+    },
+    {
+      "name": "lpServicesReturned",
+      "type": ""
+    },
+    {
+      "name": "lpResumeHandle",
+      "type": ""
+    },
+    {
+      "name": "pszGroupName",
+      "type": ""
+    }
+  ],
+  "varargs": false
+}

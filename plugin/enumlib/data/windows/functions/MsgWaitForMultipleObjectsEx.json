@@ -1,0 +1,14 @@
+{
+  "name": "MsgWaitForMultipleObjectsEx",
+  "args": [
+    {
+      "name": "pHandles",
+      "type": ""
+    },
+    {
+      "name": "dwFlags",
+      "enum": "MWMO"
+    }
+  ],
+  "varargs": false
+}

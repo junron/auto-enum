@@ -1,6 +1,0 @@
-{
-  "name": "SetFileAttributes",
-  "enums": {
-    "dwFileAttributes": "FILE_ATTRIBUTE"
-  }
-}

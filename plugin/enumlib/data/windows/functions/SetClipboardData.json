@@ -1,0 +1,14 @@
+{
+  "name": "SetClipboardData",
+  "args": [
+    {
+      "name": "uFormat",
+      "enum": "CF"
+    },
+    {
+      "name": "hMem",
+      "type": ""
+    }
+  ],
+  "varargs": false
+}

@@ -1,6 +1,0 @@
-{
-  "name": "CryptSignHash",
-  "enums": {
-    "dwFlags": "CRYPT_8"
-  }
-}

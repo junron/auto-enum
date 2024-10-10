@@ -1,0 +1,30 @@
+{
+  "name": "fmtmsg",
+  "args": [
+    {
+      "name": "classification",
+      "type": "long"
+    },
+    {
+      "name": "label",
+      "type": "const char *"
+    },
+    {
+      "name": "severity",
+      "enum": "MM"
+    },
+    {
+      "name": "text",
+      "type": "const char *"
+    },
+    {
+      "name": "action",
+      "type": "const char *"
+    },
+    {
+      "name": "tag",
+      "type": "const char *"
+    }
+  ],
+  "varargs": false
+}

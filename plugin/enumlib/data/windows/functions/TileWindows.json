@@ -1,0 +1,22 @@
+{
+  "name": "TileWindows",
+  "args": [
+    {
+      "name": "hwndParent",
+      "type": ""
+    },
+    {
+      "name": "wHow",
+      "enum": "MDITILE_1"
+    },
+    {
+      "name": "lpRect",
+      "type": ""
+    },
+    {
+      "name": "lpKids",
+      "type": ""
+    }
+  ],
+  "varargs": false
+}

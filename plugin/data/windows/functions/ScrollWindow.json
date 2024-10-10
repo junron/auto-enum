@@ -1,7 +1,0 @@
-{
-  "name": "ScrollWindow",
-  "enums": {
-    "XAmount": "CS",
-    "YAmount": "CS"
-  }
-}

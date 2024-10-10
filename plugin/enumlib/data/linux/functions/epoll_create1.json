@@ -1,0 +1,10 @@
+{
+  "name": "epoll_create1",
+  "args": [
+    {
+      "name": "flags",
+      "enum": "16198"
+    }
+  ],
+  "varargs": false
+}

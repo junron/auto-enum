@@ -1,0 +1,14 @@
+{
+  "name": "SetWindowLongPtr",
+  "args": [
+    {
+      "name": "hWnd",
+      "type": ""
+    },
+    {
+      "name": "nIndex",
+      "enum": "31825"
+    }
+  ],
+  "varargs": false
+}

@@ -1,0 +1,8 @@
+{
+    "IDAMetadataDescriptorVersion": 1,
+    "plugin" :
+    {
+      "name" : "Auto-Enum",
+      "entryPoint" : "auto_enum.py"
+    }
+  }

@@ -1,7 +1,0 @@
-{
-  "name": "CreateProcessWithLogon",
-  "enums": {
-    "dwLogonFlags": "LOGON",
-    "dwCreationFlags": "95950"
-  }
-}

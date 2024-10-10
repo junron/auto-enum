@@ -1,0 +1,18 @@
+{
+  "name": "MoveFileEx",
+  "args": [
+    {
+      "name": "lpExistingFileName",
+      "type": ""
+    },
+    {
+      "name": "lpNewFileName",
+      "type": ""
+    },
+    {
+      "name": "dwFlags",
+      "enum": "MOVEFILE"
+    }
+  ],
+  "varargs": false
+}

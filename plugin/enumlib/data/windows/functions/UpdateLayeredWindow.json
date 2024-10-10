@@ -1,0 +1,14 @@
+{
+  "name": "UpdateLayeredWindow",
+  "args": [
+    {
+      "name": "hWnd",
+      "type": ""
+    },
+    {
+      "name": "dwFlags",
+      "enum": "ULW"
+    }
+  ],
+  "varargs": false
+}

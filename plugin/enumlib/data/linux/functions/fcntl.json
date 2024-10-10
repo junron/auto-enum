@@ -1,0 +1,14 @@
+{
+  "name": "fcntl",
+  "args": [
+    {
+      "name": "cmd",
+      "enum": "F"
+    },
+    {
+      "name": "cmd",
+      "type": "int"
+    }
+  ],
+  "varargs": true
+}

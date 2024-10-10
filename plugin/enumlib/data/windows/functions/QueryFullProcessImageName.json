@@ -1,0 +1,22 @@
+{
+  "name": "QueryFullProcessImageName",
+  "args": [
+    {
+      "name": "hProcess",
+      "type": ""
+    },
+    {
+      "name": "dwFlags",
+      "enum": "29827"
+    },
+    {
+      "name": "lpExeName",
+      "type": ""
+    },
+    {
+      "name": "lpdwSize",
+      "type": ""
+    }
+  ],
+  "varargs": false
+}

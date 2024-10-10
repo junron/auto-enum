@@ -1,0 +1,22 @@
+{
+  "name": "CascadeWindows",
+  "args": [
+    {
+      "name": "hwndParent",
+      "type": ""
+    },
+    {
+      "name": "wHow",
+      "enum": "MDITILE"
+    },
+    {
+      "name": "lpRect",
+      "type": ""
+    },
+    {
+      "name": "lpKids",
+      "type": ""
+    }
+  ],
+  "varargs": false
+}

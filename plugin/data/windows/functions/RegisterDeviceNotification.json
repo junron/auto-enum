@@ -1,6 +1,0 @@
-{
-  "name": "RegisterDeviceNotification",
-  "enums": {
-    "Flags": "DEVICE_NOTIFY"
-  }
-}

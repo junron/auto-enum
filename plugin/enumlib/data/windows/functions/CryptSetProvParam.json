@@ -1,0 +1,14 @@
+{
+  "name": "CryptSetProvParam",
+  "args": [
+    {
+      "name": "hProv",
+      "type": ""
+    },
+    {
+      "name": "dwParam",
+      "enum": "PP_1"
+    }
+  ],
+  "varargs": false
+}

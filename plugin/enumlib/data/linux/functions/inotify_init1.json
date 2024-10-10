@@ -1,0 +1,10 @@
+{
+  "name": "inotify_init1",
+  "args": [
+    {
+      "name": "flags",
+      "enum": "IN_1"
+    }
+  ],
+  "varargs": false
+}

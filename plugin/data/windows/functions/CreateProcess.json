@@ -1,6 +1,0 @@
-{
-  "name": "CreateProcess",
-  "enums": {
-    "dwCreationFlags": "95950"
-  }
-}

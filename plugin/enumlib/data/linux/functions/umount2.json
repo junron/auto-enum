@@ -1,0 +1,14 @@
+{
+  "name": "umount2",
+  "args": [
+    {
+      "name": "target",
+      "type": "const char *"
+    },
+    {
+      "name": "flags",
+      "enum": "28100"
+    }
+  ],
+  "varargs": false
+}

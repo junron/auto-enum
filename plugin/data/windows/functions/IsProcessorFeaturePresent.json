@@ -1,6 +1,0 @@
-{
-  "name": "IsProcessorFeaturePresent",
-  "enums": {
-    "ProcessorFeature": "PF"
-  }
-}

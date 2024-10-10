@@ -1,0 +1,14 @@
+{
+  "name": "RegisterDeviceNotification",
+  "args": [
+    {
+      "name": "hRecipient",
+      "type": ""
+    },
+    {
+      "name": "Flags",
+      "enum": "DEVICE_NOTIFY"
+    }
+  ],
+  "varargs": false
+}

@@ -1,6 +1,0 @@
-{
-  "name": "CreateSymbolicLinkTransacted",
-  "enums": {
-    "dwFlags": "61040"
-  }
-}

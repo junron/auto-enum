@@ -1,6 +1,0 @@
-{
-  "name": "pthread_spin_init",
-  "enums": {
-    "pshared": "PTHREAD_PROCESS"
-  }
-}

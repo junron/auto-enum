@@ -1,0 +1,30 @@
+{
+  "name": "CertGetNameString",
+  "args": [
+    {
+      "name": "pCertContext",
+      "type": ""
+    },
+    {
+      "name": "dwType",
+      "enum": "CERT_NAME"
+    },
+    {
+      "name": "dwFlags",
+      "enum": "CERT_NAME_1"
+    },
+    {
+      "name": "pvTypePara",
+      "type": ""
+    },
+    {
+      "name": "pszNameString",
+      "type": ""
+    },
+    {
+      "name": "cchNameString",
+      "type": ""
+    }
+  ],
+  "varargs": false
+}

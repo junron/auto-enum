@@ -1,0 +1,10 @@
+{
+  "name": "shutdown",
+  "args": [
+    {
+      "name": "how",
+      "enum": "SD"
+    }
+  ],
+  "varargs": false
+}

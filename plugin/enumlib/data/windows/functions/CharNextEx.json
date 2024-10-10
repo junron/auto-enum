@@ -1,0 +1,14 @@
+{
+  "name": "CharNextEx",
+  "args": [
+    {
+      "name": "CodePage",
+      "enum": "CP"
+    },
+    {
+      "name": "lpCurrentChar",
+      "type": ""
+    }
+  ],
+  "varargs": false
+}

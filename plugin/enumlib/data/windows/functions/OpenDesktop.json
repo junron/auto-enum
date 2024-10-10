@@ -1,0 +1,14 @@
+{
+  "name": "OpenDesktop",
+  "args": [
+    {
+      "name": "lpszDesktop",
+      "type": ""
+    },
+    {
+      "name": "dwFlags",
+      "enum": "23806"
+    }
+  ],
+  "varargs": false
+}

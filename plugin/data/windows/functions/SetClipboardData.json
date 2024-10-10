@@ -1,6 +1,0 @@
-{
-  "name": "SetClipboardData",
-  "enums": {
-    "uFormat": "CF"
-  }
-}

@@ -1,8 +1,0 @@
-{
-  "name": "CryptVerifyCertificateSignatureEx",
-  "enums": {
-    "dwSubjectType": "CRYPT_VERIFY_CERT_SIGN_SUBJECT",
-    "dwIssuerType": "CRYPT_VERIFY_CERT_SIGN_ISSUER",
-    "dwFlags": "CRYPT_VERIFY_CERT_SIGN"
-  }
-}

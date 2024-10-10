@@ -1,0 +1,30 @@
+{
+  "name": "WSASocket",
+  "args": [
+    {
+      "name": "af",
+      "enum": "AF"
+    },
+    {
+      "name": "type",
+      "enum": "SOCK"
+    },
+    {
+      "name": "protocol",
+      "enum": "16386"
+    },
+    {
+      "name": "lpProtocolInfo",
+      "type": ""
+    },
+    {
+      "name": "g",
+      "enum": "SG"
+    },
+    {
+      "name": "dwFlags",
+      "enum": "WSA_FLAG"
+    }
+  ],
+  "varargs": false
+}

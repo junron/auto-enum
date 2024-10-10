@@ -1,0 +1,26 @@
+{
+  "name": "CryptDecodeObjectEx",
+  "args": [
+    {
+      "name": "lpszStructType",
+      "type": ""
+    },
+    {
+      "name": "dwFlags",
+      "enum": "30273"
+    },
+    {
+      "name": "pDecodePara",
+      "type": ""
+    },
+    {
+      "name": "pvStructInfo",
+      "type": ""
+    },
+    {
+      "name": "pcbStructInfo",
+      "type": ""
+    }
+  ],
+  "varargs": false
+}

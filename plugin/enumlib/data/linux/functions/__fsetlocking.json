@@ -1,0 +1,14 @@
+{
+  "name": "__fsetlocking",
+  "args": [
+    {
+      "name": "stream",
+      "type": "FILE *"
+    },
+    {
+      "name": "type",
+      "enum": "FSETLOCKING"
+    }
+  ],
+  "varargs": false
+}

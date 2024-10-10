@@ -1,7 +1,0 @@
-{
-  "name": "open",
-  "enums": {
-    "oflag": "O_2",
-    "mode": "S"
-  }
-}

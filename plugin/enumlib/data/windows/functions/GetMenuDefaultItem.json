@@ -1,0 +1,14 @@
+{
+  "name": "GetMenuDefaultItem",
+  "args": [
+    {
+      "name": "hMenu",
+      "type": ""
+    },
+    {
+      "name": "gmdiFlags",
+      "enum": "GMDI"
+    }
+  ],
+  "varargs": false
+}

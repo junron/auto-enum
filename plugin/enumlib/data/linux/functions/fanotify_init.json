@@ -1,0 +1,14 @@
+{
+  "name": "fanotify_init",
+  "args": [
+    {
+      "name": "flags",
+      "enum": "FAN"
+    },
+    {
+      "name": "event_f_flags",
+      "enum": "O"
+    }
+  ],
+  "varargs": false
+}

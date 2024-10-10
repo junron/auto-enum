@@ -1,7 +1,0 @@
-{
-  "name": "SetWinEventHook",
-  "enums": {
-    "eventMin": "55127",
-    "eventMax": "55127"
-  }
-}

@@ -1,0 +1,22 @@
+{
+  "name": "CertSaveStore",
+  "args": [
+    {
+      "name": "hCertStore",
+      "type": ""
+    },
+    {
+      "name": "dwSaveAs",
+      "enum": "CERT_STORE_SAVE_AS"
+    },
+    {
+      "name": "dwSaveTo",
+      "enum": "CERT_STORE_SAVE_TO"
+    },
+    {
+      "name": "pvSaveToPara",
+      "type": ""
+    }
+  ],
+  "varargs": false
+}

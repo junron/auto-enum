@@ -1,0 +1,14 @@
+{
+  "name": "GetAncestor",
+  "args": [
+    {
+      "name": "hwnd",
+      "type": ""
+    },
+    {
+      "name": "gaFlags",
+      "enum": "GA"
+    }
+  ],
+  "varargs": false
+}

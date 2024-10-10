@@ -1,0 +1,18 @@
+{
+  "name": "mlock2",
+  "args": [
+    {
+      "name": "addr",
+      "type": "const void *"
+    },
+    {
+      "name": "len",
+      "type": "size_t"
+    },
+    {
+      "name": "flags",
+      "enum": "16957"
+    }
+  ],
+  "varargs": false
+}

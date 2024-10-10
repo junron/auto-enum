@@ -1,6 +1,0 @@
-{
-  "name": "SetFirmwareEnvironmentVariableEx",
-  "enums": {
-    "dwAttributes": "VARIABLE_ATTRIBUTE"
-  }
-}

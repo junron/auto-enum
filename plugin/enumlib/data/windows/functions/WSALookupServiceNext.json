@@ -1,0 +1,22 @@
+{
+  "name": "WSALookupServiceNext",
+  "args": [
+    {
+      "name": "hLookup",
+      "type": ""
+    },
+    {
+      "name": "dwControlFlags",
+      "enum": "LUP"
+    },
+    {
+      "name": "lpdwBufferLength",
+      "type": ""
+    },
+    {
+      "name": "lpqsResults",
+      "type": ""
+    }
+  ],
+  "varargs": false
+}

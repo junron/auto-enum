@@ -1,0 +1,22 @@
+{
+  "name": "vmsplice",
+  "args": [
+    {
+      "name": "fd",
+      "type": "int"
+    },
+    {
+      "name": "iov",
+      "type": "const struct iovec *"
+    },
+    {
+      "name": "nr_segs",
+      "type": "size_t"
+    },
+    {
+      "name": "flags",
+      "enum": "SPLICE_F"
+    }
+  ],
+  "varargs": false
+}

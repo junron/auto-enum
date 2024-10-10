@@ -1,6 +1,0 @@
-{
-  "name": "EraseTape",
-  "enums": {
-    "dwEraseType": "TAPE_ERASE"
-  }
-}

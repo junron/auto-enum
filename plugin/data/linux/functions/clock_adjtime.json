@@ -1,6 +1,0 @@
-{
-  "name": "clock_adjtime",
-  "enums": {
-    "clk_id": "CLOCK"
-  }
-}

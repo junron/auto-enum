@@ -1,0 +1,10 @@
+{
+  "name": "unshare",
+  "args": [
+    {
+      "name": "flags",
+      "enum": "CLONE_2"
+    }
+  ],
+  "varargs": false
+}

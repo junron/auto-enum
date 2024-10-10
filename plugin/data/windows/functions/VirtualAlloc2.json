@@ -1,8 +1,0 @@
-{
-  "name": "VirtualAlloc2",
-  "enums": {
-    "Process": "PROCESS",
-    "AllocationType": "MEM_3",
-    "PageProtection": "PAGE"
-  }
-}

@@ -1,0 +1,14 @@
+{
+  "name": "CryptHashData",
+  "args": [
+    {
+      "name": "hHash",
+      "type": ""
+    },
+    {
+      "name": "dwFlags",
+      "enum": "CRYPT_9"
+    }
+  ],
+  "varargs": false
+}

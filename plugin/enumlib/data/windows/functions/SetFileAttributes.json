@@ -1,0 +1,14 @@
+{
+  "name": "SetFileAttributes",
+  "args": [
+    {
+      "name": "lpFileName",
+      "type": ""
+    },
+    {
+      "name": "dwFileAttributes",
+      "enum": "FILE_ATTRIBUTE"
+    }
+  ],
+  "varargs": false
+}

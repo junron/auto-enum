@@ -1,0 +1,14 @@
+{
+  "name": "SetProcessWorkingSetSizeEx",
+  "args": [
+    {
+      "name": "hProcess",
+      "type": ""
+    },
+    {
+      "name": "Flags",
+      "enum": "83057"
+    }
+  ],
+  "varargs": false
+}

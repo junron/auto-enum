@@ -1,6 +1,0 @@
-{
-  "name": "SetProcessValidCallTargets",
-  "enums": {
-    "VirtualAddress": "PAGE"
-  }
-}

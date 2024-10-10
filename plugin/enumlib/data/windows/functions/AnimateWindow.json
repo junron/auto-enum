@@ -1,0 +1,14 @@
+{
+  "name": "AnimateWindow",
+  "args": [
+    {
+      "name": "hWnd",
+      "type": ""
+    },
+    {
+      "name": "dwFlags",
+      "enum": "AW"
+    }
+  ],
+  "varargs": false
+}

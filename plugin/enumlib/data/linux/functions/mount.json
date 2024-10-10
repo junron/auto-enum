@@ -1,0 +1,26 @@
+{
+  "name": "mount",
+  "args": [
+    {
+      "name": "source",
+      "type": "const char *"
+    },
+    {
+      "name": "target",
+      "type": "const char *"
+    },
+    {
+      "name": "filesystemtype",
+      "type": "const char *"
+    },
+    {
+      "name": "mountflags",
+      "enum": "MS"
+    },
+    {
+      "name": "data",
+      "type": "const void *"
+    }
+  ],
+  "varargs": false
+}

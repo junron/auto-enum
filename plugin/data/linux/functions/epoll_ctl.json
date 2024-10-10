@@ -1,6 +1,0 @@
-{
-  "name": "epoll_ctl",
-  "enums": {
-    "op": "EPOLL_CTL"
-  }
-}

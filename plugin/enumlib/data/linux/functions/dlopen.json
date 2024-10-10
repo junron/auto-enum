@@ -1,0 +1,14 @@
+{
+  "name": "dlopen",
+  "args": [
+    {
+      "name": "filename",
+      "type": "const char *"
+    },
+    {
+      "name": "flags",
+      "enum": "RTLD"
+    }
+  ],
+  "varargs": false
+}

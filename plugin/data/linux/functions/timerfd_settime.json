@@ -1,6 +1,0 @@
-{
-  "name": "timerfd_settime",
-  "enums": {
-    "flags": "TFD"
-  }
-}

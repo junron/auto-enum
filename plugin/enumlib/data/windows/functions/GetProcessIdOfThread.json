@@ -1,0 +1,10 @@
+{
+  "name": "GetProcessIdOfThread",
+  "args": [
+    {
+      "name": "Thread",
+      "enum": "THREAD"
+    }
+  ],
+  "varargs": false
+}

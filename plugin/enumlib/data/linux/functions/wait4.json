@@ -1,0 +1,22 @@
+{
+  "name": "wait4",
+  "args": [
+    {
+      "name": "pid",
+      "type": "pid_t"
+    },
+    {
+      "name": "wstatus",
+      "type": "int *"
+    },
+    {
+      "name": "options",
+      "enum": "61707"
+    },
+    {
+      "name": "rusage",
+      "type": "struct rusage *"
+    }
+  ],
+  "varargs": false
+}

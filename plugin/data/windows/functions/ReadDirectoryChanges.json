@@ -1,6 +1,0 @@
-{
-  "name": "ReadDirectoryChanges",
-  "enums": {
-    "dwNotifyFilter": "FILE_NOTIFY_CHANGE_1"
-  }
-}

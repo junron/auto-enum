@@ -1,0 +1,26 @@
+{
+  "name": "setsockopt",
+  "args": [
+    {
+      "name": "sockfd",
+      "type": "int"
+    },
+    {
+      "name": "level",
+      "enum": "31061"
+    },
+    {
+      "name": "optname",
+      "type": "int"
+    },
+    {
+      "name": "optval",
+      "type": "const void *"
+    },
+    {
+      "name": "optlen",
+      "type": "socklen_t"
+    }
+  ],
+  "varargs": false
+}

@@ -1,0 +1,38 @@
+{
+  "name": "GetAddrInfoEx",
+  "args": [
+    {
+      "name": "pName",
+      "type": ""
+    },
+    {
+      "name": "pServiceName",
+      "type": ""
+    },
+    {
+      "name": "dwNameSpace",
+      "enum": "NS"
+    },
+    {
+      "name": "lpNspId",
+      "type": ""
+    },
+    {
+      "name": "ppResult",
+      "type": ""
+    },
+    {
+      "name": "lpOverlapped",
+      "type": ""
+    },
+    {
+      "name": "lpCompletionRoutine",
+      "type": ""
+    },
+    {
+      "name": "lpHandle",
+      "type": ""
+    }
+  ],
+  "varargs": false
+}

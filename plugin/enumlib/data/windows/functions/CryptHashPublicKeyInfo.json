@@ -1,0 +1,26 @@
+{
+  "name": "CryptHashPublicKeyInfo",
+  "args": [
+    {
+      "name": "hCryptProv",
+      "type": ""
+    },
+    {
+      "name": "Algid",
+      "enum": "75770"
+    },
+    {
+      "name": "pInfo",
+      "type": ""
+    },
+    {
+      "name": "pbComputedHash",
+      "type": ""
+    },
+    {
+      "name": "pcbComputedHash",
+      "type": ""
+    }
+  ],
+  "varargs": false
+}

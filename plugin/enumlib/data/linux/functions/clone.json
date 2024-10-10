@@ -1,0 +1,22 @@
+{
+  "name": "clone",
+  "args": [
+    {
+      "name": "arg0",
+      "type": "void*"
+    },
+    {
+      "name": "stack",
+      "type": "void *"
+    },
+    {
+      "name": "flags",
+      "enum": "CLONE"
+    },
+    {
+      "name": "arg",
+      "type": "void *"
+    }
+  ],
+  "varargs": true
+}

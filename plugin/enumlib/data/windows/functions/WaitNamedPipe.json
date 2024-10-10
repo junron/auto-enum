@@ -1,0 +1,14 @@
+{
+  "name": "WaitNamedPipe",
+  "args": [
+    {
+      "name": "lpNamedPipeName",
+      "type": ""
+    },
+    {
+      "name": "nTimeOut",
+      "enum": "NMPWAIT_1"
+    }
+  ],
+  "varargs": false
+}

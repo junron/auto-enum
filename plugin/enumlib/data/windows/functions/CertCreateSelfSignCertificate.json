@@ -1,0 +1,38 @@
+{
+  "name": "CertCreateSelfSignCertificate",
+  "args": [
+    {
+      "name": "hCryptProvOrNCryptKey",
+      "type": ""
+    },
+    {
+      "name": "pSubjectIssuerBlob",
+      "type": ""
+    },
+    {
+      "name": "dwFlags",
+      "enum": "CERT_CREATE_SELFSIGN_NO"
+    },
+    {
+      "name": "pKeyProvInfo",
+      "type": ""
+    },
+    {
+      "name": "pSignatureAlgorithm",
+      "type": ""
+    },
+    {
+      "name": "pStartTime",
+      "type": ""
+    },
+    {
+      "name": "pEndTime",
+      "type": ""
+    },
+    {
+      "name": "pExtensions",
+      "type": ""
+    }
+  ],
+  "varargs": false
+}

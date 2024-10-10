@@ -1,6 +1,0 @@
-{
-  "name": "SetProcessDEPPolicy",
-  "enums": {
-    "dwFlags": "PROCESS_DEP"
-  }
-}

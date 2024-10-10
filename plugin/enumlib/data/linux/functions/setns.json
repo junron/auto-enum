@@ -1,0 +1,14 @@
+{
+  "name": "setns",
+  "args": [
+    {
+      "name": "fd",
+      "type": "int"
+    },
+    {
+      "name": "nstype",
+      "enum": "CLONE_1"
+    }
+  ],
+  "varargs": false
+}

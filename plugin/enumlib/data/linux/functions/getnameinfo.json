@@ -1,0 +1,34 @@
+{
+  "name": "getnameinfo",
+  "args": [
+    {
+      "name": "addr",
+      "type": "const struct sockaddr *"
+    },
+    {
+      "name": "addrlen",
+      "type": "socklen_t"
+    },
+    {
+      "name": "host",
+      "type": "char *"
+    },
+    {
+      "name": "hostlen",
+      "type": "socklen_t"
+    },
+    {
+      "name": "serv",
+      "type": "char *"
+    },
+    {
+      "name": "servlen",
+      "type": "socklen_t"
+    },
+    {
+      "name": "flags",
+      "enum": "NI"
+    }
+  ],
+  "varargs": false
+}

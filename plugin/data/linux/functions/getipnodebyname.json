@@ -1,7 +1,0 @@
-{
-  "name": "getipnodebyname",
-  "enums": {
-    "af": "AF",
-    "flags": "AI"
-  }
-}

@@ -1,0 +1,26 @@
+{
+  "name": "CryptFormatObject",
+  "args": [
+    {
+      "name": "dwFormatStrType",
+      "enum": "CRYPT_FORMAT_STR"
+    },
+    {
+      "name": "pFormatStruct",
+      "type": ""
+    },
+    {
+      "name": "lpszStructType",
+      "type": ""
+    },
+    {
+      "name": "pbFormat",
+      "type": ""
+    },
+    {
+      "name": "pcbFormat",
+      "type": ""
+    }
+  ],
+  "varargs": false
+}
