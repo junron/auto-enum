@@ -67,7 +67,7 @@ def auto_enum(bv: bn.BinaryView):
                         for i, arg in enumerate(func2.arguments):
                             if not arg.call_specific:
                                 continue
-                            if arg.has_enum:
+                            if arg.has_enum and i < len(special_new_params):
                                 enum_name = get_or_add_enum(bv, autoenum, arg.enum)
                                 enum_type = bv.get_type_by_name(enum_name)
                                 if enum_type:
@@ -81,7 +81,7 @@ def auto_enum(bv: bn.BinaryView):
                                         print("Failed to load type for", arg.type)
                                         continue
                                     special_new_params.append(bn.FunctionParameter(t, arg.name))
-                            elif arg.type != original_func.arguments[i].type:
+                            elif arg.type != original_func.arguments[i].type and i < len(special_new_params):
                                 t, _ = bv.parse_type_string(arg.type)
                                 param = bn.FunctionParameter(t, special_new_params[i].name)
                                 special_new_params[i] = param
