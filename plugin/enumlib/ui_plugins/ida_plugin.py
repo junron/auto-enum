@@ -145,7 +145,9 @@ def make_import_names_callback(library_calls, library_addr):
             ea = next(idautils.CodeRefsTo(ea, 0), None)
             if ea is None:
                 return True
-            ea = next(ida_funcs.get_func(ea).addresses())
+            func = ida_funcs.get_func(ea)
+            if func is not None:
+                ea = next(func.addresses())
 
         wrapper = idc.get_name_ea_simple("." + name)    
         if wrapper != idc.BADADDR:
