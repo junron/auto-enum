@@ -67,37 +67,57 @@ def parse_body(data: str):
         print("Params not found")
         return None
     params = split_markdown_sections(body["parameters"], 3)
-    args_enums = {}
+    args = []
+    has_enum = False
+    varargs = False
     for k, v in params.items():
         parts = k.split(" ", maxsplit=2)
         if len(parts) != 3:
+            if len(parts) == 2 and parts[1] == "...":
+                varargs = True
+                break
             print("Failed to parse params!")
             return None
         _, param_name, mode = parts
-        if "in" in mode and ("out" not in mode and "ref" not in mode):
-            if any(re.match(f"{x}[A-Z]", param_name) for x in bad_param_name_start):
-                continue
-            if "hwnd" in param_name:
-                continue
-            enums = msdn_enums.parse_enum(v)
-            if enums:
-                enum_id = msdn_enums.enum_id(enums)
-                msdn_enums.enums[enum_id] = msdn_enums.compress_enum(enums, enum_id)
-                args_enums[param_name] = enum_id
-            elif not v.startswith("A pointer to"):
-                resultant_enum = {}
-                links = win32enums.find_links(v)
-                for link in links:
-                    enum = win32enums.find_enum_in_page(link)
-                    if enum is not None:
-                        resultant_enum |= enum
-                if resultant_enum:
-                    enum_id = msdn_enums.enum_id(resultant_enum)
-                    msdn_enums.enums[enum_id] = msdn_enums.compress_enum(resultant_enum, enum_id)
-                    args_enums[param_name] = enum_id
-                    print("Deep enum search success: ", enum_id)
+        is_in_param = "in" in mode and ("out" not in mode and "ref" not in mode)
+        param_name_likely_not_enum = any(re.match(f"{x}[A-Z]", param_name) for x in bad_param_name_start) 
+        is_handle = "hwnd" in param_name or "handle" in param_name.lower()
+        if not is_in_param or param_name_likely_not_enum or is_handle:
+            args.append({
+                "name": param_name,
+                # TODO: Determine type of param
+                "type": ""
+            })
+            continue
+        enums = msdn_enums.parse_enum(v)
+        if enums:
+            enum_id = msdn_enums.enum_id(enums)
+            msdn_enums.enums[enum_id] = msdn_enums.compress_enum(enums, enum_id)
+            args.append({
+                "name": param_name,
+                "enum": enum_id
+            })
+            has_enum = True
+        elif not v.startswith("A pointer to"):
+            resultant_enum = {}
+            links = win32enums.find_links(v)
+            for link in links:
+                enum = win32enums.find_enum_in_page(link)
+                if enum is not None:
+                    resultant_enum |= enum
+            if resultant_enum:
+                enum_id = msdn_enums.enum_id(resultant_enum)
+                msdn_enums.enums[enum_id] = msdn_enums.compress_enum(resultant_enum, enum_id)
+                args.append({
+                    "name": param_name,
+                    "enum": enum_id
+                })
+                has_enum = True
+                print("Deep enum search success: ", enum_id)
     return {
-        "enums": args_enums
+        "args": args,
+        "has_enum": has_enum,
+        "varargs": varargs
     }
 
 
@@ -156,10 +176,11 @@ if __name__ == '__main__':
         if body is None:
             continue
         result |= body
-        if not body["enums"]:
+        if not body["has_enum"]:
             print("No enums")
             if os.path.exists(f"./generated/functions/{result['name']}.json"):
                 os.unlink(f"./generated/functions/{result['name']}.json")
             continue
+        del result["has_enum"]
         json.dump(result, open(f"./generated/functions/{result['name']}.json", "w"), indent=indent)
     json.dump(msdn_enums.enums, open("./generated/enums.json", "w"), indent=indent)
