@@ -3,8 +3,11 @@ def PLUGIN_ENTRY():
     return AutoEnumPlugin()
 
 try:
-    import binaryninja as bn
-    from enumlib.ui_plugins.binja_plugin import auto_enum
-    bn.PluginCommand.register("Auto Enum", "Automatically detect standard enums", auto_enum)
+    import idaapi
 except:
-    pass
+    try:
+        import binaryninja as bn
+        from enumlib.ui_plugins.binja_plugin import auto_enum
+        bn.PluginCommand.register("Auto Enum", "Automatically detect standard enums", auto_enum)
+    except:
+        pass
