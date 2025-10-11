@@ -158,6 +158,9 @@ def make_import_names_callback(library_calls, library_addr):
                 ea = wrapper
         library_calls[name] = []
         library_addr[name] = ea
+        import_addr = idc.get_name_ea_simple("__imp_" + name)
+        if import_addr != idc.BADADDR:
+            library_addr[name+"_"] = import_addr
         for ref in idautils.CodeRefsTo(ea, 0):
             library_calls[name].append(ref)
         return True  # True -> Continue enumeration
@@ -285,6 +288,18 @@ def main():
         changed = False
         if not funcdata:
             continue
+        if func_has_enums:
+            func = auto_enum.functions[name]
+            matched_indexes = []
+            for i, arg in enumerate(func.arguments):
+                for arg2 in funcdata:
+                    if arg.name == arg2.name and i not in matched_indexes:
+                        matched_indexes.append(i)
+                        break
+        else:
+            func = None
+            matched_indexes = []
+
         for i, arg in enumerate(funcdata):
             if arg.type.is_ptr():
                 continue
@@ -293,10 +308,9 @@ def main():
                 arg.type = BOOL
                 changed = True
             elif func_has_enums and arg.type.is_integral() and not arg.type.is_enum():
-                func = auto_enum.functions[name]
                 matching_arg = next((x for x in func.arguments if x.name == arg.name), None)
                 if matching_arg is None:
-                    if len(func.arguments) > i:
+                    if len(func.arguments) > i and i not in matched_indexes:
                         matching_arg = func.arguments[i]
                 if matching_arg and matching_arg.enum is not None:
                     enum_name = get_or_add_enum(auto_enum, matching_arg.enum)
@@ -442,3 +456,7 @@ def handle_call_specific_enums():
                         idc.op_enum(args[i].ea, -1, enum_id, 0)
 
     handle.refresh_view(True)
+
+
+if __name__ == "__main__":
+    main()
